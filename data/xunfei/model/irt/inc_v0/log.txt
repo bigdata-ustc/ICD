@@ -1,0 +1,2430 @@
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- new_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.269481  0.098225  0.143972      845
+1.0         0.730074  0.901575  0.806812     2286
+macro_avg   0.499777  0.499900  0.475392     3131
+accuracy: 0.684765	macro_auc: 0.519295	macro_aupoc: 0.738171	doa: 0.508483	doa_know_support: 217	doa_z_support: 2790
+Base, INFO -------- inc_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.305328  0.104488  0.155695     1426
+1.0         0.732957  0.911811  0.812659     3844
+macro_avg   0.519142  0.508149  0.484177     5270
+accuracy: 0.693359	macro_auc: 0.536145	macro_aupoc: 0.754426	doa: 0.508003	doa_know_support: 282	doa_z_support: 6966
+Base, INFO -------- new_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.269481  0.098225  0.143972      845
+1.0         0.730074  0.901575  0.806812     2286
+macro_avg   0.499777  0.499900  0.475392     3131
+accuracy: 0.684765	macro_auc: 0.519295	macro_aupoc: 0.738171	doa: 0.508483	doa_know_support: 217	doa_z_support: 2790
+Base, INFO -------- inc_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.305328  0.104488  0.155695     1426
+1.0         0.732957  0.911811  0.812659     3844
+macro_avg   0.519142  0.508149  0.484177     5270
+accuracy: 0.693359	macro_auc: 0.536145	macro_aupoc: 0.754426	doa: 0.508003	doa_know_support: 282	doa_z_support: 6966
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- inc_user: 48 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.764588  0.271817  0.401055     1398
+1.0         0.786717  0.969783  0.868710     3872
+macro_avg   0.775652  0.620800  0.634883     5270
+accuracy: 0.784630	macro_auc: 0.791484	macro_aupoc: 0.901727	doa: 0.541508	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- inc_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.722791  0.280471  0.404126    68171
+1.0         0.788370  0.961417  0.866337   190059
+macro_avg   0.755581  0.620944  0.635231   258230
+accuracy: 0.781652	macro_auc: 0.800502	macro_aupoc: 0.908970	doa: 0.558591	doa_know_support: 360	doa_z_support: 16694013
+Base, INFO -------- metrics: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.764588  0.271817  0.401055     1398
+1.0         0.786717  0.969783  0.868710     3872
+macro_avg   0.775652  0.620800  0.634883     5270
+accuracy: 0.784630	macro_auc: 0.791484	macro_aupoc: 0.901727	doa: 0.541508	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- trait: 48 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.499557   0.010925     6819
+a       4.858003   0.004117     1180
+b      26.807869   0.022719     1180
+user   74.499557   0.010925     6819
+item   31.665872   0.004133     1180
+macro_ave: 0.007529	micro_ave: 0.009923
+Base, INFO -------- inc_trait: 48 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.531593   0.022744     3277
+a       4.858003   0.004420     1099
+b      26.807871   0.024393     1099
+user   74.531593   0.022744     3277
+item   31.665874   0.004439     1099
+macro_ave: 0.013591	micro_ave: 0.018147
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 10177, 'item_num': 2226, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.287625  0.101775  0.150350      845
+1.0         0.731992  0.906824  0.810082     2286
+macro_avg   0.509808  0.504300  0.480216     3131
+accuracy: 0.689556	macro_auc: 0.530827	macro_aupoc: 0.741670	doa: 0.505907	doa_know_support: 225	doa_z_support: 2719
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.305913  0.099832  0.150538     1192
+1.0         0.723240  0.912167  0.806790     3074
+macro_avg   0.514576  0.505999  0.478664     4266
+accuracy: 0.685185	macro_auc: 0.512300	macro_aupoc: 0.735545	doa: 0.499860	doa_know_support: 246	doa_z_support: 4390
+Base, INFO -------- trait: 1 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4872.696289   1.445046     3372
+a       258.388214   0.239915     1077
+b      1502.307983   1.394901     1077
+user   4872.696289   1.445046     3372
+item   1760.696198   0.240986     1077
+macro_ave: 0.843016	micro_ave: 1.153571
+Base, INFO -------- inc_trait: 1 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4846.958984   1.466997     3304
+a       256.236542   0.239250     1071
+b      1499.136230   1.399754     1071
+user   4846.958984   1.466997     3304
+item   1755.372772   0.240332     1071
+macro_ave: 0.853665	micro_ave: 1.166710
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.266537  0.107031  0.152731     1280
+1.0         0.730106  0.891323  0.802700     3469
+macro_avg   0.498322  0.499177  0.477716     4749
+accuracy: 0.679933	macro_auc: 0.531391	macro_aupoc: 0.751543	doa: 0.529285	doa_know_support: 261	doa_z_support: 5612
+Base, INFO -------- trait: 2 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6786.324219   1.415882     4793
+a       280.002014   0.245186     1142
+b      1582.556641   1.385776     1142
+user   6786.324219   1.415882     4793
+item   1862.558655   0.246184     1142
+macro_ave: 0.831033	micro_ave: 1.190811
+Base, INFO -------- inc_trait: 2 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4721.750977   1.425649     3312
+a       268.856171   0.245307     1096
+b      1523.605957   1.390151     1096
+user   4721.750977   1.425649     3312
+item   1792.462128   0.246350     1096
+macro_ave: 0.836000	micro_ave: 1.132430
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.344037  0.111111  0.167973     1350
+1.0         0.734455  0.920666  0.817085     3605
+macro_avg   0.539246  0.515888  0.492529     4955
+accuracy: 0.700101	macro_auc: 0.548630	macro_aupoc: 0.756759	doa: 0.459218	doa_know_support: 275	doa_z_support: 5765
+Base, INFO -------- trait: 3 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  7836.240723   1.423218     5506
+a       295.706451   0.253390     1167
+b      1688.392578   1.446780     1167
+user   7836.240723   1.423218     5506
+item   1984.099030   0.254412     1167
+macro_ave: 0.838815	micro_ave: 1.218813
+Base, INFO -------- inc_trait: 3 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4720.304688   1.415808     3334
+a       279.658386   0.254235     1100
+b      1592.918213   1.448107     1100
+user   4720.304688   1.415808     3334
+item   1872.576599   0.255319     1100
+macro_ave: 0.835564	micro_ave: 1.127911
+Base, INFO ============= Stream[4/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 10177, 'item_num': 2226, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.287625  0.101775  0.150350      845
+1.0         0.731992  0.906824  0.810082     2286
+macro_avg   0.509808  0.504300  0.480216     3131
+accuracy: 0.689556	macro_auc: 0.530827	macro_aupoc: 0.741670	doa: 0.505907	doa_know_support: 225	doa_z_support: 2719
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.305913  0.099832  0.150538     1192
+1.0         0.723240  0.912167  0.806790     3074
+macro_avg   0.514576  0.505999  0.478664     4266
+accuracy: 0.685185	macro_auc: 0.512300	macro_aupoc: 0.735545	doa: 0.499860	doa_know_support: 246	doa_z_support: 4390
+Base, INFO -------- trait: 1 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4872.696289   1.445046     3372
+a       258.388214   0.239915     1077
+b      1502.307983   1.394901     1077
+user   4872.696289   1.445046     3372
+item   1760.696198   0.240986     1077
+macro_ave: 0.843016	micro_ave: 1.153571
+Base, INFO -------- inc_trait: 1 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4846.958984   1.466997     3304
+a       256.236542   0.239250     1071
+b      1499.136230   1.399754     1071
+user   4846.958984   1.466997     3304
+item   1755.372772   0.240332     1071
+macro_ave: 0.853665	micro_ave: 1.166710
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.266537  0.107031  0.152731     1280
+1.0         0.730106  0.891323  0.802700     3469
+macro_avg   0.498322  0.499177  0.477716     4749
+accuracy: 0.679933	macro_auc: 0.531391	macro_aupoc: 0.751543	doa: 0.529285	doa_know_support: 261	doa_z_support: 5612
+Base, INFO -------- trait: 2 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6786.324219   1.415882     4793
+a       280.002014   0.245186     1142
+b      1582.556641   1.385776     1142
+user   6786.324219   1.415882     4793
+item   1862.558655   0.246184     1142
+macro_ave: 0.831033	micro_ave: 1.190811
+Base, INFO -------- inc_trait: 2 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4721.750977   1.425649     3312
+a       268.856171   0.245307     1096
+b      1523.605957   1.390151     1096
+user   4721.750977   1.425649     3312
+item   1792.462128   0.246350     1096
+macro_ave: 0.836000	micro_ave: 1.132430
+Base, INFO ============= Stream[3/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 10177, 'item_num': 2226, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.287625  0.101775  0.150350      845
+1.0         0.731992  0.906824  0.810082     2286
+macro_avg   0.509808  0.504300  0.480216     3131
+accuracy: 0.689556	macro_auc: 0.530827	macro_aupoc: 0.741670	doa: 0.505907	doa_know_support: 225	doa_z_support: 2719
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.305913  0.099832  0.150538     1192
+1.0         0.723240  0.912167  0.806790     3074
+macro_avg   0.514576  0.505999  0.478664     4266
+accuracy: 0.685185	macro_auc: 0.512300	macro_aupoc: 0.735545	doa: 0.499860	doa_know_support: 246	doa_z_support: 4390
+Base, INFO -------- trait: 1 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4872.696289   1.445046     3372
+a       258.388214   0.239915     1077
+b      1502.307983   1.394901     1077
+user   4872.696289   1.445046     3372
+item   1760.696198   0.240986     1077
+macro_ave: 0.843016	micro_ave: 1.153571
+Base, INFO -------- inc_trait: 1 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4846.958984   1.466997     3304
+a       256.236542   0.239250     1071
+b      1499.136230   1.399754     1071
+user   4846.958984   1.466997     3304
+item   1755.372772   0.240332     1071
+macro_ave: 0.853665	micro_ave: 1.166710
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.266537  0.107031  0.152731     1280
+1.0         0.730106  0.891323  0.802700     3469
+macro_avg   0.498322  0.499177  0.477716     4749
+accuracy: 0.679933	macro_auc: 0.531391	macro_aupoc: 0.751543	doa: 0.529285	doa_know_support: 261	doa_z_support: 5612
+Base, INFO -------- trait: 2 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6786.324219   1.415882     4793
+a       280.002014   0.245186     1142
+b      1582.556641   1.385776     1142
+user   6786.324219   1.415882     4793
+item   1862.558655   0.246184     1142
+macro_ave: 0.831033	micro_ave: 1.190811
+Base, INFO -------- inc_trait: 2 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4721.750977   1.425649     3312
+a       268.856171   0.245307     1096
+b      1523.605957   1.390151     1096
+user   4721.750977   1.425649     3312
+item   1792.462128   0.246350     1096
+macro_ave: 0.836000	micro_ave: 1.132430
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.344037  0.111111  0.167973     1350
+1.0         0.734455  0.920666  0.817085     3605
+macro_avg   0.539246  0.515888  0.492529     4955
+accuracy: 0.700101	macro_auc: 0.548630	macro_aupoc: 0.756759	doa: 0.459218	doa_know_support: 275	doa_z_support: 5765
+Base, INFO -------- trait: 3 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  7836.240723   1.423218     5506
+a       295.706451   0.253390     1167
+b      1688.392578   1.446780     1167
+user   7836.240723   1.423218     5506
+item   1984.099030   0.254412     1167
+macro_ave: 0.838815	micro_ave: 1.218813
+Base, INFO -------- inc_trait: 3 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4720.304688   1.415808     3334
+a       279.658386   0.254235     1100
+b      1592.918213   1.448107     1100
+user   4720.304688   1.415808     3334
+item   1872.576599   0.255319     1100
+macro_ave: 0.835564	micro_ave: 1.127911
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.360179  0.119436  0.179387     1348
+1.0         0.743185  0.923139  0.823445     3721
+macro_avg   0.551682  0.521288  0.501416     5069
+accuracy: 0.709410	macro_auc: 0.557845	macro_aupoc: 0.770378	doa: 0.487883	doa_know_support: 265	doa_z_support: 6265
+Base, INFO -------- trait: 4 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  8369.396484   1.419504     5896
+a       278.323914   0.236670     1176
+b      1684.244019   1.432180     1176
+user   8369.396484   1.419504     5896
+item   1962.567932   0.237686     1176
+macro_ave: 0.828595	micro_ave: 1.222980
+Base, INFO -------- inc_trait: 4 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4715.925781   1.422602     3315
+a       255.466293   0.237643     1075
+b      1523.152588   1.416886     1075
+user   4715.925781   1.422602     3315
+item   1778.618881   0.238739     1075
+macro_ave: 0.830671	micro_ave: 1.132704
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.384798  0.119645  0.182535     1354
+1.0         0.747243  0.931536  0.829274     3783
+macro_avg   0.566021  0.525591  0.505905     5137
+accuracy: 0.717539	macro_auc: 0.555250	macro_aupoc: 0.768092	doa: 0.505857	doa_know_support: 263	doa_z_support: 6335
+Base, INFO -------- trait: 5 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  72.489189   0.011800     6143
+a       4.924109   0.004184     1177
+b      37.600166   0.031946     1177
+user   72.489189   0.011800     6143
+item   42.524276   0.004207     1177
+macro_ave: 0.008004	micro_ave: 0.010579
+Base, INFO -------- inc_trait: 5 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.022827   0.022782     3337
+a       4.925804   0.004511     1092
+b      37.671803   0.034498     1092
+user   76.022827   0.022782     3337
+item   42.597607   0.004538     1092
+macro_ave: 0.013660	micro_ave: 0.018284
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.434243  0.128961  0.198864     1357
+1.0         0.752461  0.940330  0.835970     3821
+macro_avg   0.593352  0.534645  0.517417     5178
+accuracy: 0.727694	macro_auc: 0.588613	macro_aupoc: 0.789870	doa: 0.493386	doa_know_support: 275	doa_z_support: 6643
+Base, INFO -------- trait: 6 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.274620   0.011765     6313
+a       5.138111   0.004358     1179
+b      38.434204   0.032599     1179
+user   74.274620   0.011765     6313
+item   43.572315   0.004382     1179
+macro_ave: 0.008074	micro_ave: 0.010603
+Base, INFO -------- inc_trait: 6 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.523636   0.022775     3360
+a       5.138111   0.004736     1085
+b      38.434208   0.035423     1085
+user   76.523636   0.022775     3360
+item   43.572319   0.004764     1085
+macro_ave: 0.013769	micro_ave: 0.018378
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.447727  0.141931  0.215536     1388
+1.0         0.750628  0.936520  0.833333     3828
+macro_avg   0.599178  0.539226  0.524435     5216
+accuracy: 0.725077	macro_auc: 0.577732	macro_aupoc: 0.778880	doa: 0.491677	doa_know_support: 269	doa_z_support: 6783
+Base, INFO -------- trait: 7 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  73.716309   0.011479     6422
+a       5.017138   0.004255     1179
+b      37.307693   0.031644     1179
+user   73.716309   0.011479     6422
+item   42.324831   0.004279     1179
+macro_ave: 0.007879	micro_ave: 0.010362
+Base, INFO -------- inc_trait: 7 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.385468   0.022796     3307
+a       5.017138   0.004650     1079
+b      37.307693   0.034576     1079
+user   75.385468   0.022796     3307
+item   42.324832   0.004678     1079
+macro_ave: 0.013737	micro_ave: 0.018338
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.427056  0.119436  0.186667     1348
+1.0         0.755056  0.944258  0.839124     3875
+macro_avg   0.591056  0.531847  0.512895     5223
+accuracy: 0.731380	macro_auc: 0.597138	macro_aupoc: 0.804891	doa: 0.481146	doa_know_support: 274	doa_z_support: 6827
+Base, INFO -------- trait: 8 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  73.365959   0.011287     6500
+a       5.134723   0.004355     1179
+b      37.288853   0.031628     1179
+user   73.365959   0.011287     6500
+item   42.423576   0.004378     1179
+macro_ave: 0.007833	micro_ave: 0.010226
+Base, INFO -------- inc_trait: 8 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.436256   0.022653     3286
+a       5.137279   0.004770     1077
+b      37.303734   0.034637     1077
+user   74.436256   0.022653     3286
+item   42.441012   0.004798     1077
+macro_ave: 0.013725	micro_ave: 0.018245
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 9 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.445652  0.117479  0.185941     1396
+1.0         0.746450  0.946750  0.834753     3831
+macro_avg   0.596051  0.532114  0.510347     5227
+accuracy: 0.725273	macro_auc: 0.595873	macro_aupoc: 0.792424	doa: 0.518913	doa_know_support: 263	doa_z_support: 6646
+Base, INFO -------- trait: 9 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.302322   0.011344     6550
+a       5.093546   0.004317     1180
+b      38.159992   0.032339     1180
+user   74.302322   0.011344     6550
+item   43.253538   0.004340     1180
+macro_ave: 0.007842	micro_ave: 0.010275
+Base, INFO -------- inc_trait: 9 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.229988   0.022762     3305
+a       5.093546   0.004669     1091
+b      38.159992   0.034977     1091
+user   75.229988   0.022762     3305
+item   43.253538   0.004696     1091
+macro_ave: 0.013729	micro_ave: 0.018279
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 10 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.488038  0.146868  0.225789     1389
+1.0         0.754302  0.944444  0.838732     3852
+macro_avg   0.621170  0.545656  0.532260     5241
+accuracy: 0.733066	macro_auc: 0.637332	macro_aupoc: 0.820242	doa: 0.537176	doa_know_support: 274	doa_z_support: 6660
+Base, INFO -------- trait: 10 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.803787   0.011499     6592
+a       4.980101   0.004220     1180
+b      36.534653   0.030962     1180
+user   75.803787   0.011499     6592
+item   41.514754   0.004243     1180
+macro_ave: 0.007871	micro_ave: 0.010398
+Base, INFO -------- inc_trait: 10 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.505768   0.022865     3346
+a       4.980101   0.004607     1081
+b      36.534653   0.033797     1081
+user   76.505768   0.022865     3346
+item   41.514754   0.004634     1081
+macro_ave: 0.013749	micro_ave: 0.018413
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 11 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.468514  0.132196  0.206208     1407
+1.0         0.747988  0.944980  0.835023     3835
+macro_avg   0.608251  0.538588  0.520616     5242
+accuracy: 0.726822	macro_auc: 0.610469	macro_aupoc: 0.800760	doa: 0.522045	doa_know_support: 275	doa_z_support: 6494
+Base, INFO -------- trait: 11 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.632050   0.011257     6630
+a       4.983629   0.004223     1180
+b      37.470844   0.031755     1180
+user   74.632050   0.011257     6630
+item   42.454473   0.004247     1180
+macro_ave: 0.007752	micro_ave: 0.010198
+Base, INFO -------- inc_trait: 11 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.134750   0.022577     3328
+a       4.983629   0.004645     1073
+b      37.470844   0.034922     1073
+user   75.134750   0.022577     3328
+item   42.454473   0.004673     1073
+macro_ave: 0.013625	micro_ave: 0.018211
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 12 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.452196  0.126812  0.198076     1380
+1.0         0.752109  0.945191  0.837668     3868
+macro_avg   0.602153  0.536001  0.517872     5248
+accuracy: 0.729992	macro_auc: 0.623686	macro_aupoc: 0.814979	doa: 0.507131	doa_know_support: 268	doa_z_support: 6608
+Base, INFO -------- trait: 12 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.859299   0.011249     6655
+a       5.095594   0.004318     1180
+b      36.904457   0.031275     1180
+user   74.859299   0.011249     6655
+item   42.000051   0.004341     1180
+macro_ave: 0.007795	micro_ave: 0.010208
+Base, INFO -------- inc_trait: 12 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.405655   0.022906     3292
+a       5.095594   0.004688     1087
+b      36.904457   0.033951     1087
+user   75.405655   0.022906     3292
+item   42.000051   0.004715     1087
+macro_ave: 0.013810	micro_ave: 0.018390
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 13 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.515544  0.140042  0.220255     1421
+1.0         0.749179  0.951264  0.838213     3837
+macro_avg   0.632362  0.545653  0.529234     5258
+accuracy: 0.732027	macro_auc: 0.631850	macro_aupoc: 0.809648	doa: 0.529106	doa_know_support: 271	doa_z_support: 7296
+Base, INFO -------- trait: 13 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.168304   0.011402     6680
+a       5.158780   0.004372     1180
+b      36.556263   0.030980     1180
+user   76.168304   0.011402     6680
+item   41.715043   0.004394     1180
+macro_ave: 0.007898	micro_ave: 0.010350
+Base, INFO -------- inc_trait: 13 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.598213   0.022838     3354
+a       5.158780   0.004728     1091
+b      36.556267   0.033507     1091
+user   76.598213   0.022838     3354
+item   41.715046   0.004755     1091
+macro_ave: 0.013796	micro_ave: 0.018399
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 14 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.536388  0.145255  0.228604     1370
+1.0         0.760336  0.955750  0.846917     3887
+macro_avg   0.648362  0.550503  0.537760     5257
+accuracy: 0.744531	macro_auc: 0.657120	macro_aupoc: 0.836204	doa: 0.519976	doa_know_support: 276	doa_z_support: 6810
+Base, INFO -------- trait: 14 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.759048   0.011306     6701
+a       5.076557   0.004302     1180
+b      35.185104   0.029818     1180
+user   75.759048   0.011306     6701
+item   40.261662   0.004324     1180
+macro_ave: 0.007815	micro_ave: 0.010260
+Base, INFO -------- inc_trait: 14 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.932846   0.022768     3335
+a       5.076557   0.004675     1086
+b      35.185104   0.032399     1086
+user   75.932846   0.022768     3335
+item   40.261661   0.004700     1086
+macro_ave: 0.013734	micro_ave: 0.018330
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 15 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.548556  0.149073  0.234436     1402
+1.0         0.755182  0.955348  0.843553     3852
+macro_avg   0.651869  0.552210  0.538995     5254
+accuracy: 0.740198	macro_auc: 0.655625	macro_aupoc: 0.826403	doa: 0.544512	doa_know_support: 286	doa_z_support: 7013
+Base, INFO -------- trait: 15 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.023140   0.011330     6710
+a       5.267127   0.004464     1180
+b      36.555180   0.030979     1180
+user   76.023140   0.011330     6710
+item   41.822306   0.004486     1180
+macro_ave: 0.007908	micro_ave: 0.010306
+Base, INFO -------- inc_trait: 15 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.256142   0.022790     3346
+a       5.267126   0.004877     1080
+b      36.555180   0.033847     1080
+user   76.256142   0.022790     3346
+item   41.822306   0.004904     1080
+macro_ave: 0.013847	micro_ave: 0.018426
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 16 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.542857  0.153451  0.239267     1362
+1.0         0.763633  0.954883  0.848616     3901
+macro_avg   0.653245  0.554167  0.543942     5263
+accuracy: 0.747482	macro_auc: 0.658922	macro_aupoc: 0.836588	doa: 0.520596	doa_know_support: 262	doa_z_support: 7296
+Base, INFO -------- trait: 16 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.293579   0.011352     6721
+a       5.146457   0.004361     1180
+b      36.206757   0.030684     1180
+user   76.293579   0.011352     6721
+item   41.353213   0.004384     1180
+macro_ave: 0.007868	micro_ave: 0.010311
+Base, INFO -------- inc_trait: 16 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.575989   0.023037     3324
+a       5.146457   0.004735     1087
+b      36.206757   0.033309     1087
+user   76.575989   0.023037     3324
+item   41.353214   0.004761     1087
+macro_ave: 0.013899	micro_ave: 0.018533
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 17 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.544304  0.156023  0.242527     1378
+1.0         0.760650  0.953560  0.846251     3876
+macro_avg   0.652477  0.554792  0.544389     5254
+accuracy: 0.744385	macro_auc: 0.672855	macro_aupoc: 0.843628	doa: 0.509025	doa_know_support: 271	doa_z_support: 6270
+Base, INFO -------- trait: 17 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.782394   0.011399     6736
+a       5.073549   0.004300     1180
+b      35.277786   0.029896     1180
+user   76.782394   0.011399     6736
+item   40.351335   0.004321     1180
+macro_ave: 0.007860	micro_ave: 0.010344
+Base, INFO -------- inc_trait: 17 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.933624   0.022979     3348
+a       5.073548   0.004659     1089
+b      35.277786   0.032395     1089
+user   76.933624   0.022979     3348
+item   40.351335   0.004684     1089
+macro_ave: 0.013832	micro_ave: 0.018489
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 18 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.519126  0.137383  0.217267     1383
+1.0         0.756481  0.954663  0.844095     3882
+macro_avg   0.637803  0.546023  0.530681     5265
+accuracy: 0.739981	macro_auc: 0.675016	macro_aupoc: 0.838551	doa: 0.499977	doa_know_support: 261	doa_z_support: 6989
+Base, INFO -------- trait: 18 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.526230   0.011349     6743
+a       5.096255   0.004319     1180
+b      35.966545   0.030480     1180
+user   76.526230   0.011349     6743
+item   41.062800   0.004341     1180
+macro_ave: 0.007845	micro_ave: 0.010305
+Base, INFO -------- inc_trait: 18 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.839851   0.022734     3380
+a       5.096255   0.004675     1090
+b      35.966545   0.032997     1090
+user   76.839851   0.022734     3380
+item   41.062800   0.004701     1090
+macro_ave: 0.013718	micro_ave: 0.018337
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 19 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.578667  0.154558  0.243957     1404
+1.0         0.757210  0.959067  0.846268     3860
+macro_avg   0.667938  0.556813  0.545113     5264
+accuracy: 0.744491	macro_auc: 0.672986	macro_aupoc: 0.840765	doa: 0.519048	doa_know_support: 266	doa_z_support: 6493
+Base, INFO -------- trait: 19 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.906128   0.011383     6756
+a       5.124305   0.004343     1180
+b      34.790916   0.029484     1180
+user   76.906128   0.011383     6756
+item   39.915222   0.004364     1180
+macro_ave: 0.007874	micro_ave: 0.010340
+Base, INFO -------- inc_trait: 19 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  77.009933   0.023036     3343
+a       5.124305   0.004684     1094
+b      34.790913   0.031802     1094
+user   77.009933   0.023036     3343
+item   39.915217   0.004709     1094
+macro_ave: 0.013872	micro_ave: 0.018517
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 20 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.563889  0.146359  0.232398     1387
+1.0         0.758515  0.959494  0.847249     3876
+macro_avg   0.661202  0.552927  0.539824     5263
+accuracy: 0.745202	macro_auc: 0.696177	macro_aupoc: 0.854507	doa: 0.502808	doa_know_support: 272	doa_z_support: 6962
+Base, INFO -------- trait: 20 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.373055   0.011148     6761
+a       5.115334   0.004335     1180
+b      34.511635   0.029247     1180
+user   75.373055   0.011148     6761
+item   39.626968   0.004356     1180
+macro_ave: 0.007752	micro_ave: 0.010139
+Base, INFO -------- inc_trait: 20 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.519409   0.022476     3360
+a       5.115334   0.004715     1085
+b      34.511635   0.031808     1085
+user   75.519409   0.022476     3360
+item   39.626969   0.004740     1085
+macro_ave: 0.013608	micro_ave: 0.018147
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 21 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.600000  0.154618  0.245875     1494
+1.0         0.741295  0.959184  0.836280     3773
+macro_avg   0.670647  0.556901  0.541078     5267
+accuracy: 0.730966	macro_auc: 0.689897	macro_aupoc: 0.838584	doa: 0.508197	doa_know_support: 270	doa_z_support: 6708
+Base, INFO -------- trait: 21 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.856865   0.011358     6767
+a       5.125746   0.004344     1180
+b      35.020962   0.029679     1180
+user   76.856865   0.011358     6767
+item   40.146708   0.004365     1180
+macro_ave: 0.007861	micro_ave: 0.010319
+Base, INFO -------- inc_trait: 21 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.981247   0.022648     3399
+a       5.125746   0.004799     1068
+b      35.020962   0.032791     1068
+user   76.981247   0.022648     3399
+item   40.146708   0.004826     1068
+macro_ave: 0.013737	micro_ave: 0.018387
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 22 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.547009  0.139942  0.222867     1372
+1.0         0.760016  0.959189  0.848065     3896
+macro_avg   0.653512  0.549565  0.535466     5268
+accuracy: 0.745824	macro_auc: 0.700265	macro_aupoc: 0.859973	doa: 0.537423	doa_know_support: 268	doa_z_support: 6890
+Base, INFO -------- trait: 22 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.645676   0.011023     6772
+a       5.136827   0.004353     1180
+b      34.728035   0.029431     1180
+user   74.645676   0.011023     6772
+item   39.864862   0.004374     1180
+macro_ave: 0.007699	micro_ave: 0.010036
+Base, INFO -------- inc_trait: 22 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.700012   0.022332     3345
+a       5.136827   0.004649     1105
+b      34.728035   0.031428     1105
+user   74.700012   0.022332     3345
+item   39.864862   0.004673     1105
+macro_ave: 0.013502	micro_ave: 0.017947
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 23 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.591667  0.158129  0.249561     1347
+1.0         0.768807  0.962481  0.854811     3918
+macro_avg   0.680237  0.560305  0.552186     5265
+accuracy: 0.756695	macro_auc: 0.700056	macro_aupoc: 0.859628	doa: 0.493726	doa_know_support: 267	doa_z_support: 6480
+Base, INFO -------- trait: 23 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.054550   0.011226     6775
+a       5.367069   0.004548     1180
+b      33.978077   0.028795     1180
+user   76.054550   0.011226     6775
+item   39.345146   0.004569     1180
+macro_ave: 0.007897	micro_ave: 0.010238
+Base, INFO -------- inc_trait: 23 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.090057   0.022713     3350
+a       5.367069   0.004956     1083
+b      33.978073   0.031374     1083
+user   76.090057   0.022713     3350
+item   39.345142   0.004980     1083
+macro_ave: 0.013847	micro_ave: 0.018381
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 24 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.587302  0.164811  0.257391     1347
+1.0         0.769845  0.960194  0.854548     3919
+macro_avg   0.678573  0.562502  0.555969     5266
+accuracy: 0.756741	macro_auc: 0.703400	macro_aupoc: 0.863123	doa: 0.473709	doa_know_support: 272	doa_z_support: 6571
+Base, INFO -------- trait: 24 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.460007   0.011282     6777
+a       5.321421   0.004510     1180
+b      34.840328   0.029526     1180
+user   76.460007   0.011282     6777
+item   40.161749   0.004531     1180
+macro_ave: 0.007907	micro_ave: 0.010281
+Base, INFO -------- inc_trait: 24 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.560883   0.022712     3371
+a       5.321421   0.004846     1098
+b      34.840324   0.031731     1098
+user   76.560883   0.022712     3371
+item   40.161746   0.004871     1098
+macro_ave: 0.013791	micro_ave: 0.018328
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 25 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.612565  0.159945  0.253659     1463
+1.0         0.748516  0.961114  0.841597     3806
+macro_avg   0.680541  0.560530  0.547628     5269
+accuracy: 0.738660	macro_auc: 0.718263	macro_aupoc: 0.863498	doa: 0.529462	doa_know_support: 278	doa_z_support: 7090
+Base, INFO -------- trait: 25 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.219048   0.011240     6781
+a       5.136150   0.004353     1180
+b      33.943016   0.028765     1180
+user   76.219048   0.011240     6781
+item   39.079166   0.004373     1180
+macro_ave: 0.007807	micro_ave: 0.010222
+Base, INFO -------- inc_trait: 25 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.283600   0.022908     3330
+a       5.136151   0.004765     1078
+b      33.943012   0.031487     1078
+user   76.283600   0.022908     3330
+item   39.079163   0.004789     1078
+macro_ave: 0.013849	micro_ave: 0.018477
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 26 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.602067  0.162369  0.255763     1435
+1.0         0.753638  0.959802  0.844317     3831
+macro_avg   0.677853  0.561085  0.550040     5266
+accuracy: 0.742499	macro_auc: 0.720093	macro_aupoc: 0.862446	doa: 0.534108	doa_know_support: 279	doa_z_support: 6492
+Base, INFO -------- trait: 26 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.779465   0.011169     6785
+a       5.187772   0.004396     1180
+b      33.313705   0.028232     1180
+user   75.779465   0.011169     6785
+item   38.501477   0.004417     1180
+macro_ave: 0.007793	micro_ave: 0.010168
+Base, INFO -------- inc_trait: 26 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.800072   0.022729     3335
+a       5.187771   0.004826     1075
+b      33.313705   0.030989     1075
+user   75.800072   0.022729     3335
+item   38.501477   0.004850     1075
+macro_ave: 0.013789	micro_ave: 0.018371
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 27 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.642857  0.175705  0.275980     1383
+1.0         0.766919  0.965260  0.854734     3886
+macro_avg   0.704888  0.570482  0.565357     5269
+accuracy: 0.758019	macro_auc: 0.737714	macro_aupoc: 0.879286	doa: 0.530747	doa_know_support: 274	doa_z_support: 6743
+Base, INFO -------- trait: 27 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.186531   0.011080     6786
+a       5.159878   0.004373     1180
+b      33.072029   0.028027     1180
+user   75.186531   0.011080     6786
+item   38.231907   0.004393     1180
+macro_ave: 0.007736	micro_ave: 0.010089
+Base, INFO -------- inc_trait: 27 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.246857   0.022644     3323
+a       5.159877   0.004695     1099
+b      33.072029   0.030093     1099
+user   75.246857   0.022644     3323
+item   38.231906   0.004718     1099
+macro_ave: 0.013681	micro_ave: 0.018189
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 28 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.598465  0.165254  0.258993     1416
+1.0         0.757688  0.959253  0.846638     3853
+macro_avg   0.678077  0.562253  0.552816     5269
+accuracy: 0.745872	macro_auc: 0.718054	macro_aupoc: 0.865626	doa: 0.544778	doa_know_support: 274	doa_z_support: 7251
+Base, INFO -------- trait: 28 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.971100   0.011041     6790
+a       5.181960   0.004391     1180
+b      32.435135   0.027487     1180
+user   74.971100   0.011041     6790
+item   37.617095   0.004411     1180
+macro_ave: 0.007726	micro_ave: 0.010060
+Base, INFO -------- inc_trait: 28 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.979301   0.022571     3322
+a       5.181960   0.004857     1067
+b      32.435135   0.030398     1067
+user   74.979301   0.022571     3322
+item   37.617095   0.004880     1067
+macro_ave: 0.013726	micro_ave: 0.018270
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 29 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.615190  0.178283  0.276451     1363
+1.0         0.770068  0.961056  0.855026     3903
+macro_avg   0.692629  0.569669  0.565738     5266
+accuracy: 0.758450	macro_auc: 0.729484	macro_aupoc: 0.872233	doa: 0.533004	doa_know_support: 281	doa_z_support: 6890
+Base, INFO -------- trait: 29 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.450539   0.011258     6791
+a       5.000298   0.004238     1180
+b      32.397652   0.027456     1180
+user   76.450539   0.011258     6791
+item   37.397949   0.004257     1180
+macro_ave: 0.007757	micro_ave: 0.010221
+Base, INFO -------- inc_trait: 29 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.470688   0.022558     3390
+a       5.000298   0.004651     1075
+b      32.397652   0.030137     1075
+user   76.470688   0.022558     3390
+item   37.397949   0.004675     1075
+macro_ave: 0.013616	micro_ave: 0.018252
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 30 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.613861  0.184661  0.283915     1343
+1.0         0.774877  0.960255  0.857663     3925
+macro_avg   0.694369  0.572458  0.570789     5268
+accuracy: 0.762528	macro_auc: 0.742317	macro_aupoc: 0.881710	doa: 0.489836	doa_know_support: 267	doa_z_support: 6713
+Base, INFO -------- trait: 30 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.273285   0.011083     6792
+a       5.189455   0.004398     1180
+b      32.686081   0.027700     1180
+user   75.273285   0.011083     6792
+item   37.875536   0.004418     1180
+macro_ave: 0.007750	micro_ave: 0.010096
+Base, INFO -------- inc_trait: 30 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.362770   0.022652     3327
+a       5.189455   0.004814     1078
+b      32.686081   0.030321     1078
+user   75.362770   0.022652     3327
+item   37.875536   0.004838     1078
+macro_ave: 0.013745	micro_ave: 0.018292
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 31 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.611825  0.173091  0.269841     1375
+1.0         0.767008  0.961222  0.853203     3894
+macro_avg   0.689417  0.567157  0.561522     5269
+accuracy: 0.755551	macro_auc: 0.739117	macro_aupoc: 0.878836	doa: 0.545639	doa_know_support: 273	doa_z_support: 6771
+Base, INFO -------- trait: 31 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.924377   0.011172     6796
+a       5.140088   0.004356     1180
+b      31.850082   0.026992     1180
+user   75.924377   0.011172     6796
+item   36.990170   0.004375     1180
+macro_ave: 0.007774	micro_ave: 0.010166
+Base, INFO -------- inc_trait: 31 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.971603   0.022938     3312
+a       5.140088   0.004751     1082
+b      31.850082   0.029436     1082
+user   75.971603   0.022938     3312
+item   36.990170   0.004773     1082
+macro_ave: 0.013856	micro_ave: 0.018465
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 32 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.624060  0.180697  0.280248     1378
+1.0         0.768172  0.961449  0.854012     3891
+macro_avg   0.696116  0.571073  0.567130     5269
+accuracy: 0.757259	macro_auc: 0.742355	macro_aupoc: 0.878433	doa: 0.528774	doa_know_support: 275	doa_z_support: 6769
+Base, INFO -------- trait: 32 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.443260   0.011245     6798
+a       5.179424   0.004389     1180
+b      31.191643   0.026434     1180
+user   76.443260   0.011245     6798
+item   36.371067   0.004408     1180
+macro_ave: 0.007826	micro_ave: 0.010234
+Base, INFO -------- inc_trait: 32 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  76.462265   0.022818     3351
+a       5.179424   0.004765     1087
+b      31.191643   0.028695     1087
+user   76.462265   0.022818     3351
+item   36.371067   0.004787     1087
+macro_ave: 0.013802	micro_ave: 0.018401
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 33 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.637097  0.167728  0.265546     1413
+1.0         0.759804  0.964981  0.850189     3855
+macro_avg   0.698450  0.566354  0.557867     5268
+accuracy: 0.751139	macro_auc: 0.748908	macro_aupoc: 0.879963	doa: 0.578424	doa_know_support: 269	doa_z_support: 6438
+Base, INFO -------- trait: 33 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.726257   0.011138     6799
+a       5.122993   0.004342     1180
+b      31.648697   0.026821     1180
+user   75.726257   0.011138     6799
+item   36.771690   0.004361     1180
+macro_ave: 0.007749	micro_ave: 0.010136
+Base, INFO -------- inc_trait: 33 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.757164   0.022641     3346
+a       5.122993   0.004770     1074
+b      31.648697   0.029468     1074
+user   75.757164   0.022641     3346
+item   36.771690   0.004793     1074
+macro_ave: 0.013717	micro_ave: 0.018304
+Base, INFO ============= Stream[34/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 34 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.673861  0.201723  0.310497     1393
+1.0         0.770769  0.964903  0.856979     3875
+macro_avg   0.722315  0.583313  0.583738     5268
+accuracy: 0.763098	macro_auc: 0.764624	macro_aupoc: 0.890414	doa: 0.523104	doa_know_support: 277	doa_z_support: 6729
+Base, INFO -------- trait: 34 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.367966   0.011084     6800
+a       5.305924   0.004497     1180
+b      32.379177   0.027440     1180
+user   75.367966   0.011084     6800
+item   37.685101   0.004516     1180
+macro_ave: 0.007800	micro_ave: 0.010112
+Base, INFO -------- inc_trait: 34 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.431000   0.022523     3349
+a       5.305923   0.004899     1083
+b      32.379181   0.029898     1083
+user   75.431000   0.022523     3349
+item   37.685104   0.004922     1083
+macro_ave: 0.013723	micro_ave: 0.018222
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 35 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.632458  0.194853  0.297920     1360
+1.0         0.774180  0.960594  0.857371     3908
+macro_avg   0.703319  0.577723  0.577646     5268
+accuracy: 0.762908	macro_auc: 0.747452	macro_aupoc: 0.885338	doa: 0.519141	doa_know_support: 268	doa_z_support: 7208
+Base, INFO -------- trait: 35 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.057327   0.011035     6802
+a       5.145432   0.004361     1180
+b      30.211437   0.025603     1180
+user   75.057327   0.011035     6802
+item   35.356869   0.004379     1180
+macro_ave: 0.007707	micro_ave: 0.010051
+Base, INFO -------- inc_trait: 35 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.092522   0.022721     3305
+a       5.145432   0.004734     1087
+b      30.211437   0.027793     1087
+user   75.092522   0.022721     3305
+item   35.356870   0.004755     1087
+macro_ave: 0.013738	micro_ave: 0.018274
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 36 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.655440  0.190083  0.294700     1331
+1.0         0.779098  0.966201  0.862621     3935
+macro_avg   0.717269  0.578142  0.578660     5266
+accuracy: 0.770034	macro_auc: 0.756101	macro_aupoc: 0.889921	doa: 0.526423	doa_know_support: 267	doa_z_support: 6106
+Base, INFO -------- trait: 36 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.847008   0.011000     6804
+a       5.095368   0.004318     1180
+b      30.890278   0.026178     1180
+user   74.847008   0.011000     6804
+item   35.985646   0.004337     1180
+macro_ave: 0.007669	micro_ave: 0.010016
+Base, INFO -------- inc_trait: 36 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.891159   0.022674     3303
+a       5.095368   0.004701     1084
+b      30.890278   0.028497     1084
+user   74.891159   0.022674     3303
+item   35.985646   0.004722     1084
+macro_ave: 0.013698	micro_ave: 0.018238
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 37 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.627500  0.188015  0.289337     1335
+1.0         0.777367  0.962125  0.859934     3934
+macro_avg   0.702434  0.575070  0.574636     5269
+accuracy: 0.765990	macro_auc: 0.752185	macro_aupoc: 0.888004	doa: 0.536152	doa_know_support: 270	doa_z_support: 7014
+Base, INFO -------- trait: 37 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.720184   0.011126     6806
+a       5.289232   0.004482     1180
+b      31.882442   0.027019     1180
+user   75.720184   0.011126     6806
+item   37.171675   0.004501     1180
+macro_ave: 0.007813	micro_ave: 0.010147
+Base, INFO -------- inc_trait: 37 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  75.799057   0.022667     3344
+a       5.289232   0.004870     1086
+b      31.882441   0.029358     1086
+user   75.799057   0.022667     3344
+item   37.171673   0.004893     1086
+macro_ave: 0.013780	micro_ave: 0.018310
+Base, INFO ============= Stream[38/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- inc_user: 48 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.764588  0.271817  0.401055     1398
+1.0         0.786717  0.969783  0.868710     3872
+macro_avg   0.775652  0.620800  0.634883     5270
+accuracy: 0.784630	macro_auc: 0.791484	macro_aupoc: 0.901727	doa: 0.541508	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- inc_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.722791  0.280471  0.404126    68171
+1.0         0.788370  0.961417  0.866337   190059
+macro_avg   0.755581  0.620944  0.635231   258230
+accuracy: 0.781652	macro_auc: 0.800502	macro_aupoc: 0.908970	doa: 0.558591	doa_know_support: 360	doa_z_support: 16694013
+Base, INFO -------- metrics: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.764588  0.271817  0.401055     1398
+1.0         0.786717  0.969783  0.868710     3872
+macro_avg   0.775652  0.620800  0.634883     5270
+accuracy: 0.784630	macro_auc: 0.791484	macro_aupoc: 0.901727	doa: 0.541508	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- trait: 48 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.499557   0.010925     6819
+a       4.858003   0.004117     1180
+b      26.807869   0.022719     1180
+user   74.499557   0.010925     6819
+item   31.665872   0.004133     1180
+macro_ave: 0.007529	micro_ave: 0.009923
+Base, INFO -------- inc_trait: 48 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.531593   0.022744     3277
+a       4.858003   0.004420     1099
+b      26.807871   0.024393     1099
+user   74.531593   0.022744     3277
+item   31.665874   0.004439     1099
+macro_ave: 0.013591	micro_ave: 0.018147
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- inc_user: 48 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.764588  0.271817  0.401055     1398
+1.0         0.786717  0.969783  0.868710     3872
+macro_avg   0.775652  0.620800  0.634883     5270
+accuracy: 0.784630	macro_auc: 0.791484	macro_aupoc: 0.901727	doa: 0.541508	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- inc_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.722791  0.280471  0.404126    68171
+1.0         0.788370  0.961417  0.866337   190059
+macro_avg   0.755581  0.620944  0.635231   258230
+accuracy: 0.781652	macro_auc: 0.800502	macro_aupoc: 0.908970	doa: 0.558591	doa_know_support: 360	doa_z_support: 16694013
+Base, INFO -------- metrics: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.764588  0.271817  0.401055     1398
+1.0         0.786717  0.969783  0.868710     3872
+macro_avg   0.775652  0.620800  0.634883     5270
+accuracy: 0.784630	macro_auc: 0.791484	macro_aupoc: 0.901727	doa: 0.541508	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- trait: 48 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.499557   0.010925     6819
+a       4.858003   0.004117     1180
+b      26.807869   0.022719     1180
+user   74.499557   0.010925     6819
+item   31.665872   0.004133     1180
+macro_ave: 0.007529	micro_ave: 0.009923
+Base, INFO -------- inc_trait: 48 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.531593   0.022744     3277
+a       4.858003   0.004420     1099
+b      26.807871   0.024393     1099
+user   74.531593   0.022744     3277
+item   31.665874   0.004439     1099
+macro_ave: 0.013591	micro_ave: 0.018147
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- inc_user: 48 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.764588  0.271817  0.401055     1398
+1.0         0.786717  0.969783  0.868710     3872
+macro_avg   0.775652  0.620800  0.634883     5270
+accuracy: 0.784630	macro_auc: 0.791484	macro_aupoc: 0.901727	doa: 0.541508	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- inc_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.722791  0.280471  0.404126    68171
+1.0         0.788370  0.961417  0.866337   190059
+macro_avg   0.755581  0.620944  0.635231   258230
+accuracy: 0.781652	macro_auc: 0.800502	macro_aupoc: 0.908970	doa: 0.558591	doa_know_support: 360	doa_z_support: 16694013
+Base, INFO -------- metrics: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.764588  0.271817  0.401055     1398
+1.0         0.786717  0.969783  0.868710     3872
+macro_avg   0.775652  0.620800  0.634883     5270
+accuracy: 0.784630	macro_auc: 0.791484	macro_aupoc: 0.901727	doa: 0.541508	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- trait: 48 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.499557   0.010925     6819
+a       4.858003   0.004117     1180
+b      26.807869   0.022719     1180
+user   74.499557   0.010925     6819
+item   31.665872   0.004133     1180
+macro_ave: 0.007529	micro_ave: 0.009923
+Base, INFO -------- inc_trait: 48 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  74.531593   0.022744     3277
+a       4.858003   0.004420     1099
+b      26.807871   0.024393     1099
+user   74.531593   0.022744     3277
+item   31.665874   0.004439     1099
+macro_ave: 0.013591	micro_ave: 0.018147
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.01, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- inc_user: 48 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.756291  0.408441  0.530423     1398
+1.0         0.816833  0.952479  0.879456     3872
+macro_avg   0.786562  0.680460  0.704939     5270
+accuracy: 0.808159	macro_auc: 0.827580	macro_aupoc: 0.923392	doa: 0.594338	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- inc_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.735069  0.431136  0.543498    68171
+1.0         0.822311  0.944265  0.879078   190059
+macro_avg   0.778690  0.687701  0.711288   258230
+accuracy: 0.808802	macro_auc: 0.839783	macro_aupoc: 0.930675	doa: 0.666152	doa_know_support: 360	doa_z_support: 16694013
+Base, INFO -------- metrics: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.756291  0.408441  0.530423     1398
+1.0         0.816833  0.952479  0.879456     3872
+macro_avg   0.786562  0.680460  0.704939     5270
+accuracy: 0.808159	macro_auc: 0.827580	macro_aupoc: 0.923392	doa: 0.594338	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- trait: 48 ----------
+Base, INFO 
+            delta  delta_ave  support
+theta  236.285187   0.034651     6819
+a       11.461076   0.009713     1180
+b       58.344032   0.049444     1180
+user   236.285187   0.034651     6819
+item    69.805108   0.009746     1180
+macro_ave: 0.022199	micro_ave: 0.030977
+Base, INFO -------- inc_trait: 48 ----------
+Base, INFO 
+            delta  delta_ave  support
+theta  236.444595   0.072153     3277
+a       11.461075   0.010429     1099
+b       58.344032   0.053088     1099
+user   236.444595   0.072153     3277
+item    69.805107   0.010467     1099
+macro_ave: 0.041310	micro_ave: 0.056661
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.001, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- inc_user: 48 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.715942  0.176681  0.283419     1398
+1.0         0.766294  0.974690  0.858020     3872
+macro_avg   0.741118  0.575686  0.570720     5270
+accuracy: 0.762998	macro_auc: 0.734702	macro_aupoc: 0.870821	doa: 0.520707	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- inc_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.667249  0.179167  0.282483    68171
+1.0         0.766773  0.967952  0.855697   190059
+macro_avg   0.717011  0.573560  0.569090   258230
+accuracy: 0.759718	macro_auc: 0.741983	macro_aupoc: 0.877648	doa: 0.531631	doa_know_support: 360	doa_z_support: 16694007
+Base, INFO -------- metrics: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.715942  0.176681  0.283419     1398
+1.0         0.766294  0.974690  0.858020     3872
+macro_avg   0.741118  0.575686  0.570720     5270
+accuracy: 0.762998	macro_auc: 0.734702	macro_aupoc: 0.870821	doa: 0.520707	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- trait: 48 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  38.018501   0.005575     6819
+a       2.585999   0.002192     1180
+b      16.694683   0.014148     1180
+user   38.018501   0.005575     6819
+item   19.280682   0.002202     1180
+macro_ave: 0.003889	micro_ave: 0.005078
+Base, INFO -------- inc_trait: 48 ----------
+Base, INFO 
+           delta  delta_ave  support
+theta  38.034531   0.011607     3277
+a       2.585999   0.002353     1099
+b      16.694685   0.015191     1099
+user   38.034531   0.011607     3277
+item   19.280684   0.002365     1099
+macro_ave: 0.006986	micro_ave: 0.009286
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.001, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============

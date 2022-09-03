@@ -1,0 +1,34 @@
+Base, INFO {'dataset': 'a0910', 'cdm': 'mirt', 'inc_type': 'inc', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger mirt (INFO)>
+model_name: mirt
+model_dir: mirt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0.0001}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:1
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 4129, 'item_num': 17747, 'know_n': 123}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: mirt/result.json
+cfg_path: mirt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== inc valid ======================
+Base, INFO -------- metrics: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.332275  0.455072  0.384098      690
+1.0         0.644612  0.519421  0.575285     1313
+macro_avg   0.488444  0.487247  0.479691     2003
+accuracy: 0.497254	macro_auc: 0.486822	macro_aupoc: 0.647845	doa: 0.375000	doa_know_support: 3	doa_z_support: 13
+Base, INFO ============= Stream[1/50] =============

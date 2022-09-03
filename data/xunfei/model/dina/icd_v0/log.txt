@@ -1,0 +1,370 @@
+ICD, INFO logs to /home/yutingh/icd/data/xunfei/model/dina/icd_v0/log.txt
+ICD, INFO {'dataset': 'xunfei', 'cdm': 'dina', 'alpha': 0.2, 'beta': 0.9, 'tolerance': 0.2, 'ctx': 'cuda:2', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': False, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01, 'vector_numbers': None, 'vector_path_format': '/home/yutingh/icd/data/xunfei/model/dina/icd_v0/{}_{}.pt'}
+ICD, INFO logger: <Logger icd_dina (INFO)>
+model_name: icd_dina
+model_dir: icd_dina
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:2
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_n': 6821, 'item_n': 1197, 'know_n': 497, 'cdm': 'dina'}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: icd_dina/result.json
+cfg_path: icd_dina/configuration.json
+time_digital: True
+ICD, INFO ============= Stream[0/0/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[1/1/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[2/2/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[3/3/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[4/4/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[5/5/50] =============
+ICD, INFO ++++++++++++ 1529.994940554346 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[6/6/50] =============
+ICD, INFO ++++++++++++ 121.94014840803604 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[7/7/50] =============
+ICD, INFO ++++++++++++ 351.64842737659484 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[8/8/50] =============
+ICD, INFO ++++++++++++ 1300.2251006489294 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[9/9/50] =============
+ICD, INFO ++++++++++++ 1235.095921437148 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[10/10/50] =============
+ICD, INFO ++++++++++++ 441.33807409714757 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[11/11/50] =============
+ICD, INFO ++++++++++++ 258.5943960520918 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[12/12/50] =============
+ICD, INFO ++++++++++++ 1232.525792828355 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[13/13/50] =============
+ICD, INFO ++++++++++++ 1308.4018280927664 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[14/14/50] =============
+ICD, INFO ++++++++++++ 75.99860018014499 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[15/15/50] =============
+ICD, INFO ++++++++++++ 435.9877807267908 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[16/16/50] =============
+ICD, INFO ++++++++++++ 1464.0694321268131 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[17/17/50] =============
+ICD, INFO ++++++++++++ 474.086872487238 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[18/18/50] =============
+ICD, INFO ++++++++++++ 113.99511992685916 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[19/19/50] =============
+ICD, INFO ++++++++++++ 1297.5753175030718 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[20/20/50] =============
+ICD, INFO ++++++++++++ 711.4643726506339 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[21/21/50] =============
+ICD, INFO ++++++++++++ 7.530364495149977 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[22/22/50] =============
+ICD, INFO ++++++++++++ 1253.2327329965285 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[23/23/50] =============
+ICD, INFO ++++++++++++ 337.0097937108816 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[24/24/50] =============
+ICD, INFO ++++++++++++ 75.37961239335152 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[25/25/50] =============
+ICD, INFO ++++++++++++ 1374.786536672659 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[26/26/50] =============
+ICD, INFO ++++++++++++ 87.7023061329654 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[27/27/50] =============
+ICD, INFO ++++++++++++ 585.2173755764572 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[28/28/50] =============
+ICD, INFO ============= Stream[29/28/50] =============
+ICD, INFO ++++++++++++ 259.1265631010869 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[30/29/50] =============
+ICD, INFO ============= Stream[31/29/50] =============
+ICD, INFO ++++++++++++ 928.9620772403634 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[32/30/50] =============
+ICD, INFO ++++++++++++ 10.833695125720853 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[33/31/50] =============
+ICD, INFO ============= Stream[34/31/50] =============
+ICD, INFO ============= Stream[35/31/50] =============
+ICD, INFO ============= Stream[36/31/50] =============
+ICD, INFO ============= Stream[37/31/50] =============
+ICD, INFO ============= Stream[38/31/50] =============
+ICD, INFO ++++++++++++ 320.86210629133774 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[39/32/50] =============
+ICD, INFO ============= Stream[40/32/50] =============
+ICD, INFO ============= Stream[41/32/50] =============
+ICD, INFO ============= Stream[42/32/50] =============
+ICD, INFO ============= Stream[43/32/50] =============
+ICD, INFO ============= Stream[44/32/50] =============
+ICD, INFO ============= Stream[45/32/50] =============
+ICD, INFO ============= Stream[46/32/50] =============
+ICD, INFO ============= Stream[47/32/50] =============
+ICD, INFO ============= Stream[48/32/50] =============
+ICD, INFO -------- metrics: 48 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.727517  0.387697  0.505833     1398
+1.0         0.810829  0.947572  0.873884     3872
+macro_avg   0.769173  0.667635  0.689858     5270
+accuracy: 0.799051	macro_auc: 0.790875	macro_aupoc: 0.887347	doa: 0.593877	doa_know_support: 269	doa_z_support: 6887
+ICD, INFO -------- trait: 48 ----------
+ICD, INFO 
+       delta  delta_ave  support
+theta    0.0        0.0     6819
+a        0.0        0.0     1180
+b        0.0        0.0     1180
+user     0.0        0.0     6819
+item     0.0        0.0     1180
+macro_ave: 0.000000	micro_ave: 0.000000
+ICD, INFO -------- inc_trait: 48 ----------
+ICD, INFO 
+       delta  delta_ave  support
+theta    0.0        0.0     3277
+a        0.0        0.0     1099
+b        0.0        0.0     1099
+user     0.0        0.0     3277
+item     0.0        0.0     1099
+macro_ave: 0.000000	micro_ave: 0.000000
+ICD, INFO -------- tp: 0 ----------
+ICD, INFO 
+{'tps': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 38], 'tp_cnt': 32, 'total': 49}
+ICD, INFO logs to /home/yutingh/icd/data/xunfei/model/dina/icd_v0/log.txt
+ICD, INFO {'dataset': 'xunfei', 'cdm': 'dina', 'alpha': 0.2, 'beta': 0.9, 'tolerance': 0.2, 'ctx': 'cuda:3', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': False, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01, 'vector_numbers': None, 'vector_path_format': '/home/yutingh/icd/data/xunfei/model/dina/icd_v0/{}_{}.pt'}
+ICD, INFO logger: <Logger icd_dina (INFO)>
+model_name: icd_dina
+model_dir: icd_dina
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_n': 6821, 'item_n': 1197, 'know_n': 497, 'cdm': 'dina'}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: icd_dina/result.json
+cfg_path: icd_dina/configuration.json
+time_digital: True
+ICD, INFO logs to /home/yutingh/icd/data/xunfei/model/dina/icd_v0/log.txt
+ICD, INFO {'dataset': 'xunfei', 'cdm': 'dina', 'alpha': 0.2, 'beta': 0.9, 'tolerance': 0.2, 'ctx': 'cuda:3', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': False, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01, 'vector_numbers': None, 'vector_path_format': '/home/yutingh/icd/data/xunfei/model/dina/icd_v0/{}_{}.pt'}
+ICD, INFO logger: <Logger icd_dina (INFO)>
+model_name: icd_dina
+model_dir: icd_dina
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_n': 6821, 'item_n': 1197, 'know_n': 497, 'cdm': 'dina'}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: icd_dina/result.json
+cfg_path: icd_dina/configuration.json
+time_digital: True
+ICD, INFO ============= Stream[0/0/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[1/1/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[2/2/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[3/3/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[4/4/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[5/5/50] =============
+ICD, INFO ++++++++++++ 1529.994940554346 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[6/6/50] =============
+ICD, INFO ++++++++++++ 121.94014840803604 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[7/7/50] =============
+ICD, INFO ++++++++++++ 351.64842737659484 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[8/8/50] =============
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ICD, INFO logs to /home/yutingh/icd/data/xunfei/model/dina/icd_v0/log.txt
+ICD, INFO {'dataset': 'xunfei', 'cdm': 'dina', 'alpha': 0.2, 'beta': 0.9, 'tolerance': 0.2, 'ctx': 'cuda:3', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': False, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01, 'vector_numbers': None, 'vector_path_format': '/home/yutingh/icd/data/xunfei/model/dina/icd_v0/{}_{}.pt'}
+ICD, INFO logger: <Logger icd_dina (INFO)>
+model_name: icd_dina
+model_dir: icd_dina
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_n': 6821, 'item_n': 1197, 'know_n': 497, 'cdm': 'dina'}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: icd_dina/result.json
+cfg_path: icd_dina/configuration.json
+time_digital: True
+ICD, INFO ============= Stream[9/9/50] =============
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ICD, INFO ++++++++++++ 1235.095921437148 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[10/10/50] =============
+ICD, INFO ++++++++++++ 441.33807409714757 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+                                                      ICD, INFO ============= Stream[11/11/50] =============
+                                                       ICD, INFO ++++++++++++ 258.5943960520918 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ICD, INFO ============= Stream[12/12/50] =============
+ICD, INFO ++++++++++++ 1232.525792828355 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[13/13/50] =============
+ICD, INFO ++++++++++++ 1308.4018280927664 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[14/14/50] =============
+ICD, INFO ++++++++++++ 75.99860018014499 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[15/15/50] =============
+ICD, INFO ++++++++++++ 435.9877807267908 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[16/16/50] =============
+ICD, INFO ++++++++++++ 1464.0694321268131 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[17/17/50] =============
+ICD, INFO ++++++++++++ 474.086872487238 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[18/18/50] =============
+ICD, INFO ++++++++++++ 113.99511992685916 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[19/19/50] =============
+ICD, INFO ++++++++++++ 1297.5753175030718 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[20/20/50] =============
+ICD, INFO ++++++++++++ 711.4643726506339 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[21/21/50] =============
+ICD, INFO ++++++++++++ 7.530364495149977 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[22/22/50] =============
+ICD, INFO ++++++++++++ 1253.2327329965285 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[23/23/50] =============
+ICD, INFO ++++++++++++ 337.0097937108816 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[24/24/50] =============
+ICD, INFO ++++++++++++ 75.37961239335152 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[25/25/50] =============
+ICD, INFO ++++++++++++ 1374.786536672659 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[26/26/50] =============
+ICD, INFO ++++++++++++ 87.7023061329654 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[27/27/50] =============
+ICD, INFO ++++++++++++ 585.2173755764572 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[28/28/50] =============
+ICD, INFO ============= Stream[29/28/50] =============
+ICD, INFO ++++++++++++ 259.1265631010869 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[30/29/50] =============
+ICD, INFO ============= Stream[31/29/50] =============
+ICD, INFO ++++++++++++ 928.9620772403634 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[32/30/50] =============
+ICD, INFO ++++++++++++ 10.833695125720853 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[33/31/50] =============
+ICD, INFO ============= Stream[34/31/50] =============
+ICD, INFO ============= Stream[35/31/50] =============
+ICD, INFO ============= Stream[36/31/50] =============
+ICD, INFO ============= Stream[37/31/50] =============
+ICD, INFO ============= Stream[38/31/50] =============
+ICD, INFO ++++++++++++ 320.86210629133774 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[39/32/50] =============
+ICD, INFO ============= Stream[40/32/50] =============
+ICD, INFO ============= Stream[41/32/50] =============
+ICD, INFO ============= Stream[42/32/50] =============
+ICD, INFO ============= Stream[43/32/50] =============
+ICD, INFO ============= Stream[44/32/50] =============
+ICD, INFO ============= Stream[45/32/50] =============
+ICD, INFO ============= Stream[46/32/50] =============
+ICD, INFO ============= Stream[47/32/50] =============
+ICD, INFO ============= Stream[48/32/50] =============
+ICD, INFO -------- metrics: 48 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.727517  0.387697  0.505833     1398
+1.0         0.810829  0.947572  0.873884     3872
+macro_avg   0.769173  0.667635  0.689858     5270
+accuracy: 0.799051	macro_auc: 0.790875	macro_aupoc: 0.887347	doa: 0.593877	doa_know_support: 269	doa_z_support: 6887
+ICD, INFO -------- trait: 48 ----------
+ICD, INFO 
+       delta  delta_ave  support
+theta    0.0        0.0     6819
+a        0.0        0.0     1180
+b        0.0        0.0     1180
+user     0.0        0.0     6819
+item     0.0        0.0     1180
+macro_ave: 0.000000	micro_ave: 0.000000
+ICD, INFO -------- inc_trait: 48 ----------
+ICD, INFO 
+       delta  delta_ave  support
+theta    0.0        0.0     3277
+a        0.0        0.0     1099
+b        0.0        0.0     1099
+user     0.0        0.0     3277
+item     0.0        0.0     1099
+macro_ave: 0.000000	micro_ave: 0.000000
+ICD, INFO -------- tp: 0 ----------
+ICD, INFO 
+{'tps': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 38], 'tp_cnt': 32, 'total': 49}

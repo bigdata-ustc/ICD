@@ -1,0 +1,945 @@
+ICD, INFO logs to /home/yutingh/icd/data/xunfei/model/ncd/icd_test_r0.95/log.txt
+ICD, INFO {'dataset': 'xunfei', 'cdm': 'ncd', 'alpha': 0.3, 'beta': 0.9, 'tolerance': 0.2, 'ctx': 'cuda:3', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': True, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01, 'vector_numbers': None, 'vector_path_format': '/home/yutingh/icd/data/xunfei/model/ncd/icd_test_r0.95/{}_{}.pt'}
+ICD, INFO logger: <Logger icd_ncd (INFO)>
+model_name: icd_ncd
+model_dir: icd_ncd
+begin_epoch: 0
+end_epoch: 1
+batch_size: 64
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_n': 10134, 'item_n': 2221, 'know_n': 497, 'cdm': 'ncd'}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: icd_ncd/result.json
+cfg_path: icd_ncd/configuration.json
+time_digital: True
+ICD, INFO ============= Stream[0/0/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 0 ----------
+ICD, INFO 
+           precision  recall        f1  support
+0.0         0.000000     0.0  0.000000     1018
+1.0         0.691609     1.0  0.817693     2283
+macro_avg   0.345804     0.5  0.408847     3301
+accuracy: 0.691609	macro_auc: 0.579809	macro_aupoc: 0.765998	doa: 0.506922	doa_know_support: 203	doa_z_support: 2197
+ICD, INFO ============= Stream[1/1/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 1 ----------
+ICD, INFO 
+           precision  recall        f1  support
+0.0         0.000000     0.0  0.000000     1259
+1.0         0.696992     1.0  0.821444     2896
+macro_avg   0.348496     0.5  0.410722     4155
+accuracy: 0.696992	macro_auc: 0.693489	macro_aupoc: 0.824138	doa: 0.520017	doa_know_support: 223	doa_z_support: 2933
+ICD, INFO -------- trait: 1 ----------
+ICD, INFO 
+              delta  delta_ave  support
+theta  529769.06250   0.338177     3152
+a      211983.65625   0.234484     1819
+b      250713.53125   0.277325     1819
+user   529769.06250   0.338177     3152
+item   462697.18750   0.255904     1819
+macro_ave: 0.297041	micro_ave: 0.308072
+ICD, INFO ============= Stream[2/2/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 2 ----------
+ICD, INFO 
+           precision  recall        f1  support
+0.0         0.000000     0.0  0.000000     1436
+1.0         0.687146     1.0  0.814566     3154
+macro_avg   0.343573     0.5  0.407283     4590
+accuracy: 0.687146	macro_auc: 0.708208	macro_aupoc: 0.814556	doa: 0.552491	doa_know_support: 248	doa_z_support: 3179
+ICD, INFO -------- trait: 2 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  342814.531250   0.146013     4724
+a      148249.062500   0.147594     2021
+b      133448.046875   0.132859     2021
+user   342814.531250   0.146013     4724
+item   281697.109375   0.140226     2021
+macro_ave: 0.143120	micro_ave: 0.144279
+ICD, INFO ============= Stream[3/3/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 3 ----------
+ICD, INFO 
+           precision  recall        f1  support
+0.0         0.000000     0.0  0.000000     1427
+1.0         0.699389     1.0  0.823106     3320
+macro_avg   0.349695     0.5  0.411553     4747
+accuracy: 0.699389	macro_auc: 0.735733	macro_aupoc: 0.847979	doa: 0.554821	doa_know_support: 271	doa_z_support: 3271
+ICD, INFO -------- trait: 3 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  375898.156250   0.131240     5763
+a      113311.664062   0.108774     2096
+b      121860.843750   0.116981     2096
+user   375898.156250   0.131240     5763
+item   235172.507812   0.112878     2096
+macro_ave: 0.122059	micro_ave: 0.126343
+ICD, INFO ============= Stream[4/4/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 4 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.617647  0.028417  0.054334     1478
+1.0         0.709017  0.992624  0.827187     3525
+macro_avg   0.663332  0.510520  0.440760     5003
+accuracy: 0.707775	macro_auc: 0.719159	macro_aupoc: 0.834253	doa: 0.518564	doa_know_support: 271	doa_z_support: 3861
+ICD, INFO -------- trait: 4 ----------
+ICD, INFO 
+              delta  delta_ave  support
+theta  340760.46875   0.105563     6495
+a       67148.93750   0.063431     2130
+b       80018.40625   0.075588     2130
+user   340760.46875   0.105563     6495
+item   147167.34375   0.069510     2130
+macro_ave: 0.087537	micro_ave: 0.096660
+ICD, INFO ============= Stream[5/5/50] =============
+ICD, INFO ++++++++++++ 763.5142719122698 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 5 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.699248  0.061064  0.112319     1523
+1.0         0.710819  0.988748  0.827059     3555
+macro_avg   0.705034  0.524906  0.469689     5078
+accuracy: 0.710516	macro_auc: 0.741745	macro_aupoc: 0.850313	doa: 0.548810	doa_know_support: 279	doa_z_support: 3323
+ICD, INFO -------- trait: 5 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  189371.296875   0.053568     7113
+a       84142.695312   0.078745     2150
+b       92806.054688   0.086852     2150
+user   189371.296875   0.053568     7113
+item   176948.750000   0.082799     2150
+macro_ave: 0.068183	micro_ave: 0.060353
+ICD, INFO ============= Stream[6/6/50] =============
+ICD, INFO ++++++++++++ 7805.896217757056 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 6 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.634383  0.172255  0.270941     1521
+1.0         0.735948  0.958743  0.832701     3660
+macro_avg   0.685165  0.565499  0.551821     5181
+accuracy: 0.727852	macro_auc: 0.728274	macro_aupoc: 0.837949	doa: 0.549278	doa_know_support: 286	doa_z_support: 3306
+ICD, INFO -------- trait: 6 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  317154.093750   0.084780     7527
+a       68233.132812   0.063649     2157
+b       90562.382812   0.084478     2157
+user   317154.093750   0.084780     7527
+item   158795.515625   0.074063     2157
+macro_ave: 0.079421	micro_ave: 0.082393
+ICD, INFO ============= Stream[7/7/50] =============
+ICD, INFO ++++++++++++ 35.97503126884991 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 7 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.675214  0.155105  0.252262     1528
+1.0         0.733869  0.968971  0.835191     3674
+macro_avg   0.704541  0.562038  0.543726     5202
+accuracy: 0.729912	macro_auc: 0.733282	macro_aupoc: 0.838833	doa: 0.605311	doa_know_support: 255	doa_z_support: 2959
+ICD, INFO -------- trait: 7 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  185982.078125   0.047428     7890
+a       37164.687500   0.034555     2164
+b       43570.414062   0.040511     2164
+user   185982.078125   0.047428     7890
+item    80735.101562   0.037533     2164
+macro_ave: 0.042481	micro_ave: 0.045299
+ICD, INFO ============= Stream[8/8/50] =============
+ICD, INFO ++++++++++++ 39.712356290027714 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 8 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.663793  0.190949  0.296582     1613
+1.0         0.728577  0.957365  0.827448     3659
+macro_avg   0.696185  0.574157  0.562015     5272
+accuracy: 0.722876	macro_auc: 0.738974	macro_aupoc: 0.836792	doa: 0.565758	doa_know_support: 279	doa_z_support: 2974
+ICD, INFO -------- trait: 8 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  122717.726562   0.030267     8158
+a       21335.431641   0.019764     2172
+b       31229.191406   0.028930     2172
+user   122717.726562   0.030267     8158
+item    52564.623047   0.024347     2172
+macro_ave: 0.027307	micro_ave: 0.029022
+ICD, INFO ============= Stream[9/9/50] =============
+ICD, INFO ++++++++++++ 9.635572297244305 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 9 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.679570  0.202694  0.312253     1559
+1.0         0.743076  0.960203  0.837800     3744
+macro_avg   0.711323  0.581449  0.575027     5303
+accuracy: 0.737507	macro_auc: 0.725855	macro_aupoc: 0.831267	doa: 0.524608	doa_know_support: 270	doa_z_support: 2717
+ICD, INFO -------- trait: 9 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  161371.843750   0.038622     8407
+a       25397.001953   0.023462     2178
+b       36090.964844   0.033341     2178
+user   161371.843750   0.038622     8407
+item    61487.966797   0.028402     2178
+macro_ave: 0.033512	micro_ave: 0.036519
+ICD, INFO ============= Stream[10/10/50] =============
+ICD, INFO ++++++++++++ 28.498049537904127 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 10 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.711340  0.265725  0.386916     1558
+1.0         0.759056  0.955461  0.846009     3772
+macro_avg   0.735198  0.610593  0.616463     5330
+accuracy: 0.753846	macro_auc: 0.726316	macro_aupoc: 0.828652	doa: 0.551353	doa_know_support: 253	doa_z_support: 2848
+ICD, INFO -------- trait: 10 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  159482.250000   0.037339     8594
+a       15458.972656   0.014249     2183
+b       22060.164062   0.020333     2183
+user   159482.250000   0.037339     8594
+item    37519.136719   0.017291     2183
+macro_ave: 0.027315	micro_ave: 0.033278
+ICD, INFO ============= Stream[11/11/50] =============
+ICD, INFO ++++++++++++ 34016.33922742229 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 11 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.672662  0.239437  0.353163     1562
+1.0         0.752294  0.951979  0.840438     3790
+macro_avg   0.712478  0.595708  0.596801     5352
+accuracy: 0.744021	macro_auc: 0.711437	macro_aupoc: 0.819570	doa: 0.581305	doa_know_support: 259	doa_z_support: 2390
+ICD, INFO -------- trait: 11 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  111869.179688   0.025704     8757
+a       13010.193359   0.011953     2190
+b       18019.957031   0.016556     2190
+user   111869.179688   0.025704     8757
+item    31030.150391   0.014255     2190
+macro_ave: 0.019979	micro_ave: 0.023413
+ICD, INFO ============= Stream[12/12/50] =============
+ICD, INFO ++++++++++++ 4.8134036216606395 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 12 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.659619  0.198600  0.305284     1571
+1.0         0.742799  0.957598  0.836631     3797
+macro_avg   0.701209  0.578099  0.570958     5368
+accuracy: 0.735469	macro_auc: 0.701831	macro_aupoc: 0.807384	doa: 0.582129	doa_know_support: 267	doa_z_support: 2500
+ICD, INFO -------- trait: 12 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  122212.601562   0.027645     8895
+a       12764.599609   0.011717     2192
+b       19253.246094   0.017673     2192
+user   122212.601562   0.027645     8895
+item    32017.845703   0.014695     2192
+macro_ave: 0.021170	micro_ave: 0.025084
+ICD, INFO ============= Stream[13/13/50] =============
+ICD, INFO ++++++++++++ 5.37586822102396 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 13 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.694253  0.186766  0.294347     1617
+1.0         0.735146  0.964843  0.834476     3783
+macro_avg   0.714699  0.575804  0.564412     5400
+accuracy: 0.731852	macro_auc: 0.719237	macro_aupoc: 0.821477	doa: 0.569682	doa_know_support: 266	doa_z_support: 2239
+ICD, INFO -------- trait: 13 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  149722.359375   0.033413     9016
+a       17272.880859   0.015833     2195
+b       23029.523438   0.021110     2195
+user   149722.359375   0.033413     9016
+item    40302.404297   0.018472     2195
+macro_ave: 0.025942	micro_ave: 0.030488
+ICD, INFO ============= Stream[14/14/50] =============
+ICD, INFO ++++++++++++ 8.248435454604737 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 14 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.754757  0.215320  0.335054     1658
+1.0         0.736426  0.969075  0.836883     3751
+macro_avg   0.745592  0.592197  0.585968     5409
+accuracy: 0.738029	macro_auc: 0.726524	macro_aupoc: 0.817398	doa: 0.604503	doa_know_support: 250	doa_z_support: 2120
+ICD, INFO -------- trait: 14 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  121092.578125   0.026722     9118
+a       15406.125977   0.014109     2197
+b       19869.199219   0.018197     2197
+user   121092.578125   0.026722     9118
+item    35275.325195   0.016153     2197
+macro_ave: 0.021437	micro_ave: 0.024669
+ICD, INFO ============= Stream[15/15/50] =============
+ICD, INFO ++++++++++++ 31.0474830462889 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 15 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.708861  0.213198  0.327805     1576
+1.0         0.747865  0.963836  0.842226     3816
+macro_avg   0.728363  0.588517  0.585015     5392
+accuracy: 0.744436	macro_auc: 0.725151	macro_aupoc: 0.828517	doa: 0.582453	doa_know_support: 257	doa_z_support: 2052
+ICD, INFO -------- trait: 15 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  130595.484375   0.028571     9197
+a       18101.333984   0.016578     2197
+b       22622.404297   0.020718     2197
+user   130595.484375   0.028571     9197
+item    40723.738281   0.018648     2197
+macro_ave: 0.023609	micro_ave: 0.026658
+ICD, INFO ============= Stream[16/16/50] =============
+ICD, INFO ++++++++++++ 14.444551168269943 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 16 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.720238  0.223522  0.341165     1624
+1.0         0.742601  0.962689  0.838442     3779
+macro_avg   0.731419  0.593105  0.589804     5403
+accuracy: 0.740515	macro_auc: 0.740831	macro_aupoc: 0.831871	doa: 0.575431	doa_know_support: 241	doa_z_support: 2027
+ICD, INFO -------- trait: 16 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  108652.531250   0.023591     9267
+a       13322.824219   0.012196     2198
+b       19829.734375   0.018152     2198
+user   108652.531250   0.023591     9267
+item    33152.558594   0.015174     2198
+macro_ave: 0.019382	micro_ave: 0.021977
+ICD, INFO ============= Stream[17/17/50] =============
+ICD, INFO ++++++++++++ 23.743176124928624 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 17 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.731591  0.198454  0.312215     1552
+1.0         0.750501  0.970687  0.846511     3855
+macro_avg   0.741046  0.584571  0.579363     5407
+accuracy: 0.749029	macro_auc: 0.729984	macro_aupoc: 0.828172	doa: 0.576006	doa_know_support: 261	doa_z_support: 1997
+ICD, INFO -------- trait: 17 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  128087.648438   0.027561     9351
+a        8320.163086   0.007616     2198
+b       13356.205078   0.012226     2198
+user   128087.648438   0.027561     9351
+item    21676.368164   0.009921     2198
+macro_ave: 0.018741	micro_ave: 0.024204
+ICD, INFO ============= Stream[18/18/50] =============
+ICD, INFO ++++++++++++ 26.93242692132906 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 18 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.737395  0.211064  0.328191     1663
+1.0         0.734842  0.966764  0.834998     3761
+macro_avg   0.736119  0.588914  0.581595     5424
+accuracy: 0.735066	macro_auc: 0.725078	macro_aupoc: 0.822949	doa: 0.563096	doa_know_support: 259	doa_z_support: 1880
+ICD, INFO -------- trait: 18 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  125512.804688   0.026806     9421
+a        8870.662109   0.008102     2203
+b       13938.652344   0.012731     2203
+user   125512.804688   0.026806     9421
+item    22809.314453   0.010416     2203
+macro_ave: 0.018611	micro_ave: 0.023700
+ICD, INFO ============= Stream[19/19/50] =============
+ICD, INFO ++++++++++++ 56.12956010262991 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 19 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.707368  0.207407  0.320764     1620
+1.0         0.740501  0.963450  0.837390     3803
+macro_avg   0.723935  0.585429  0.579077     5423
+accuracy: 0.737599	macro_auc: 0.723120	macro_aupoc: 0.823645	doa: 0.590575	doa_know_support: 236	doa_z_support: 1850
+ICD, INFO -------- trait: 19 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  124758.015625   0.026446     9492
+a       16990.849609   0.015518     2203
+b       21863.607422   0.019969     2203
+user   124758.015625   0.026446     9492
+item    38854.457031   0.017744     2203
+macro_ave: 0.022095	micro_ave: 0.024806
+ICD, INFO ============= Stream[20/20/50] =============
+ICD, INFO ++++++++++++ 152.6811918410735 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 20 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.716599  0.218789  0.335227     1618
+1.0         0.744543  0.963389  0.839945     3824
+macro_avg   0.730571  0.591089  0.587586     5442
+accuracy: 0.742007	macro_auc: 0.712979	macro_aupoc: 0.810594	doa: 0.599990	doa_know_support: 227	doa_z_support: 1830
+ICD, INFO -------- trait: 20 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  119684.070312   0.025229     9545
+a        7947.080078   0.007252     2205
+b       11136.944336   0.010163     2205
+user   119684.070312   0.025229     9545
+item    19084.024414   0.008707     2205
+macro_ave: 0.016968	micro_ave: 0.022129
+ICD, INFO ============= Stream[21/21/50] =============
+ICD, INFO ++++++++++++ 9.592244820907704 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 21 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.718009  0.190686  0.301343     1589
+1.0         0.743518  0.969067  0.841440     3847
+macro_avg   0.730764  0.579876  0.571391     5436
+accuracy: 0.741538	macro_auc: 0.724313	macro_aupoc: 0.829385	doa: 0.594759	doa_know_support: 226	doa_z_support: 1870
+ICD, INFO -------- trait: 21 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  122355.046875   0.025645     9600
+a        7839.724121   0.007151     2206
+b       12435.224609   0.011342     2206
+user   122355.046875   0.025645     9600
+item    20274.948730   0.009246     2206
+macro_ave: 0.017445	micro_ave: 0.022580
+ICD, INFO ============= Stream[22/22/50] =============
+ICD, INFO ++++++++++++ 123.01305936935864 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 22 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.552569  0.584334  0.568007     1583
+1.0         0.825093  0.805606  0.815233     3853
+macro_avg   0.688831  0.694970  0.691620     5436
+accuracy: 0.741170	macro_auc: 0.728070	macro_aupoc: 0.827620	doa: 0.595709	doa_know_support: 227	doa_z_support: 1708
+ICD, INFO -------- trait: 22 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  124183.351562   0.025928     9637
+a       16094.447266   0.014666     2208
+b       20856.589844   0.019006     2208
+user   124183.351562   0.025928     9637
+item    36951.037109   0.016836     2208
+macro_ave: 0.021382	micro_ave: 0.024233
+ICD, INFO ============= Stream[23/23/50] =============
+ICD, INFO ++++++++++++ 187.69664591952383 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 23 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.727494  0.182651  0.291992     1637
+1.0         0.734207  0.970588  0.836010     3808
+macro_avg   0.730851  0.576620  0.564001     5445
+accuracy: 0.733701	macro_auc: 0.723219	macro_aupoc: 0.814706	doa: 0.605034	doa_know_support: 229	doa_z_support: 1767
+ICD, INFO -------- trait: 23 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  125132.789062   0.026005     9682
+a        7095.850586   0.006463     2209
+b       10381.673828   0.009456     2209
+user   125132.789062   0.026005     9682
+item    17477.524414   0.007960     2209
+macro_ave: 0.016982	micro_ave: 0.022652
+ICD, INFO ============= Stream[24/24/50] =============
+ICD, INFO ++++++++++++ 197.9037519517477 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 24 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.550179  0.578881  0.564165     1591
+1.0         0.822328  0.804619  0.813377     3854
+macro_avg   0.686254  0.691750  0.688771     5445
+accuracy: 0.738659	macro_auc: 0.725078	macro_aupoc: 0.825079	doa: 0.581127	doa_know_support: 217	doa_z_support: 1686
+ICD, INFO -------- trait: 24 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  149436.125000   0.030915     9726
+a        6897.837402   0.006277     2211
+b       10226.898438   0.009307     2211
+user   149436.125000   0.030915     9726
+item    17124.735840   0.007792     2211
+macro_ave: 0.019353	micro_ave: 0.026632
+ICD, INFO ============= Stream[25/25/50] =============
+ICD, INFO ++++++++++++ 160.04108711947606 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 25 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.731868  0.201574  0.316089     1652
+1.0         0.736042  0.967895  0.836194     3800
+macro_avg   0.733955  0.584734  0.576142     5452
+accuracy: 0.735693	macro_auc: 0.728223	macro_aupoc: 0.818642	doa: 0.575753	doa_know_support: 230	doa_z_support: 1833
+ICD, INFO -------- trait: 25 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  127166.507812   0.026213     9761
+a        8340.699219   0.007583     2213
+b       11443.167969   0.010404     2213
+user   127166.507812   0.026213     9761
+item    19783.867188   0.008994     2213
+macro_ave: 0.017604	micro_ave: 0.023031
+ICD, INFO ============= Stream[26/26/50] =============
+ICD, INFO ++++++++++++ 136.08680987746757 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 26 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.695761  0.177934  0.283393     1568
+1.0         0.744803  0.968589  0.842082     3884
+macro_avg   0.720282  0.573261  0.562737     5452
+accuracy: 0.741196	macro_auc: 0.718198	macro_aupoc: 0.827914	doa: 0.554899	doa_know_support: 222	doa_z_support: 1672
+ICD, INFO -------- trait: 26 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  130152.296875   0.026730     9797
+a        4570.625977   0.004156     2213
+b        8754.502930   0.007960     2213
+user   130152.296875   0.026730     9797
+item    13325.128906   0.006058     2213
+macro_ave: 0.016394	micro_ave: 0.022921
+ICD, INFO ============= Stream[27/27/50] =============
+ICD, INFO ++++++++++++ 13.796347627993981 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 27 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.751323  0.174769  0.283575     1625
+1.0         0.736231  0.975502  0.839144     3837
+macro_avg   0.743777  0.575135  0.561359     5462
+accuracy: 0.737276	macro_auc: 0.719476	macro_aupoc: 0.816278	doa: 0.606970	doa_know_support: 217	doa_z_support: 1629
+ICD, INFO -------- trait: 27 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  131175.781250   0.026858     9827
+a       12526.617188   0.011389     2213
+b       17795.101562   0.016179     2213
+user   131175.781250   0.026858     9827
+item    30321.718750   0.013784     2213
+macro_ave: 0.020321	micro_ave: 0.024455
+ICD, INFO ============= Stream[28/28/50] =============
+ICD, INFO ++++++++++++ 26.605163630084053 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 28 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.587398  0.553640  0.570020     1566
+1.0         0.824107  0.843203  0.833545     3884
+macro_avg   0.705753  0.698421  0.701783     5450
+accuracy: 0.760000	macro_auc: 0.720561	macro_aupoc: 0.826092	doa: 0.578037	doa_know_support: 223	doa_z_support: 1537
+ICD, INFO -------- trait: 28 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  126057.304688   0.025742     9853
+a        8576.001953   0.007790     2215
+b       13212.751953   0.012002     2215
+user   126057.304688   0.025742     9853
+item    21788.753906   0.009896     2215
+macro_ave: 0.017819	micro_ave: 0.022834
+ICD, INFO ============= Stream[29/29/50] =============
+ICD, INFO ++++++++++++ 16.69692306832171 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 29 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.748869  0.206231  0.323400     1605
+1.0         0.746367  0.971244  0.844084     3860
+macro_avg   0.747618  0.588737  0.583742     5465
+accuracy: 0.746569	macro_auc: 0.720994	macro_aupoc: 0.817470	doa: 0.586252	doa_know_support: 226	doa_z_support: 1597
+ICD, INFO -------- trait: 29 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  142704.937500   0.029083     9873
+a        5308.521484   0.004820     2216
+b        9349.567383   0.008489     2216
+user   142704.937500   0.029083     9873
+item    14658.088867   0.006655     2216
+macro_ave: 0.017869	micro_ave: 0.024971
+ICD, INFO ============= Stream[30/30/50] =============
+ICD, INFO ++++++++++++ 37.59381008001027 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 30 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.598465  0.562500  0.579926     1664
+1.0         0.812468  0.833950  0.823069     3782
+macro_avg   0.705467  0.698225  0.701497     5446
+accuracy: 0.751010	macro_auc: 0.719452	macro_aupoc: 0.807902	doa: 0.600249	doa_know_support: 223	doa_z_support: 1733
+ICD, INFO -------- trait: 30 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  115156.093750   0.023390     9906
+a        7858.102539   0.007135     2216
+b       12491.236328   0.011342     2216
+user   115156.093750   0.023390     9906
+item    20349.338867   0.009238     2216
+macro_ave: 0.016314	micro_ave: 0.020803
+ICD, INFO ============= Stream[31/31/50] =============
+ICD, INFO ++++++++++++ 80.02549132757377 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 31 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.570223  0.585034  0.577534     1617
+1.0         0.823885  0.814901  0.819368     3852
+macro_avg   0.697054  0.699968  0.698451     5469
+accuracy: 0.746937	macro_auc: 0.731518	macro_aupoc: 0.826152	doa: 0.673257	doa_know_support: 227	doa_z_support: 1650
+ICD, INFO -------- trait: 31 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  116673.328125   0.023660     9922
+a        3917.651123   0.003554     2218
+b        7874.109863   0.007143     2218
+user   116673.328125   0.023660     9922
+item    11791.760986   0.005348     2218
+macro_ave: 0.014504	micro_ave: 0.020315
+ICD, INFO ============= Stream[32/32/50] =============
+ICD, INFO ++++++++++++ 13.135606790182052 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 32 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.679752  0.209288  0.320039     1572
+1.0         0.750552  0.960205  0.842532     3895
+macro_avg   0.715152  0.584746  0.581286     5467
+accuracy: 0.744284	macro_auc: 0.722858	macro_aupoc: 0.828333	doa: 0.634522	doa_know_support: 200	doa_z_support: 1614
+ICD, INFO -------- trait: 32 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  118514.515625   0.023949     9957
+a        3671.983398   0.003331     2218
+b        8154.487793   0.007397     2218
+user   118514.515625   0.023949     9957
+item    11826.471191   0.005364     2218
+macro_ave: 0.014657	micro_ave: 0.020563
+ICD, INFO ============= Stream[33/33/50] =============
+ICD, INFO ++++++++++++ 49.161162176667446 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 33 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.595745  0.537794  0.565288     1614
+1.0         0.813453  0.846694  0.829741     3842
+macro_avg   0.704599  0.692244  0.697515     5456
+accuracy: 0.755315	macro_auc: 0.725934	macro_aupoc: 0.821277	doa: 0.615780	doa_know_support: 213	doa_z_support: 1661
+ICD, INFO -------- trait: 33 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  112576.640625   0.022717     9971
+a        4166.372070   0.003780     2218
+b        8436.359375   0.007653     2218
+user   112576.640625   0.022717     9971
+item    12602.731445   0.005716     2218
+macro_ave: 0.014217	micro_ave: 0.019624
+ICD, INFO ============= Stream[34/34/50] =============
+ICD, INFO ++++++++++++ 131.64866525292362 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 34 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.740000  0.215255  0.333500     1547
+1.0         0.757636  0.970092  0.850801     3912
+macro_avg   0.748818  0.592674  0.592151     5459
+accuracy: 0.756182	macro_auc: 0.731032	macro_aupoc: 0.836142	doa: 0.598946	doa_know_support: 201	doa_z_support: 1557
+ICD, INFO -------- trait: 34 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  113119.125000   0.022792     9986
+a       13532.941406   0.012276     2218
+b       17885.138672   0.016225     2218
+user   113119.125000   0.022792     9986
+item    31418.080078   0.014251     2218
+macro_ave: 0.018521	micro_ave: 0.021240
+ICD, INFO ============= Stream[35/35/50] =============
+ICD, INFO ++++++++++++ 81.226201519017 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 35 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.552978  0.544444  0.548678     1620
+1.0         0.809548  0.814805  0.812168     3850
+macro_avg   0.681263  0.679625  0.680423     5470
+accuracy: 0.734735	macro_auc: 0.708465	macro_aupoc: 0.809521	doa: 0.602018	doa_know_support: 190	doa_z_support: 1518
+ICD, INFO -------- trait: 35 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  116609.945312   0.023435    10012
+a       14967.989258   0.013578     2218
+b       23426.349609   0.021251     2218
+user   116609.945312   0.023435    10012
+item    38394.338867   0.017415     2218
+macro_ave: 0.020425	micro_ave: 0.022343
+ICD, INFO ============= Stream[36/36/50] =============
+ICD, INFO ++++++++++++ 8.227832896610913 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 36 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.565380  0.545345  0.555182     1665
+1.0         0.804443  0.816894  0.810621     3812
+macro_avg   0.684912  0.681120  0.682901     5477
+accuracy: 0.734344	macro_auc: 0.716171	macro_aupoc: 0.813561	doa: 0.577537	doa_know_support: 209	doa_z_support: 1563
+ICD, INFO -------- trait: 36 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  110357.414062   0.022127    10035
+a        8008.007324   0.007265     2218
+b       15067.985352   0.013669     2218
+user   110357.414062   0.022127    10035
+item    23075.992676   0.010467     2218
+macro_ave: 0.016297	micro_ave: 0.020017
+ICD, INFO ============= Stream[37/37/50] =============
+ICD, INFO ++++++++++++ 30.89016623937522 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 37 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.575945  0.585750  0.580807     1586
+1.0         0.829837  0.824074  0.826945     3888
+macro_avg   0.702891  0.704912  0.703876     5474
+accuracy: 0.755024	macro_auc: 0.725357	macro_aupoc: 0.821119	doa: 0.580960	doa_know_support: 196	doa_z_support: 1745
+ICD, INFO -------- trait: 37 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  113275.382812   0.022685    10047
+a        7629.437500   0.006921     2218
+b       12643.234375   0.011469     2218
+user   113275.382812   0.022685    10047
+item    20272.671875   0.009195     2218
+macro_ave: 0.015940	micro_ave: 0.020246
+ICD, INFO ============= Stream[38/38/50] =============
+ICD, INFO ++++++++++++ 10.666241985051604 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 38 ----------
+ICD, INFO 
+           precision    recall       f1  support
+0.0         0.575062  0.563869  0.56941     1644
+1.0         0.814201  0.821009  0.81759     3827
+macro_avg   0.694631  0.692439  0.69350     5471
+accuracy: 0.743740	macro_auc: 0.719860	macro_aupoc: 0.816035	doa: 0.624864	doa_know_support: 205	doa_z_support: 1688
+ICD, INFO -------- trait: 38 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  122051.093750   0.024428    10053
+a        3149.749512   0.002857     2218
+b        8524.877930   0.007733     2218
+user   122051.093750   0.024428    10053
+item    11674.627441   0.005295     2218
+macro_ave: 0.014862	micro_ave: 0.020970
+ICD, INFO ============= Stream[39/39/50] =============
+ICD, INFO ++++++++++++ 47.18338340590217 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 39 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.581017  0.525767  0.552013     1630
+1.0         0.806557  0.839104  0.822509     3841
+macro_avg   0.693787  0.682436  0.687261     5471
+accuracy: 0.745750	macro_auc: 0.711995	macro_aupoc: 0.811613	doa: 0.600489	doa_know_support: 217	doa_z_support: 1608
+ICD, INFO -------- trait: 39 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  135024.937500   0.027001    10062
+a        4059.256836   0.003682     2218
+b        8507.202148   0.007717     2218
+user   135024.937500   0.027001    10062
+item    12566.458984   0.005700     2218
+macro_ave: 0.016350	micro_ave: 0.023153
+ICD, INFO ============= Stream[40/40/50] =============
+ICD, INFO ++++++++++++ 23.69481400593171 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 40 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.557814  0.549093  0.553419     1599
+1.0         0.815223  0.820480  0.817843     3877
+macro_avg   0.686519  0.684786  0.685631     5476
+accuracy: 0.741234	macro_auc: 0.718115	macro_aupoc: 0.823213	doa: 0.592159	doa_know_support: 195	doa_z_support: 1570
+ICD, INFO -------- trait: 40 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  126124.945312   0.025193    10073
+a        8083.187012   0.007329     2219
+b       12088.925781   0.010962     2219
+user   126124.945312   0.025193    10073
+item    20172.112793   0.009146     2219
+macro_ave: 0.017169	micro_ave: 0.022296
+ICD, INFO ============= Stream[41/41/50] =============
+ICD, INFO ++++++++++++ 29.14988617070806 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 41 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.587109  0.565806  0.576261     1626
+1.0         0.819437  0.831992  0.825667     3851
+macro_avg   0.703273  0.698899  0.700964     5477
+accuracy: 0.752967	macro_auc: 0.722186	macro_aupoc: 0.823150	doa: 0.620146	doa_know_support: 209	doa_z_support: 1585
+ICD, INFO -------- trait: 41 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  115193.328125   0.022987    10083
+a        8895.384766   0.008062     2220
+b       14149.624023   0.012824     2220
+user   115193.328125   0.022987    10083
+item    23045.008789   0.010443     2220
+macro_ave: 0.016715	micro_ave: 0.020724
+ICD, INFO ============= Stream[42/42/50] =============
+ICD, INFO ++++++++++++ 34.04653017742409 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 42 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.593393  0.558947  0.575655     1671
+1.0         0.811219  0.831889  0.821424     3807
+macro_avg   0.702306  0.695418  0.698539     5478
+accuracy: 0.748631	macro_auc: 0.731504	macro_aupoc: 0.825426	doa: 0.594116	doa_know_support: 188	doa_z_support: 1462
+ICD, INFO -------- trait: 42 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  116091.539062   0.023150    10090
+a       17604.691406   0.015956     2220
+b       19412.255859   0.017594     2220
+user   116091.539062   0.023150    10090
+item    37016.947266   0.016775     2220
+macro_ave: 0.019963	micro_ave: 0.022000
+ICD, INFO ============= Stream[43/43/50] =============
+ICD, INFO ++++++++++++ 131.51503754372993 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 43 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.597602  0.532660  0.563265     1684
+1.0         0.802062  0.840759  0.820955     3793
+macro_avg   0.699832  0.686710  0.692110     5477
+accuracy: 0.746029	macro_auc: 0.719665	macro_aupoc: 0.810979	doa: 0.601575	doa_know_support: 196	doa_z_support: 1503
+ICD, INFO -------- trait: 43 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  111112.773438   0.022144    10096
+a       11408.896484   0.010340     2220
+b       11708.990234   0.010612     2220
+user   111112.773438   0.022144    10096
+item    23117.886719   0.010476     2220
+macro_ave: 0.016310	micro_ave: 0.020041
+ICD, INFO ============= Stream[44/44/50] =============
+ICD, INFO ++++++++++++ 125.52752134999706 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 44 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.737052  0.224787  0.344507     1646
+1.0         0.743569  0.965553  0.840145     3832
+macro_avg   0.740310  0.595170  0.592326     5478
+accuracy: 0.742972	macro_auc: 0.734167	macro_aupoc: 0.830166	doa: 0.506845	doa_know_support: 194	doa_z_support: 1364
+ICD, INFO -------- trait: 44 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  112211.968750   0.022352    10101
+a        6381.038086   0.005783     2220
+b       11398.171875   0.010331     2220
+user   112211.968750   0.022352    10101
+item    17779.209961   0.008057     2220
+macro_ave: 0.015205	micro_ave: 0.019776
+ICD, INFO ============= Stream[45/45/50] =============
+ICD, INFO ++++++++++++ 207.88945440616604 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 45 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.614079  0.592480  0.603086     1649
+1.0         0.827027  0.839561  0.833247     3827
+macro_avg   0.720553  0.716021  0.718167     5476
+accuracy: 0.765157	macro_auc: 0.742561	macro_aupoc: 0.829058	doa: 0.670242	doa_know_support: 179	doa_z_support: 1456
+ICD, INFO -------- trait: 45 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  102270.687500   0.020360    10107
+a        6425.458008   0.005824     2220
+b       11123.666992   0.010082     2220
+user   102270.687500   0.020360    10107
+item    17549.125000   0.007953     2220
+macro_ave: 0.014156	micro_ave: 0.018125
+ICD, INFO ============= Stream[46/46/50] =============
+ICD, INFO ++++++++++++ 59.66327085004376 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 46 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.560237  0.584158  0.571948     1616
+1.0         0.822972  0.808279  0.815559     3865
+macro_avg   0.691604  0.696219  0.693754     5481
+accuracy: 0.742200	macro_auc: 0.729511	macro_aupoc: 0.825866	doa: 0.661346	doa_know_support: 193	doa_z_support: 1461
+ICD, INFO -------- trait: 46 ----------
+ICD, INFO 
+               delta  delta_ave  support
+theta  102912.046875   0.020477    10112
+a        6887.223145   0.006242     2220
+b       11750.101562   0.010650     2220
+user   102912.046875   0.020477    10112
+item    18637.324707   0.008446     2220
+macro_ave: 0.014462	micro_ave: 0.018311
+ICD, INFO ============= Stream[47/47/50] =============
+ICD, INFO ++++++++++++ 82.18980247184903 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 47 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.585666  0.533914  0.558594     1607
+1.0         0.813403  0.843233  0.828050     3872
+macro_avg   0.699534  0.688574  0.693322     5479
+accuracy: 0.752510	macro_auc: 0.719184	macro_aupoc: 0.821796	doa: 0.601679	doa_know_support: 188	doa_z_support: 1374
+ICD, INFO -------- trait: 47 ----------
+ICD, INFO 
+              delta  delta_ave  support
+theta  98238.226562   0.019534    10119
+a      14375.062500   0.013029     2220
+b      13818.847656   0.012525     2220
+user   98238.226562   0.019534    10119
+item   28193.910156   0.012777     2220
+macro_ave: 0.016155	micro_ave: 0.018318
+ICD, INFO ============= Stream[48/48/50] =============
+ICD, INFO ++++++++++++ 265.80041555671 > 4.4586993619215916 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 48 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.589103  0.563458  0.575995     1631
+1.0         0.818135  0.833247  0.825622     3844
+macro_avg   0.703619  0.698352  0.700808     5475
+accuracy: 0.752877	macro_auc: 0.721921	macro_aupoc: 0.818218	doa: 0.559070	doa_know_support: 189	doa_z_support: 1303
+ICD, INFO -------- trait: 48 ----------
+ICD, INFO 
+              delta  delta_ave  support
+theta  94186.968750   0.018725    10121
+a      13778.512695   0.012488     2220
+b      15379.918945   0.013939     2220
+user   94186.968750   0.018725    10121
+item   29158.431641   0.013214     2220
+macro_ave: 0.015969	micro_ave: 0.017733
+ICD, INFO -------- tp: 0 ----------
+ICD, INFO 
+{'tps': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48], 'tp_cnt': 49, 'total': 49}

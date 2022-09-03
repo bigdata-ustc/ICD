@@ -1,0 +1,2 @@
+ICD, INFO logs to /home/yutingh/icd/data/xunfei/model/mirt/icd_mirt_inc_0.2_/log.txt
+ICD, INFO {'dataset': 'xunfei', 'cdm': 'mirt', 'alpha': 0.2, 'beta': 0.9, 'tolerance': 0.2, 'ctx': 'cuda:0', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': True, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01}

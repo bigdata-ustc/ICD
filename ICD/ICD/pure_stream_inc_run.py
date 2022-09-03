@@ -13,7 +13,7 @@ from sym import eval_f, get_net, DualICD, get_dual_loss, dual_fit_f, stableness_
 from longling import build_dir
 from longling.lib.stream import to_io_group, close_io
 from ICD.utils import output_metrics
-
+from ICD.constant import path_prefix
 
 def run(cdm, user_n, item_n, know_n, dataset, max_u2i=None, max_i2u=None,
         stream_num=50, alpha=0.999, beta=0.95, tolerance=1e-3,
@@ -23,7 +23,7 @@ def run(cdm, user_n, item_n, know_n, dataset, max_u2i=None, max_i2u=None,
         *args, **kwargs):
     torch.manual_seed(0)
 
-    dataset_dir = "/home/yutingh/icd/data/%s/" % dataset
+    dataset_dir = "%s/data/%s/" % (path_prefix,dataset)
     data_dir = dataset_dir
 
     cfg = Configuration(
@@ -217,7 +217,7 @@ def main(dataset="xunfei", ctx="cuda:0", cdm="mirt",
          inc_epoch=None, inner_metrics=True, log_file="log", warmup_ratio=0.1, epsilon=1e-2, stream_num=None,
          vector_numbers=None):
     if savename:
-        dataset_dir = "/home/yutingh/icd/data/%s/" % dataset
+        dataset_dir = "%s/data/%s/" % (path_prefix,dataset)
         data_dir = dataset_dir
         model_dir = data_dir + "model/%s/%s/" % (cdm, savename)
         keys = [

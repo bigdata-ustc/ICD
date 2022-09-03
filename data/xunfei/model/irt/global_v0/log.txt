@@ -1,0 +1,1027 @@
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:2
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 10177, 'item_num': 2226, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- metrics: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.287625  0.101775  0.150350      845
+1.0         0.731992  0.906824  0.810082     2286
+macro_avg   0.509808  0.504300  0.480216     3131
+accuracy: 0.689556	macro_auc: 0.530827	macro_aupoc: 0.741670	doa: 0.505907	doa_know_support: 225	doa_z_support: 2719
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- metrics: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.305913  0.099832  0.150538     1192
+1.0         0.723240  0.912167  0.806790     3074
+macro_avg   0.514576  0.505999  0.478664     4266
+accuracy: 0.685185	macro_auc: 0.512300	macro_aupoc: 0.735545	doa: 0.499860	doa_know_support: 246	doa_z_support: 4390
+Base, INFO -------- trait: 1 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4872.696289   1.445046     3372
+a       258.388214   0.239915     1077
+b      1502.307983   1.394901     1077
+user   4872.696289   1.445046     3372
+item   1760.696198   0.240986     1077
+macro_ave: 0.843016	micro_ave: 1.153571
+Base, INFO -------- inc_trait: 1 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4846.958984   1.466997     3304
+a       256.236542   0.239250     1071
+b      1499.136230   1.399754     1071
+user   4846.958984   1.466997     3304
+item   1755.372772   0.240332     1071
+macro_ave: 0.853665	micro_ave: 1.166710
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- metrics: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.266537  0.107031  0.152731     1280
+1.0         0.730106  0.891323  0.802700     3469
+macro_avg   0.498322  0.499177  0.477716     4749
+accuracy: 0.679933	macro_auc: 0.531391	macro_aupoc: 0.751543	doa: 0.529285	doa_know_support: 261	doa_z_support: 5612
+Base, INFO -------- trait: 2 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6786.324219   1.415882     4793
+a       280.002014   0.245186     1142
+b      1582.556641   1.385776     1142
+user   6786.324219   1.415882     4793
+item   1862.558655   0.246184     1142
+macro_ave: 0.831033	micro_ave: 1.190811
+Base, INFO -------- inc_trait: 2 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4721.750977   1.425649     3312
+a       268.856171   0.245307     1096
+b      1523.605957   1.390151     1096
+user   4721.750977   1.425649     3312
+item   1792.462128   0.246350     1096
+macro_ave: 0.836000	micro_ave: 1.132430
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- metrics: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.344037  0.111111  0.167973     1350
+1.0         0.734455  0.920666  0.817085     3605
+macro_avg   0.539246  0.515888  0.492529     4955
+accuracy: 0.700101	macro_auc: 0.548630	macro_aupoc: 0.756759	doa: 0.459218	doa_know_support: 275	doa_z_support: 5765
+Base, INFO -------- trait: 3 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  7836.240723   1.423218     5506
+a       295.706451   0.253390     1167
+b      1688.392578   1.446780     1167
+user   7836.240723   1.423218     5506
+item   1984.099030   0.254412     1167
+macro_ave: 0.838815	micro_ave: 1.218813
+Base, INFO -------- inc_trait: 3 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4720.304688   1.415808     3334
+a       279.658386   0.254235     1100
+b      1592.918213   1.448107     1100
+user   4720.304688   1.415808     3334
+item   1872.576599   0.255319     1100
+macro_ave: 0.835564	micro_ave: 1.127911
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- metrics: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.360179  0.119436  0.179387     1348
+1.0         0.743185  0.923139  0.823445     3721
+macro_avg   0.551682  0.521288  0.501416     5069
+accuracy: 0.709410	macro_auc: 0.557845	macro_aupoc: 0.770378	doa: 0.487883	doa_know_support: 265	doa_z_support: 6265
+Base, INFO -------- trait: 4 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  8369.396484   1.419504     5896
+a       278.323914   0.236670     1176
+b      1684.244019   1.432180     1176
+user   8369.396484   1.419504     5896
+item   1962.567932   0.237686     1176
+macro_ave: 0.828595	micro_ave: 1.222980
+Base, INFO -------- inc_trait: 4 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4715.925781   1.422602     3315
+a       255.466293   0.237643     1075
+b      1523.152588   1.416886     1075
+user   4715.925781   1.422602     3315
+item   1778.618881   0.238739     1075
+macro_ave: 0.830671	micro_ave: 1.132704
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- metrics: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.355609  0.110044  0.168077     1354
+1.0         0.744595  0.928628  0.826491     3783
+macro_avg   0.550102  0.519336  0.497284     5137
+accuracy: 0.712867	macro_auc: 0.555974	macro_aupoc: 0.767974	doa: 0.498471	doa_know_support: 263	doa_z_support: 6335
+Base, INFO -------- trait: 5 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  8762.351562   1.426396     6143
+a       269.438354   0.228920     1177
+b      1640.854004   1.394099     1177
+user   8762.351562   1.426396     6143
+item   1910.292358   0.229909     1177
+macro_ave: 0.828152	micro_ave: 1.234010
+Base, INFO -------- inc_trait: 5 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4776.430664   1.431355     3337
+a       251.669174   0.230466     1092
+b      1513.294312   1.385801     1092
+user   4776.430664   1.431355     3337
+item   1764.963486   0.231523     1092
+macro_ave: 0.831439	micro_ave: 1.135528
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- metrics: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.327543  0.097273  0.150000     1357
+1.0         0.743455  0.929076  0.825966     3821
+macro_avg   0.535499  0.513175  0.487983     5178
+accuracy: 0.711085	macro_auc: 0.562846	macro_aupoc: 0.774867	doa: 0.480557	doa_know_support: 275	doa_z_support: 6643
+Base, INFO -------- trait: 6 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  9002.834961   1.426079     6313
+a       282.170471   0.239330     1179
+b      1679.395630   1.424424     1179
+user   9002.834961   1.426079     6313
+item   1961.566101   0.240335     1179
+macro_ave: 0.833207	micro_ave: 1.239481
+Base, INFO -------- inc_trait: 6 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4799.398438   1.428392     3360
+a       260.822021   0.240389     1085
+b      1558.258667   1.436183     1085
+user   4799.398438   1.428392     3360
+item   1819.080688   0.241490     1085
+macro_ave: 0.834941	micro_ave: 1.138676
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- metrics: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.337691  0.111671  0.167840     1388
+1.0         0.740803  0.920585  0.820967     3828
+macro_avg   0.539247  0.516128  0.494403     5216
+accuracy: 0.705330	macro_auc: 0.569380	macro_aupoc: 0.779975	doa: 0.501876	doa_know_support: 269	doa_z_support: 6783
+Base, INFO -------- trait: 7 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  9123.644531   1.420686     6422
+a       275.093689   0.233328     1179
+b      1646.433838   1.396466     1179
+user   9123.644531   1.420686     6422
+item   1921.527527   0.234314     1179
+macro_ave: 0.827500	micro_ave: 1.236666
+Base, INFO -------- inc_trait: 7 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4636.116211   1.401910     3307
+a       250.402206   0.232069     1079
+b      1501.046875   1.391146     1079
+user   4636.116211   1.401910     3307
+item   1751.449081   0.233142     1079
+macro_ave: 0.817526	micro_ave: 1.114381
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- metrics: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.395062  0.118694  0.182544     1348
+1.0         0.753425  0.936774  0.835155     3875
+macro_avg   0.574243  0.527734  0.508849     5223
+accuracy: 0.725637	macro_auc: 0.598276	macro_aupoc: 0.803804	doa: 0.535631	doa_know_support: 274	doa_z_support: 6827
+Base, INFO -------- trait: 8 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  9248.515625   1.422849     6500
+a       281.545471   0.238800     1179
+b      1676.179199   1.421696     1179
+user   9248.515625   1.422849     6500
+item   1957.724670   0.239803     1179
+macro_ave: 0.831326	micro_ave: 1.241209
+Base, INFO -------- inc_trait: 8 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4594.088867   1.398079     3286
+a       261.829163   0.243110     1077
+b      1533.536133   1.423896     1077
+user   4594.088867   1.398079     3286
+item   1795.365295   0.244205     1077
+macro_ave: 0.821142	micro_ave: 1.113247
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- metrics: 9 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.409877  0.118911  0.184342     1396
+1.0         0.744919  0.937614  0.830232     3831
+macro_avg   0.577398  0.528263  0.507287     5227
+accuracy: 0.718959	macro_auc: 0.603808	macro_aupoc: 0.794109	doa: 0.496910	doa_know_support: 263	doa_z_support: 6646
+Base, INFO -------- trait: 9 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  9388.524414   1.433362     6550
+a       281.429260   0.238499     1180
+b      1610.114380   1.364504     1180
+user   9388.524414   1.433362     6550
+item   1891.543640   0.239453     1180
+macro_ave: 0.836408	micro_ave: 1.251110
+Base, INFO -------- inc_trait: 9 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  4701.856934   1.422650     3305
+a       262.220490   0.240349     1091
+b      1476.796143   1.353617     1091
+user   4701.856934   1.422650     3305
+item   1739.016632   0.241368     1091
+macro_ave: 0.832009	micro_ave: 1.129479
+Base, INFO ============= Stream[10/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:2
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 10177, 'item_num': 2226, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:2
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:2
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- inc_user: 48 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.695946  0.515737  0.592440     1398
+1.0         0.840104  0.918647  0.877622     3872
+macro_avg   0.768025  0.717192  0.735031     5270
+accuracy: 0.811765	macro_auc: 0.840882	macro_aupoc: 0.927840	doa: 0.667118	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- inc_item: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.724169  0.552302  0.626665    68171
+1.0         0.852016  0.924544  0.886800   190059
+macro_avg   0.788092  0.738423  0.756732   258230
+accuracy: 0.826275	macro_auc: 0.869871	macro_aupoc: 0.944413	doa: 0.720055	doa_know_support: 360	doa_z_support: 16693919
+Base, INFO -------- metrics: 48 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.695946  0.515737  0.592440     1398
+1.0         0.840104  0.918647  0.877622     3872
+macro_avg   0.768025  0.717192  0.735031     5270
+accuracy: 0.811765	macro_auc: 0.840882	macro_aupoc: 0.927840	doa: 0.667118	doa_know_support: 269	doa_z_support: 6887
+Base, INFO -------- trait: 48 ----------
+Base, INFO 
+            delta  delta_ave  support
+theta  213.785461   0.031351     6819
+a        7.537852   0.006388     1180
+b       35.847687   0.030379     1180
+user   213.785461   0.031351     6819
+item    43.385539   0.006408     1180
+macro_ave: 0.018880	micro_ave: 0.027672
+Base, INFO -------- inc_trait: 48 ----------
+Base, INFO 
+            delta  delta_ave  support
+theta  107.774002   0.032888     3277
+a        7.018776   0.006387     1099
+b       34.154686   0.031078     1099
+user   107.774002   0.032888     3277
+item    41.173462   0.006409     1099
+macro_ave: 0.019648	micro_ave: 0.026238
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.001, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.001, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.001, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.01, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.0001, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.0005, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.0003, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ============= Stream[21/50] =============
+Base, INFO ============= Stream[22/50] =============
+Base, INFO ============= Stream[23/50] =============
+Base, INFO ============= Stream[24/50] =============
+Base, INFO ============= Stream[25/50] =============
+Base, INFO ============= Stream[26/50] =============
+Base, INFO ============= Stream[27/50] =============
+Base, INFO ============= Stream[28/50] =============
+Base, INFO ============= Stream[29/50] =============
+Base, INFO ============= Stream[30/50] =============
+Base, INFO ============= Stream[31/50] =============
+Base, INFO ============= Stream[32/50] =============
+Base, INFO ============= Stream[33/50] =============
+Base, INFO ============= Stream[34/50] =============
+Base, INFO ============= Stream[35/50] =============
+Base, INFO ============= Stream[36/50] =============
+Base, INFO ============= Stream[37/50] =============
+Base, INFO ============= Stream[38/50] =============
+Base, INFO ============= Stream[39/50] =============
+Base, INFO ============= Stream[40/50] =============
+Base, INFO ============= Stream[41/50] =============
+Base, INFO ============= Stream[42/50] =============
+Base, INFO ============= Stream[43/50] =============
+Base, INFO ============= Stream[44/50] =============
+Base, INFO ============= Stream[45/50] =============
+Base, INFO ============= Stream[46/50] =============
+Base, INFO ============= Stream[47/50] =============
+Base, INFO ============= Stream[48/50] =============
+Base, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'inc_type': 'global', 'log_file': 'python3', 'warmup_ratio': '/home/yutingh/icd/ICD/Base/pure_stream_run.py'}
+Base, INFO logger: <Logger irt (INFO)>
+model_name: irt
+model_dir: irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.001, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:3
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 6821, 'item_num': 1197, 'know_n': 497}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: irt/result.json
+cfg_path: irt/configuration.json
+time_digital: True

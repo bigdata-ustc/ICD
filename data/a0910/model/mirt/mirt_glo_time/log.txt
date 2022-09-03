@@ -1,0 +1,3408 @@
+Base, INFO {'dataset': 'a0910', 'cdm': 'mirt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger mirt (INFO)>
+model_name: mirt
+model_dir: mirt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0.0001}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:0
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 4129, 'item_num': 17747, 'know_n': 123}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: mirt/result.json
+cfg_path: mirt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- inc_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.447426  0.547953  0.492613     1856
+1.0         0.727154  0.640321  0.680981     3492
+macro_avg   0.587290  0.594137  0.586797     5348
+accuracy: 0.608265	macro_auc: 0.617336	macro_aupoc: 0.723411	doa: 0.495203	doa_know_support: 67	doa_z_support: 880
+Base, INFO -------- new_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- inc_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.447426  0.547953  0.492613     1856
+1.0         0.727154  0.640321  0.680981     3492
+macro_avg   0.587290  0.594137  0.586797     5348
+accuracy: 0.608265	macro_auc: 0.617336	macro_aupoc: 0.723411	doa: 0.495203	doa_know_support: 67	doa_z_support: 880
+Base, INFO -------- new_both: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- metrics: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.526316  0.531915  0.529101       94
+1.0         0.650794  0.645669  0.648221      127
+macro_avg   0.588555  0.588792  0.588661      221
+accuracy: 0.597285	macro_auc: 0.599012	macro_aupoc: 0.650035	doa: 0.500000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- inc_user: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.667910  0.758475  0.710317      236
+1.0         0.847594  0.780788  0.812821      406
+macro_avg   0.757752  0.769631  0.761569      642
+accuracy: 0.772586	macro_auc: 0.821909	macro_aupoc: 0.885372	doa: 0.522222	doa_know_support: 15	doa_z_support: 24
+Base, INFO -------- new_item: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.444068  0.386431  0.413249      339
+1.0         0.687688  0.736334  0.711180      622
+macro_avg   0.565878  0.561383  0.562215      961
+accuracy: 0.612903	macro_auc: 0.579452	macro_aupoc: 0.699088	doa: 0.399275	doa_know_support: 44	doa_z_support: 173
+Base, INFO -------- inc_item: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.698554  0.621782  0.657936     1010
+1.0         0.824287  0.868638  0.845882     2063
+macro_avg   0.761420  0.745210  0.751909     3073
+accuracy: 0.787504	macro_auc: 0.816389	macro_aupoc: 0.873424	doa: 0.593914	doa_know_support: 62	doa_z_support: 356
+Base, INFO -------- new_both: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.580645  0.529412  0.553846       34
+1.0         0.619048  0.666667  0.641975       39
+macro_avg   0.599846  0.598039  0.597911       73
+accuracy: 0.602740	macro_auc: 0.618401	macro_aupoc: 0.662943	doa: 0.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- metrics: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.426230  0.390977  0.407843     1064
+1.0         0.689952  0.720280  0.704790     2002
+macro_avg   0.558091  0.555629  0.556316     3066
+accuracy: 0.606001	macro_auc: 0.569867	macro_aupoc: 0.696012	doa: 0.527058	doa_know_support: 51	doa_z_support: 603
+Base, INFO -------- trait: 1 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  39258.746094   0.205523     1553
+a      26980.417969   0.054255     4043
+b        935.348633   0.231350     4043
+user   39258.746094   0.205523     1553
+item   27915.766602   0.055683     4043
+macro_ave: 0.130603	micro_ave: 0.097267
+Base, INFO -------- inc_trait: 1 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  45837.656250   0.236612     1575
+a      29899.296875   0.060021     4050
+b       1237.927979   0.305661     4050
+user   45837.656250   0.236612     1575
+item   31137.224854   0.062002     4050
+macro_ave: 0.149307	micro_ave: 0.110893
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.468750  0.405405  0.434783       37
+1.0         0.710526  0.760563  0.734694       71
+macro_avg   0.589638  0.582984  0.584738      108
+accuracy: 0.638889	macro_auc: 0.580891	macro_aupoc: 0.729018	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- inc_user: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.867257  0.867257  0.867257      113
+1.0         0.916201  0.916201  0.916201      179
+macro_avg   0.891729  0.891729  0.891729      292
+accuracy: 0.897260	macro_auc: 0.966035	macro_aupoc: 0.980160	doa: 0.777778	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- new_item: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.485294  0.336735  0.397590      196
+1.0         0.694118  0.808219  0.746835      365
+macro_avg   0.589706  0.572477  0.572213      561
+accuracy: 0.643494	macro_auc: 0.633156	macro_aupoc: 0.744675	doa: 0.634524	doa_know_support: 28	doa_z_support: 58
+Base, INFO -------- inc_item: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.844828  0.660180  0.741176      668
+1.0         0.855137  0.942998  0.896921     1421
+macro_avg   0.849982  0.801589  0.819049     2089
+accuracy: 0.852561	macro_auc: 0.922155	macro_aupoc: 0.961035	doa: 0.516057	doa_know_support: 55	doa_z_support: 184
+Base, INFO -------- new_both: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.000000  0.000000  0.000000        5
+1.0         0.583333  0.777778  0.666667        9
+macro_avg   0.291667  0.388889  0.333333       14
+accuracy: 0.500000	macro_auc: 0.555556	macro_aupoc: 0.749858	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.465598  0.371150  0.413043     1331
+1.0         0.693069  0.769231  0.729167     2457
+macro_avg   0.579334  0.570190  0.571105     3788
+accuracy: 0.629356	macro_auc: 0.595246	macro_aupoc: 0.709817	doa: 0.574664	doa_know_support: 57	doa_z_support: 739
+Base, INFO -------- trait: 2 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  44491.015625   0.182224     1985
+a      35134.648438   0.043624     6548
+b       1305.712402   0.199406     6548
+user   44491.015625   0.182224     1985
+item   36440.360840   0.044880     6548
+macro_ave: 0.113552	micro_ave: 0.076830
+Base, INFO -------- inc_trait: 2 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  35038.843750   0.180640     1577
+a      21680.039062   0.043350     4066
+b        894.379150   0.219965     4066
+user   35038.843750   0.180640     1577
+item   22574.418213   0.044774     4066
+macro_ave: 0.112707	micro_ave: 0.082743
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.421053  0.500000  0.457143       16
+1.0         0.764706  0.702703  0.732394       37
+macro_avg   0.592879  0.601351  0.594769       53
+accuracy: 0.641509	macro_auc: 0.628378	macro_aupoc: 0.812914	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.847458  0.862069  0.854701       58
+1.0         0.920792  0.911765  0.916256      102
+macro_avg   0.884125  0.886917  0.885479      160
+accuracy: 0.893750	macro_auc: 0.972279	macro_aupoc: 0.984831	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- new_item: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.376344  0.353535  0.364583       99
+1.0         0.741935  0.760331  0.751020      242
+macro_avg   0.559140  0.556933  0.557802      341
+accuracy: 0.642229	macro_auc: 0.591619	macro_aupoc: 0.759286	doa: 0.513333	doa_know_support: 15	doa_z_support: 21
+Base, INFO -------- inc_item: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.874016  0.701053  0.778037      475
+1.0         0.866416  0.950464  0.906496      969
+macro_avg   0.870216  0.825759  0.842267     1444
+accuracy: 0.868421	macro_auc: 0.943903	macro_aupoc: 0.972923	doa: 0.585714	doa_know_support: 38	doa_z_support: 99
+Base, INFO -------- new_both: 3 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              0.0     0.0  0.0        2
+1.0              0.6     0.6  0.6        5
+macro_avg        0.3     0.3  0.3        7
+accuracy: 0.428571	macro_auc: 0.200000	macro_aupoc: 0.696190	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.467700  0.366892  0.411208     1480
+1.0         0.689117  0.770686  0.727623     2695
+macro_avg   0.578409  0.568789  0.569415     4175
+accuracy: 0.627545	macro_auc: 0.606483	macro_aupoc: 0.720360	doa: 0.504385	doa_know_support: 61	doa_z_support: 847
+Base, INFO -------- trait: 3 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  33031.714844   0.122402     2194
+a      18849.453125   0.018397     8330
+b        957.264038   0.114918     8330
+user   33031.714844   0.122402     2194
+item   19806.717163   0.019175     8330
+macro_ave: 0.070789	micro_ave: 0.040696
+Base, INFO -------- inc_trait: 3 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  23289.992188   0.121378     1560
+a       9188.556641   0.018643     4007
+b        503.266174   0.125597     4007
+user   23289.992188   0.121378     1560
+item    9691.822815   0.019506     4007
+macro_ave: 0.070442	micro_ave: 0.048053
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.700000  0.411765  0.518519       17
+1.0         0.545455  0.800000  0.648649       15
+macro_avg   0.622727  0.605882  0.583584       32
+accuracy: 0.593750	macro_auc: 0.596078	macro_aupoc: 0.624106	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.926829  0.904762  0.915663       42
+1.0         0.921569  0.940000  0.930693       50
+macro_avg   0.924199  0.922381  0.923178       92
+accuracy: 0.923913	macro_auc: 0.986667	macro_aupoc: 0.989067	doa: 1.000000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- new_item: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.369863  0.337500  0.352941       80
+1.0         0.705556  0.734104  0.719547      173
+macro_avg   0.537709  0.535802  0.536244      253
+accuracy: 0.608696	macro_auc: 0.537717	macro_aupoc: 0.688207	doa: 0.500000	doa_know_support: 11	doa_z_support: 12
+Base, INFO -------- inc_item: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.833856  0.734807  0.781204      362
+1.0         0.877081  0.928184  0.901909      738
+macro_avg   0.855468  0.831495  0.841557     1100
+accuracy: 0.864545	macro_auc: 0.939620	macro_aupoc: 0.970564	doa: 0.615812	doa_know_support: 39	doa_z_support: 63
+Base, INFO -------- new_both: 4 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.474832  0.387406  0.426687     1461
+1.0         0.719260  0.785543  0.750942     2919
+macro_avg   0.597046  0.586474  0.588814     4380
+accuracy: 0.652740	macro_auc: 0.624784	macro_aupoc: 0.747445	doa: 0.481207	doa_know_support: 54	doa_z_support: 719
+Base, INFO -------- trait: 4 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  23114.212891   0.081492     2306
+a       7572.680664   0.006421     9588
+b        606.298706   0.063235     9588
+user   23114.212891   0.081492     2306
+item    8178.979370   0.006879     9588
+macro_ave: 0.044186	micro_ave: 0.021345
+Base, INFO -------- inc_trait: 4 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  17609.277344   0.092603     1546
+a       4309.697266   0.008775     3993
+b        336.605347   0.084299     3993
+user   17609.277344   0.092603     1546
+item    4646.302612   0.009384     3993
+macro_ave: 0.050994	micro_ave: 0.032611
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.222222  0.500000  0.307692        4
+1.0         0.666667  0.363636  0.470588       11
+macro_avg   0.444444  0.431818  0.389140       15
+accuracy: 0.400000	macro_auc: 0.568182	macro_aupoc: 0.838355	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.875000  0.823529  0.848485       17
+1.0         0.928571  0.951220  0.939759       41
+macro_avg   0.901786  0.887374  0.894122       58
+accuracy: 0.913793	macro_auc: 0.979914	macro_aupoc: 0.991784	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.516129  0.246154  0.333333       65
+1.0         0.671141  0.869565  0.757576      115
+macro_avg   0.593635  0.557860  0.545455      180
+accuracy: 0.644444	macro_auc: 0.579532	macro_aupoc: 0.700938	doa: 0.250000	doa_know_support: 6	doa_z_support: 10
+Base, INFO -------- inc_item: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.836735  0.669935  0.744102      306
+1.0         0.850592  0.934959  0.890782      615
+macro_avg   0.843663  0.802447  0.817442      921
+accuracy: 0.846906	macro_auc: 0.936352	macro_aupoc: 0.968509	doa: 0.510714	doa_know_support: 28	doa_z_support: 39
+Base, INFO -------- metrics: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.496855  0.348018  0.409326     1589
+1.0         0.701183  0.812772  0.752865     2991
+macro_avg   0.599019  0.580395  0.581096     4580
+accuracy: 0.651528	macro_auc: 0.621134	macro_aupoc: 0.740882	doa: 0.528920	doa_know_support: 62	doa_z_support: 916
+Base, INFO -------- trait: 5 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  17158.318359   0.058662     2378
+a       4376.239746   0.003370    10558
+b        427.748108   0.040514    10558
+user   17158.318359   0.058662     2378
+item    4803.987854   0.003669    10558
+macro_ave: 0.031166	micro_ave: 0.013779
+Base, INFO -------- inc_trait: 5 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  14056.625977   0.071605     1596
+a       2925.298340   0.005833     4077
+b        278.552399   0.068323     4077
+user   14056.625977   0.071605     1596
+item    3203.850739   0.006337     4077
+macro_ave: 0.038971	micro_ave: 0.024699
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 6 ----------
+Base, INFO 
+           precision  recall        f1  support
+0.0         0.571429  0.8000  0.666667        5
+1.0         0.833333  0.6250  0.714286        8
+macro_avg   0.702381  0.7125  0.690476       13
+accuracy: 0.692308	macro_auc: 0.625000	macro_aupoc: 0.785795	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.941176  0.800000  0.864865       20
+1.0         0.875000  0.965517  0.918033       29
+macro_avg   0.908088  0.882759  0.891449       49
+accuracy: 0.897959	macro_auc: 0.970690	macro_aupoc: 0.981152	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.305556  0.297297  0.301370       37
+1.0         0.704545  0.712644  0.708571       87
+macro_avg   0.505051  0.504970  0.504971      124
+accuracy: 0.588710	macro_auc: 0.539298	macro_aupoc: 0.719102	doa: 0.111111	doa_know_support: 6	doa_z_support: 10
+Base, INFO -------- inc_item: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.832512  0.764706  0.797170      221
+1.0         0.900000  0.932271  0.915851      502
+macro_avg   0.866256  0.848488  0.856511      723
+accuracy: 0.881051	macro_auc: 0.938517	macro_aupoc: 0.970422	doa: 0.658333	doa_know_support: 20	doa_z_support: 25
+Base, INFO -------- metrics: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.454876  0.376279  0.411862     1661
+1.0         0.691758  0.756344  0.722611     3074
+macro_avg   0.573317  0.566311  0.567236     4735
+accuracy: 0.623020	macro_auc: 0.609196	macro_aupoc: 0.732798	doa: 0.507555	doa_know_support: 60	doa_z_support: 813
+Base, INFO -------- trait: 6 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  13985.708984   0.046986     2420
+a       3519.143311   0.002513    11386
+b        344.317627   0.030240    11386
+user   13985.708984   0.046986     2420
+item    3863.460938   0.002736    11386
+macro_ave: 0.024861	micro_ave: 0.010493
+Base, INFO -------- inc_trait: 6 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  11778.814453   0.061034     1569
+a       2436.692627   0.004961     3993
+b        243.042877   0.060867     3993
+user   11778.814453   0.061034     1569
+item    2679.735504   0.005412     3993
+macro_ave: 0.033223	micro_ave: 0.021103
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 7 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 7 ----------
+Base, INFO 
+           precision  recall        f1  support
+0.0         0.857143  1.0000  0.923077        6
+1.0         1.000000  0.8750  0.933333        8
+macro_avg   0.928571  0.9375  0.928205       14
+accuracy: 0.928571	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.444444  0.387097  0.413793       31
+1.0         0.720588  0.765625  0.742424       64
+macro_avg   0.582516  0.576361  0.578109       95
+accuracy: 0.642105	macro_auc: 0.611895	macro_aupoc: 0.740923	doa: 0.000000	doa_know_support: 4	doa_z_support: 6
+Base, INFO -------- inc_item: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.798742  0.644670  0.713483      197
+1.0         0.841629  0.920792  0.879433      404
+macro_avg   0.820186  0.782731  0.796458      601
+accuracy: 0.830283	macro_auc: 0.911695	macro_aupoc: 0.955156	doa: 0.732143	doa_know_support: 14	doa_z_support: 24
+Base, INFO -------- metrics: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.476569  0.357569  0.408580     1678
+1.0         0.698039  0.790860  0.741556     3151
+macro_avg   0.587304  0.574214  0.575068     4829
+accuracy: 0.640298	macro_auc: 0.618681	macro_aupoc: 0.732969	doa: 0.483073	doa_know_support: 64	doa_z_support: 888
+Base, INFO -------- trait: 7 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  11703.556641   0.038742     2456
+a       3287.399170   0.002219    12044
+b        298.805664   0.024810    12044
+user   11703.556641   0.038742     2456
+item    3586.204834   0.002401    12044
+macro_ave: 0.020572	micro_ave: 0.008557
+Base, INFO -------- inc_trait: 7 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  10273.423828   0.053132     1572
+a       2282.411865   0.004549     4079
+b        227.687988   0.055820     4079
+user   10273.423828   0.053132     1572
+item    2510.099854   0.004963     4079
+macro_ave: 0.029047	micro_ave: 0.018363
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0            0.500  0.666667  0.571429        3
+1.0            0.750  0.600000  0.666667        5
+macro_avg      0.625  0.633333  0.619048        8
+accuracy: 0.625000	macro_auc: 0.600000	macro_aupoc: 0.686190	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 8 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              1.0     1.0  1.0        6
+1.0              1.0     1.0  1.0        5
+macro_avg        1.0     1.0  1.0       11
+accuracy: 1.000000	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.400000  0.400000  0.400000       20
+1.0         0.714286  0.714286  0.714286       42
+macro_avg   0.557143  0.557143  0.557143       62
+accuracy: 0.612903	macro_auc: 0.679762	macro_aupoc: 0.763607	doa: 0.166667	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- inc_item: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.801527  0.636364  0.709459      165
+1.0         0.840849  0.924198  0.880556      343
+macro_avg   0.821188  0.780281  0.795008      508
+accuracy: 0.830709	macro_auc: 0.884672	macro_aupoc: 0.937333	doa: 0.600000	doa_know_support: 15	doa_z_support: 21
+Base, INFO -------- metrics: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.502741  0.380332  0.433052     1688
+1.0         0.711925  0.802795  0.754634     3220
+macro_avg   0.607333  0.591563  0.593843     4908
+accuracy: 0.657498	macro_auc: 0.631638	macro_aupoc: 0.743139	doa: 0.555366	doa_know_support: 65	doa_z_support: 839
+Base, INFO -------- trait: 8 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  10123.093750   0.033334     2469
+a       3126.854736   0.002019    12589
+b        263.598633   0.020939    12589
+user   10123.093750   0.033334     2469
+item    3390.453369   0.002172    12589
+macro_ave: 0.017753	micro_ave: 0.007281
+Base, INFO -------- inc_trait: 8 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  9018.238281   0.046493     1577
+a      2098.563965   0.004253     4012
+b       212.929596   0.053073     4012
+user   9018.238281   0.046493     1577
+item   2311.493561   0.004646     4012
+macro_ave: 0.025570	micro_ave: 0.016454
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 9 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 9 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              1.0     1.0  1.0        2
+1.0              1.0     1.0  1.0        2
+macro_avg        1.0     1.0  1.0        4
+accuracy: 1.000000	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 9 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.642857  0.473684  0.545455       19
+1.0         0.736842  0.848485  0.788732       33
+macro_avg   0.689850  0.661085  0.667093       52
+accuracy: 0.711538	macro_auc: 0.706539	macro_aupoc: 0.774723	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_item: 9 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.780702  0.640288  0.703557      139
+1.0         0.845201  0.916107  0.879227      298
+macro_avg   0.812951  0.778198  0.791392      437
+accuracy: 0.828375	macro_auc: 0.897639	macro_aupoc: 0.948396	doa: 0.555556	doa_know_support: 12	doa_z_support: 16
+Base, INFO -------- metrics: 9 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.459398  0.356061  0.401182     1716
+1.0         0.697509  0.779920  0.736416     3267
+macro_avg   0.578454  0.567991  0.568799     4983
+accuracy: 0.633955	macro_auc: 0.607841	macro_aupoc: 0.735813	doa: 0.564445	doa_know_support: 65	doa_z_support: 829
+Base, INFO -------- trait: 9 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  8827.456055   0.028974     2477
+a      2995.894531   0.001865    13059
+b       241.542023   0.018496    13059
+user   8827.456055   0.028974     2477
+item   3237.436554   0.001999    13059
+macro_ave: 0.015486	micro_ave: 0.006300
+Base, INFO -------- inc_trait: 9 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  8005.453613   0.041011     1587
+a      1972.319458   0.003934     4076
+b       199.977524   0.049062     4076
+user   8005.453613   0.041011     1587
+item   2172.296982   0.004298     4076
+macro_ave: 0.022655	micro_ave: 0.014587
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 10 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 10 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.714286  1.000000  0.833333        5
+1.0         1.000000  0.666667  0.800000        6
+macro_avg   0.857143  0.833333  0.816667       11
+accuracy: 0.818182	macro_auc: 0.966667	macro_aupoc: 0.976190	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 10 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.357143  0.416667  0.384615       12
+1.0         0.794118  0.750000  0.771429       36
+macro_avg   0.575630  0.583333  0.578022       48
+accuracy: 0.666667	macro_auc: 0.564815	macro_aupoc: 0.790614	doa: 1.000000	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- inc_item: 10 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.747253  0.693878  0.719577       98
+1.0         0.886792  0.910853  0.898662      258
+macro_avg   0.817023  0.802365  0.809119      356
+accuracy: 0.851124	macro_auc: 0.897129	macro_aupoc: 0.958385	doa: 0.428571	doa_know_support: 7	doa_z_support: 9
+Base, INFO -------- metrics: 10 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.491349  0.408986  0.446401     1736
+1.0         0.711311  0.774747  0.741675     3263
+macro_avg   0.601330  0.591867  0.594038     4999
+accuracy: 0.647730	macro_auc: 0.629112	macro_aupoc: 0.742365	doa: 0.510739	doa_know_support: 70	doa_z_support: 953
+Base, INFO -------- trait: 10 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  8034.317871   0.026328     2481
+a      2923.591309   0.001765    13464
+b       233.539673   0.017345    13464
+user   8034.317871   0.026328     2481
+item   3157.130981   0.001891    13464
+macro_ave: 0.014109	micro_ave: 0.005693
+Base, INFO -------- inc_trait: 10 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  7404.934082   0.038468     1565
+a      1905.715088   0.003815     4061
+b       196.670807   0.048429     4061
+user   7404.934082   0.038468     1565
+item   2102.385895   0.004175     4061
+macro_ave: 0.021322	micro_ave: 0.013714
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- inc_user: 11 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              1.0     1.0  1.0        1
+1.0              1.0     1.0  1.0        1
+macro_avg        1.0     1.0  1.0        2
+accuracy: 1.000000	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 11 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0           0.3750  0.300000  0.333333       10
+1.0           0.7200  0.782609  0.750000       23
+macro_avg     0.5475  0.541304  0.541667       33
+accuracy: 0.636364	macro_auc: 0.565217	macro_aupoc: 0.710631	doa: 0.000000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- inc_item: 11 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.712766  0.614679  0.660099      109
+1.0         0.833992  0.886555  0.859470      238
+macro_avg   0.773379  0.750617  0.759784      347
+accuracy: 0.801153	macro_auc: 0.852016	macro_aupoc: 0.921135	doa: 0.681818	doa_know_support: 11	doa_z_support: 13
+Base, INFO -------- metrics: 11 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.485294  0.376497  0.424028     1753
+1.0         0.701855  0.786129  0.741605     3273
+macro_avg   0.593575  0.581313  0.582817     5026
+accuracy: 0.643255	macro_auc: 0.624083	macro_aupoc: 0.738409	doa: 0.619538	doa_know_support: 64	doa_z_support: 892
+Base, INFO -------- trait: 11 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  7269.643066   0.023755     2488
+a      2698.827637   0.001590    13801
+b       218.806396   0.015854    13801
+user   7269.643066   0.023755     2488
+item   2917.634033   0.001705    13801
+macro_ave: 0.012730	micro_ave: 0.005073
+Base, INFO -------- inc_trait: 11 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6769.778320   0.034378     1601
+a      1738.830811   0.003514     4023
+b       184.934296   0.045969     4023
+user   6769.778320   0.034378     1601
+item   1923.765106   0.003856     4023
+macro_ave: 0.019117	micro_ave: 0.012545
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 12 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 12 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 12 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.333333  0.307692  0.320000       13
+1.0         0.571429  0.600000  0.585366       20
+macro_avg   0.452381  0.453846  0.452683       33
+accuracy: 0.484848	macro_auc: 0.461538	macro_aupoc: 0.633134	doa: 0.500000	doa_know_support: 1	doa_z_support: 2
+Base, INFO -------- inc_item: 12 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.778947  0.616667  0.688372      120
+1.0         0.795556  0.895000  0.842353      200
+macro_avg   0.787251  0.755833  0.765363      320
+accuracy: 0.790625	macro_auc: 0.848375	macro_aupoc: 0.892422	doa: 0.750000	doa_know_support: 12	doa_z_support: 13
+Base, INFO -------- metrics: 12 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.455172  0.386643  0.418118     1707
+1.0         0.710454  0.764811  0.736631     3359
+macro_avg   0.582813  0.575727  0.577375     5066
+accuracy: 0.637386	macro_auc: 0.617787	macro_aupoc: 0.746763	doa: 0.474190	doa_know_support: 69	doa_z_support: 811
+Base, INFO -------- trait: 12 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6973.059082   0.022768     2490
+a      2545.266602   0.001466    14119
+b       220.714981   0.015632    14119
+user   6973.059082   0.022768     2490
+item   2765.981583   0.001580    14119
+macro_ave: 0.012174	micro_ave: 0.004756
+Base, INFO -------- inc_trait: 12 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6472.634766   0.033096     1590
+a      1646.180176   0.003309     4044
+b       187.750183   0.046427     4044
+user   6472.634766   0.033096     1590
+item   1833.930359   0.003657     4044
+macro_ave: 0.018377	micro_ave: 0.011965
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- inc_user: 13 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 13 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.666667  0.500000  0.571429        8
+1.0         0.809524  0.894737  0.850000       19
+macro_avg   0.738095  0.697368  0.710714       27
+accuracy: 0.777778	macro_auc: 0.710526	macro_aupoc: 0.800805	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_item: 13 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.826667  0.620000  0.708571      100
+1.0         0.815534  0.928177  0.868217      181
+macro_avg   0.821100  0.774088  0.788394      281
+accuracy: 0.818505	macro_auc: 0.881105	macro_aupoc: 0.930999	doa: 0.166667	doa_know_support: 3	doa_z_support: 4
+Base, INFO -------- metrics: 13 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.490052  0.383506  0.430281     1734
+1.0         0.714857  0.794781  0.752703     3372
+macro_avg   0.602454  0.589143  0.591492     5106
+accuracy: 0.655112	macro_auc: 0.628133	macro_aupoc: 0.747427	doa: 0.515837	doa_know_support: 58	doa_z_support: 913
+Base, INFO -------- trait: 13 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6422.232910   0.020961     2491
+a      2339.813721   0.001320    14416
+b       223.291733   0.015489    14416
+user   6422.232910   0.020961     2491
+item   2563.105453   0.001434    14416
+macro_ave: 0.011197	micro_ave: 0.004311
+Base, INFO -------- inc_trait: 13 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5995.382812   0.030772     1584
+a      1517.700928   0.003051     4044
+b       186.772980   0.046185     4044
+user   5995.382812   0.030772     1584
+item   1704.473907   0.003399     4044
+macro_ave: 0.017086	micro_ave: 0.011103
+Base, INFO ============= Stream[14/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- inc_user: 14 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 14 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.777778  0.500000  0.608696       14
+1.0         0.588235  0.833333  0.689655       12
+macro_avg   0.683007  0.666667  0.649175       26
+accuracy: 0.653846	macro_auc: 0.678571	macro_aupoc: 0.692625	doa: 1.000000	doa_know_support: 1	doa_z_support: 2
+Base, INFO -------- inc_item: 14 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.825397  0.626506  0.712329       83
+1.0         0.826816  0.930818  0.875740      159
+macro_avg   0.826106  0.778662  0.794034      242
+accuracy: 0.826446	macro_auc: 0.883383	macro_aupoc: 0.932322	doa: 0.600000	doa_know_support: 5	doa_z_support: 5
+Base, INFO -------- metrics: 14 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.468037  0.354263  0.403279     1736
+1.0         0.704689  0.792828  0.746165     3374
+macro_avg   0.586363  0.573545  0.574722     5110
+accuracy: 0.643836	macro_auc: 0.627535	macro_aupoc: 0.756325	doa: 0.578984	doa_know_support: 62	doa_z_support: 839
+Base, INFO -------- trait: 14 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6090.466797   0.019870     2492
+a      2198.455566   0.001218    14680
+b       221.116516   0.015062    14680
+user   6090.466797   0.019870     2492
+item   2419.572083   0.001329    14680
+macro_ave: 0.010600	micro_ave: 0.004020
+Base, INFO -------- inc_trait: 14 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5688.050781   0.029361     1575
+a      1428.379883   0.002900     4004
+b       182.766449   0.045646     4004
+user   5688.050781   0.029361     1575
+item   1611.146332   0.003245     4004
+macro_ave: 0.016303	micro_ave: 0.010618
+Base, INFO ============= Stream[15/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 15 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.499320  0.402192  0.445524     1825
+1.0         0.704336  0.779310  0.739929     3335
+macro_avg   0.601828  0.590751  0.592726     5160
+accuracy: 0.645930	macro_auc: 0.632800	macro_aupoc: 0.740380	doa: 0.585090	doa_know_support: 69	doa_z_support: 827
+Base, INFO -------- inc_user: 15 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.516007  0.406297  0.454627    29316
+1.0         0.721453  0.801394  0.759325    56252
+macro_avg   0.618730  0.603845  0.606976    85568
+accuracy: 0.666032	macro_auc: 0.664146	macro_aupoc: 0.782200	doa: 0.580035	doa_know_support: 115	doa_z_support: 224187
+Base, INFO -------- new_item: 15 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.500000  0.285714  0.363636        7
+1.0         0.705882  0.857143  0.774194       14
+macro_avg   0.602941  0.571429  0.568915       21
+accuracy: 0.666667	macro_auc: 0.724490	macro_aupoc: 0.853581	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_item: 15 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.771930  0.543210  0.637681       81
+1.0         0.795580  0.917197  0.852071      157
+macro_avg   0.783755  0.730204  0.744876      238
+accuracy: 0.789916	macro_auc: 0.871511	macro_aupoc: 0.926777	doa: 0.750000	doa_know_support: 8	doa_z_support: 11
+Base, INFO -------- new_both: 15 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.500000  0.285714  0.363636        7
+1.0         0.705882  0.857143  0.774194       14
+macro_avg   0.602941  0.571429  0.568915       21
+accuracy: 0.666667	macro_auc: 0.724490	macro_aupoc: 0.853581	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 15 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.499320  0.402192  0.445524     1825
+1.0         0.704336  0.779310  0.739929     3335
+macro_avg   0.601828  0.590751  0.592726     5160
+accuracy: 0.645930	macro_auc: 0.632800	macro_aupoc: 0.740380	doa: 0.585090	doa_know_support: 69	doa_z_support: 827
+Base, INFO -------- trait: 15 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5739.750977   0.018718     2493
+a      2070.154541   0.001129    14905
+b       222.563446   0.014932    14905
+user   5739.750977   0.018718     2493
+item   2292.717987   0.001241    14905
+macro_ave: 0.009979	micro_ave: 0.003745
+Base, INFO -------- inc_trait: 15 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5301.439453   0.027435     1571
+a      1331.116699   0.002669     4055
+b       183.274124   0.045197     4055
+user   5301.439453   0.027435     1571
+item   1514.390823   0.003012     4055
+macro_ave: 0.015224	micro_ave: 0.009832
+Base, INFO ============= Stream[16/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 16 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.471751  0.385014  0.423992     1735
+1.0         0.715846  0.782305  0.747601     3436
+macro_avg   0.593798  0.583660  0.585797     5171
+accuracy: 0.649004	macro_auc: 0.635186	macro_aupoc: 0.762803	doa: 0.643744	doa_know_support: 67	doa_z_support: 849
+Base, INFO -------- inc_user: 16 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.506382  0.392753  0.442387    31213
+1.0         0.715862  0.799843  0.755526    59703
+macro_avg   0.611122  0.596298  0.598957    90916
+accuracy: 0.660082	macro_auc: 0.657733	macro_aupoc: 0.776720	doa: 0.588408	doa_know_support: 115	doa_z_support: 252918
+Base, INFO -------- new_item: 16 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.000000  0.000000  0.000000        4
+1.0         0.777778  0.933333  0.848485       15
+macro_avg   0.388889  0.466667  0.424242       19
+accuracy: 0.736842	macro_auc: 0.266667	macro_aupoc: 0.726104	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- inc_item: 16 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.775510  0.527778  0.628099       72
+1.0         0.755396  0.905172  0.823529      116
+macro_avg   0.765453  0.716475  0.725814      188
+accuracy: 0.760638	macro_auc: 0.863625	macro_aupoc: 0.905774	doa: 1.000000	doa_know_support: 5	doa_z_support: 5
+Base, INFO -------- new_both: 16 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.000000  0.000000  0.000000        4
+1.0         0.777778  0.933333  0.848485       15
+macro_avg   0.388889  0.466667  0.424242       19
+accuracy: 0.736842	macro_auc: 0.266667	macro_aupoc: 0.726104	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- metrics: 16 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.471751  0.385014  0.423992     1735
+1.0         0.715846  0.782305  0.747601     3436
+macro_avg   0.593798  0.583660  0.585797     5171
+accuracy: 0.649004	macro_auc: 0.635186	macro_aupoc: 0.762803	doa: 0.643744	doa_know_support: 67	doa_z_support: 849
+Base, INFO -------- trait: 16 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5580.526367   0.018199     2493
+a      1938.696289   0.001042    15122
+b       226.269501   0.014963    15122
+user   5580.526367   0.018199     2493
+item   2164.965790   0.001155    15122
+macro_ave: 0.009677	micro_ave: 0.003567
+Base, INFO -------- inc_trait: 16 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5171.123047   0.027194     1546
+a      1279.818848   0.002562     4062
+b       182.271057   0.044872     4062
+user   5171.123047   0.027194     1546
+item   1462.089905   0.002903     4062
+macro_ave: 0.015048	micro_ave: 0.009599
+Base, INFO ============= Stream[17/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 17 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.481333  0.404709  0.439708     1784
+1.0         0.711256  0.770772  0.739819     3394
+macro_avg   0.596295  0.587740  0.589763     5178
+accuracy: 0.644650	macro_auc: 0.633039	macro_aupoc: 0.753125	doa: 0.631865	doa_know_support: 69	doa_z_support: 858
+Base, INFO -------- inc_user: 17 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.507663  0.418525  0.458805    33004
+1.0         0.722091  0.788239  0.753717    63260
+macro_avg   0.614877  0.603382  0.606261    96264
+accuracy: 0.661483	macro_auc: 0.661074	macro_aupoc: 0.780220	doa: 0.585876	doa_know_support: 115	doa_z_support: 283099
+Base, INFO -------- new_item: 17 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.000000  0.000000  0.000000        2
+1.0         0.777778  0.466667  0.583333       15
+macro_avg   0.388889  0.233333  0.291667       17
+accuracy: 0.411765	macro_auc: 0.466667	macro_aupoc: 0.918589	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_item: 17 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.708333  0.607143  0.653846       56
+1.0         0.829457  0.884298  0.856000      121
+macro_avg   0.768895  0.745720  0.754923      177
+accuracy: 0.796610	macro_auc: 0.840909	macro_aupoc: 0.914015	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_both: 17 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.000000  0.000000  0.000000        2
+1.0         0.777778  0.466667  0.583333       15
+macro_avg   0.388889  0.233333  0.291667       17
+accuracy: 0.411765	macro_auc: 0.466667	macro_aupoc: 0.918589	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 17 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.481333  0.404709  0.439708     1784
+1.0         0.711256  0.770772  0.739819     3394
+macro_avg   0.596295  0.587740  0.589763     5178
+accuracy: 0.644650	macro_auc: 0.633039	macro_aupoc: 0.753125	doa: 0.631865	doa_know_support: 69	doa_z_support: 858
+Base, INFO -------- trait: 17 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5478.614258   0.017867     2493
+a      1816.417969   0.000965    15303
+b       225.937027   0.014764    15303
+user   5478.614258   0.017867     2493
+item   2042.354996   0.001076    15303
+macro_ave: 0.009471	micro_ave: 0.003428
+Base, INFO -------- inc_trait: 17 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5089.290039   0.026271     1575
+a      1181.854736   0.002365     4062
+b       181.633392   0.044715     4062
+user   5089.290039   0.026271     1575
+item   1363.488129   0.002707     4062
+macro_ave: 0.014489	micro_ave: 0.009291
+Base, INFO ============= Stream[18/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 18 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.459085  0.376136  0.413492     1760
+1.0         0.706731  0.772329  0.738075     3426
+macro_avg   0.582908  0.574233  0.575783     5186
+accuracy: 0.637871	macro_auc: 0.611470	macro_aupoc: 0.735217	doa: 0.560590	doa_know_support: 74	doa_z_support: 850
+Base, INFO -------- inc_user: 18 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.498813  0.410167  0.450168    34837
+1.0         0.718389  0.784994  0.750216    66775
+macro_avg   0.608601  0.597581  0.600192   101612
+accuracy: 0.656487	macro_auc: 0.651536	macro_aupoc: 0.772444	doa: 0.590419	doa_know_support: 115	doa_z_support: 315347
+Base, INFO -------- new_item: 18 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         1.000000  0.333333  0.500000        6
+1.0         0.714286  1.000000  0.833333       10
+macro_avg   0.857143  0.666667  0.666667       16
+accuracy: 0.750000	macro_auc: 0.716667	macro_aupoc: 0.824866	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_item: 18 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.781250  0.510204  0.617284       49
+1.0         0.826087  0.942149  0.880309      121
+macro_avg   0.803668  0.726176  0.748796      170
+accuracy: 0.817647	macro_auc: 0.822736	macro_aupoc: 0.918576	doa: 0.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- new_both: 18 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         1.000000  0.333333  0.500000        6
+1.0         0.714286  1.000000  0.833333       10
+macro_avg   0.857143  0.666667  0.666667       16
+accuracy: 0.750000	macro_auc: 0.716667	macro_aupoc: 0.824866	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 18 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.459085  0.376136  0.413492     1760
+1.0         0.706731  0.772329  0.738075     3426
+macro_avg   0.582908  0.574233  0.575783     5186
+accuracy: 0.637871	macro_auc: 0.611470	macro_aupoc: 0.735217	doa: 0.560590	doa_know_support: 74	doa_z_support: 850
+Base, INFO -------- trait: 18 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5515.957520   0.017988     2493
+a      1677.020874   0.000881    15478
+b       225.475220   0.014567    15478
+user   5515.957520   0.017988     2493
+item   1902.496094   0.000991    15478
+macro_ave: 0.009490	micro_ave: 0.003349
+Base, INFO -------- inc_trait: 18 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5118.608398   0.026355     1579
+a      1093.452637   0.002188     4063
+b       179.720520   0.044233     4063
+user   5118.608398   0.026355     1579
+item   1273.173157   0.002527     4063
+macro_ave: 0.014441	micro_ave: 0.009196
+Base, INFO ============= Stream[19/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 19 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.450251  0.366550  0.404112     1716
+1.0         0.715445  0.780634  0.746619     3501
+macro_avg   0.582848  0.573592  0.575366     5217
+accuracy: 0.644432	macro_auc: 0.619858	macro_aupoc: 0.758264	doa: 0.661805	doa_know_support: 63	doa_z_support: 812
+Base, INFO -------- inc_user: 19 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.505552  0.407421  0.451212    36655
+1.0         0.719439  0.792248  0.754090    70305
+macro_avg   0.612496  0.599834  0.602651   106960
+accuracy: 0.660368	macro_auc: 0.657686	macro_aupoc: 0.776979	doa: 0.609791	doa_know_support: 115	doa_z_support: 348590
+Base, INFO -------- new_item: 19 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         1.000000  0.666667  0.800000        3
+1.0         0.888889  1.000000  0.941176        8
+macro_avg   0.944444  0.833333  0.870588       11
+accuracy: 0.909091	macro_auc: 0.958333	macro_aupoc: 0.986111	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_item: 19 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.765957  0.620690  0.685714       58
+1.0         0.808696  0.894231  0.849315      104
+macro_avg   0.787327  0.757460  0.767515      162
+accuracy: 0.796296	macro_auc: 0.869861	macro_aupoc: 0.925982	doa: 0.500000	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- new_both: 19 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         1.000000  0.666667  0.800000        3
+1.0         0.888889  1.000000  0.941176        8
+macro_avg   0.944444  0.833333  0.870588       11
+accuracy: 0.909091	macro_auc: 0.958333	macro_aupoc: 0.986111	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 19 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.450251  0.366550  0.404112     1716
+1.0         0.715445  0.780634  0.746619     3501
+macro_avg   0.582848  0.573592  0.575366     5217
+accuracy: 0.644432	macro_auc: 0.619858	macro_aupoc: 0.758264	doa: 0.661805	doa_know_support: 63	doa_z_support: 812
+Base, INFO -------- trait: 19 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5555.174805   0.018116     2493
+a      1546.688721   0.000804    15644
+b       229.000198   0.014638    15644
+user   5555.174805   0.018116     2493
+item   1775.688919   0.000915    15644
+macro_ave: 0.009516	micro_ave: 0.003280
+Base, INFO -------- inc_trait: 19 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5133.549805   0.026382     1582
+a      1020.034973   0.002051     4044
+b       180.939941   0.044743     4044
+user   5133.549805   0.026382     1582
+item   1200.974915   0.002395     4044
+macro_ave: 0.014388	micro_ave: 0.009140
+Base, INFO ============= Stream[20/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 20 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.496855  0.347062  0.408665     1821
+1.0         0.697840  0.810986  0.750171     3386
+macro_avg   0.597348  0.579024  0.579418     5207
+accuracy: 0.648742	macro_auc: 0.624634	macro_aupoc: 0.738265	doa: 0.582228	doa_know_support: 70	doa_z_support: 863
+Base, INFO {'dataset': 'a0910', 'cdm': 'mirt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger mirt (INFO)>
+model_name: mirt
+model_dir: mirt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0.0001}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:0
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 4129, 'item_num': 17747, 'know_n': 123}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: mirt/result.json
+cfg_path: mirt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- inc_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.447426  0.547953  0.492613     1856
+1.0         0.727154  0.640321  0.680981     3492
+macro_avg   0.587290  0.594137  0.586797     5348
+accuracy: 0.608265	macro_auc: 0.617336	macro_aupoc: 0.723411	doa: 0.495203	doa_know_support: 67	doa_z_support: 880
+Base, INFO -------- new_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- inc_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.447426  0.547953  0.492613     1856
+1.0         0.727154  0.640321  0.680981     3492
+macro_avg   0.587290  0.594137  0.586797     5348
+accuracy: 0.608265	macro_auc: 0.617336	macro_aupoc: 0.723411	doa: 0.495203	doa_know_support: 67	doa_z_support: 880
+Base, INFO -------- new_both: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- metrics: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.526316  0.531915  0.529101       94
+1.0         0.650794  0.645669  0.648221      127
+macro_avg   0.588555  0.588792  0.588661      221
+accuracy: 0.597285	macro_auc: 0.599012	macro_aupoc: 0.650035	doa: 0.500000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- inc_user: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.667910  0.758475  0.710317      236
+1.0         0.847594  0.780788  0.812821      406
+macro_avg   0.757752  0.769631  0.761569      642
+accuracy: 0.772586	macro_auc: 0.821909	macro_aupoc: 0.885372	doa: 0.522222	doa_know_support: 15	doa_z_support: 24
+Base, INFO -------- new_item: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.444068  0.386431  0.413249      339
+1.0         0.687688  0.736334  0.711180      622
+macro_avg   0.565878  0.561383  0.562215      961
+accuracy: 0.612903	macro_auc: 0.579452	macro_aupoc: 0.699088	doa: 0.399275	doa_know_support: 44	doa_z_support: 173
+Base, INFO -------- inc_item: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.698554  0.621782  0.657936     1010
+1.0         0.824287  0.868638  0.845882     2063
+macro_avg   0.761420  0.745210  0.751909     3073
+accuracy: 0.787504	macro_auc: 0.816389	macro_aupoc: 0.873424	doa: 0.593914	doa_know_support: 62	doa_z_support: 356
+Base, INFO -------- new_both: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.580645  0.529412  0.553846       34
+1.0         0.619048  0.666667  0.641975       39
+macro_avg   0.599846  0.598039  0.597911       73
+accuracy: 0.602740	macro_auc: 0.618401	macro_aupoc: 0.662943	doa: 0.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- metrics: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.426230  0.390977  0.407843     1064
+1.0         0.689952  0.720280  0.704790     2002
+macro_avg   0.558091  0.555629  0.556316     3066
+accuracy: 0.606001	macro_auc: 0.569867	macro_aupoc: 0.696012	doa: 0.527058	doa_know_support: 51	doa_z_support: 603
+Base, INFO -------- trait: 1 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  39258.746094   0.205523     1553
+a      26980.421875   0.054255     4043
+b        935.348633   0.231350     4043
+user   39258.746094   0.205523     1553
+item   27915.770508   0.055683     4043
+macro_ave: 0.130603	micro_ave: 0.097267
+Base, INFO -------- inc_trait: 1 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  45837.656250   0.236612     1575
+a      29899.294922   0.060021     4050
+b       1237.927979   0.305661     4050
+user   45837.656250   0.236612     1575
+item   31137.222900   0.062002     4050
+macro_ave: 0.149307	micro_ave: 0.110893
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.468750  0.405405  0.434783       37
+1.0         0.710526  0.760563  0.734694       71
+macro_avg   0.589638  0.582984  0.584738      108
+accuracy: 0.638889	macro_auc: 0.580891	macro_aupoc: 0.729018	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- inc_user: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.867257  0.867257  0.867257      113
+1.0         0.916201  0.916201  0.916201      179
+macro_avg   0.891729  0.891729  0.891729      292
+accuracy: 0.897260	macro_auc: 0.966035	macro_aupoc: 0.980160	doa: 0.777778	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- new_item: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.485294  0.336735  0.397590      196
+1.0         0.694118  0.808219  0.746835      365
+macro_avg   0.589706  0.572477  0.572213      561
+accuracy: 0.643494	macro_auc: 0.633156	macro_aupoc: 0.744675	doa: 0.634524	doa_know_support: 28	doa_z_support: 58
+Base, INFO -------- inc_item: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.844828  0.660180  0.741176      668
+1.0         0.855137  0.942998  0.896921     1421
+macro_avg   0.849982  0.801589  0.819049     2089
+accuracy: 0.852561	macro_auc: 0.922155	macro_aupoc: 0.961035	doa: 0.516057	doa_know_support: 55	doa_z_support: 184
+Base, INFO -------- new_both: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.000000  0.000000  0.000000        5
+1.0         0.583333  0.777778  0.666667        9
+macro_avg   0.291667  0.388889  0.333333       14
+accuracy: 0.500000	macro_auc: 0.555556	macro_aupoc: 0.749858	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.465598  0.371150  0.413043     1331
+1.0         0.693069  0.769231  0.729167     2457
+macro_avg   0.579334  0.570190  0.571105     3788
+accuracy: 0.629356	macro_auc: 0.595246	macro_aupoc: 0.709817	doa: 0.574664	doa_know_support: 57	doa_z_support: 739
+Base, INFO -------- trait: 2 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  44491.015625   0.182224     1985
+a      35134.648438   0.043624     6548
+b       1305.712402   0.199406     6548
+user   44491.015625   0.182224     1985
+item   36440.360840   0.044880     6548
+macro_ave: 0.113552	micro_ave: 0.076830
+Base, INFO -------- inc_trait: 2 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  35038.843750   0.180640     1577
+a      21680.039062   0.043350     4066
+b        894.379150   0.219965     4066
+user   35038.843750   0.180640     1577
+item   22574.418213   0.044774     4066
+macro_ave: 0.112707	micro_ave: 0.082743
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.421053  0.500000  0.457143       16
+1.0         0.764706  0.702703  0.732394       37
+macro_avg   0.592879  0.601351  0.594769       53
+accuracy: 0.641509	macro_auc: 0.628378	macro_aupoc: 0.812914	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.847458  0.862069  0.854701       58
+1.0         0.920792  0.911765  0.916256      102
+macro_avg   0.884125  0.886917  0.885479      160
+accuracy: 0.893750	macro_auc: 0.972279	macro_aupoc: 0.984831	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- new_item: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.376344  0.353535  0.364583       99
+1.0         0.741935  0.760331  0.751020      242
+macro_avg   0.559140  0.556933  0.557802      341
+accuracy: 0.642229	macro_auc: 0.591619	macro_aupoc: 0.759286	doa: 0.513333	doa_know_support: 15	doa_z_support: 21
+Base, INFO -------- inc_item: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.874016  0.701053  0.778037      475
+1.0         0.866416  0.950464  0.906496      969
+macro_avg   0.870216  0.825759  0.842267     1444
+accuracy: 0.868421	macro_auc: 0.943903	macro_aupoc: 0.972923	doa: 0.585714	doa_know_support: 38	doa_z_support: 99
+Base, INFO -------- new_both: 3 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              0.0     0.0  0.0        2
+1.0              0.6     0.6  0.6        5
+macro_avg        0.3     0.3  0.3        7
+accuracy: 0.428571	macro_auc: 0.200000	macro_aupoc: 0.696190	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.467700  0.366892  0.411208     1480
+1.0         0.689117  0.770686  0.727623     2695
+macro_avg   0.578409  0.568789  0.569415     4175
+accuracy: 0.627545	macro_auc: 0.606483	macro_aupoc: 0.720360	doa: 0.504385	doa_know_support: 61	doa_z_support: 847
+Base, INFO -------- trait: 3 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  33031.714844   0.122402     2194
+a      18849.453125   0.018397     8330
+b        957.264038   0.114918     8330
+user   33031.714844   0.122402     2194
+item   19806.717163   0.019175     8330
+macro_ave: 0.070789	micro_ave: 0.040696
+Base, INFO -------- inc_trait: 3 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  23289.992188   0.121378     1560
+a       9188.556641   0.018643     4007
+b        503.266174   0.125597     4007
+user   23289.992188   0.121378     1560
+item    9691.822815   0.019506     4007
+macro_ave: 0.070442	micro_ave: 0.048053
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.700000  0.411765  0.518519       17
+1.0         0.545455  0.800000  0.648649       15
+macro_avg   0.622727  0.605882  0.583584       32
+accuracy: 0.593750	macro_auc: 0.596078	macro_aupoc: 0.624106	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.926829  0.904762  0.915663       42
+1.0         0.921569  0.940000  0.930693       50
+macro_avg   0.924199  0.922381  0.923178       92
+accuracy: 0.923913	macro_auc: 0.986667	macro_aupoc: 0.989067	doa: 1.000000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- new_item: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.369863  0.337500  0.352941       80
+1.0         0.705556  0.734104  0.719547      173
+macro_avg   0.537709  0.535802  0.536244      253
+accuracy: 0.608696	macro_auc: 0.537717	macro_aupoc: 0.688207	doa: 0.500000	doa_know_support: 11	doa_z_support: 12
+Base, INFO -------- inc_item: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.833856  0.734807  0.781204      362
+1.0         0.877081  0.928184  0.901909      738
+macro_avg   0.855468  0.831495  0.841557     1100
+accuracy: 0.864545	macro_auc: 0.939620	macro_aupoc: 0.970564	doa: 0.615812	doa_know_support: 39	doa_z_support: 63
+Base, INFO -------- new_both: 4 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.474832  0.387406  0.426687     1461
+1.0         0.719260  0.785543  0.750942     2919
+macro_avg   0.597046  0.586474  0.588814     4380
+accuracy: 0.652740	macro_auc: 0.624784	macro_aupoc: 0.747445	doa: 0.481207	doa_know_support: 54	doa_z_support: 719
+Base, INFO -------- trait: 4 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  23114.212891   0.081492     2306
+a       7572.680176   0.006421     9588
+b        606.298706   0.063235     9588
+user   23114.212891   0.081492     2306
+item    8178.978882   0.006879     9588
+macro_ave: 0.044186	micro_ave: 0.021345
+Base, INFO -------- inc_trait: 4 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  17609.277344   0.092603     1546
+a       4309.697266   0.008775     3993
+b        336.605347   0.084299     3993
+user   17609.277344   0.092603     1546
+item    4646.302612   0.009384     3993
+macro_ave: 0.050994	micro_ave: 0.032611
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.222222  0.500000  0.307692        4
+1.0         0.666667  0.363636  0.470588       11
+macro_avg   0.444444  0.431818  0.389140       15
+accuracy: 0.400000	macro_auc: 0.568182	macro_aupoc: 0.838355	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.875000  0.823529  0.848485       17
+1.0         0.928571  0.951220  0.939759       41
+macro_avg   0.901786  0.887374  0.894122       58
+accuracy: 0.913793	macro_auc: 0.979914	macro_aupoc: 0.991784	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.516129  0.246154  0.333333       65
+1.0         0.671141  0.869565  0.757576      115
+macro_avg   0.593635  0.557860  0.545455      180
+accuracy: 0.644444	macro_auc: 0.579532	macro_aupoc: 0.700938	doa: 0.250000	doa_know_support: 6	doa_z_support: 10
+Base, INFO -------- inc_item: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.836735  0.669935  0.744102      306
+1.0         0.850592  0.934959  0.890782      615
+macro_avg   0.843663  0.802447  0.817442      921
+accuracy: 0.846906	macro_auc: 0.936352	macro_aupoc: 0.968509	doa: 0.510714	doa_know_support: 28	doa_z_support: 39
+Base, INFO -------- metrics: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.496855  0.348018  0.409326     1589
+1.0         0.701183  0.812772  0.752865     2991
+macro_avg   0.599019  0.580395  0.581096     4580
+accuracy: 0.651528	macro_auc: 0.621134	macro_aupoc: 0.740882	doa: 0.528920	doa_know_support: 62	doa_z_support: 916
+Base, INFO -------- trait: 5 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  17158.318359   0.058662     2378
+a       4376.239746   0.003370    10558
+b        427.748108   0.040514    10558
+user   17158.318359   0.058662     2378
+item    4803.987854   0.003669    10558
+macro_ave: 0.031166	micro_ave: 0.013779
+Base, INFO -------- inc_trait: 5 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  14056.625977   0.071605     1596
+a       2925.298096   0.005833     4077
+b        278.552399   0.068323     4077
+user   14056.625977   0.071605     1596
+item    3203.850494   0.006337     4077
+macro_ave: 0.038971	micro_ave: 0.024699
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 6 ----------
+Base, INFO 
+           precision  recall        f1  support
+0.0         0.571429  0.8000  0.666667        5
+1.0         0.833333  0.6250  0.714286        8
+macro_avg   0.702381  0.7125  0.690476       13
+accuracy: 0.692308	macro_auc: 0.625000	macro_aupoc: 0.785795	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.941176  0.800000  0.864865       20
+1.0         0.875000  0.965517  0.918033       29
+macro_avg   0.908088  0.882759  0.891449       49
+accuracy: 0.897959	macro_auc: 0.970690	macro_aupoc: 0.981152	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.305556  0.297297  0.301370       37
+1.0         0.704545  0.712644  0.708571       87
+macro_avg   0.505051  0.504970  0.504971      124
+accuracy: 0.588710	macro_auc: 0.539298	macro_aupoc: 0.719102	doa: 0.111111	doa_know_support: 6	doa_z_support: 10
+Base, INFO -------- inc_item: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.832512  0.764706  0.797170      221
+1.0         0.900000  0.932271  0.915851      502
+macro_avg   0.866256  0.848488  0.856511      723
+accuracy: 0.881051	macro_auc: 0.938517	macro_aupoc: 0.970422	doa: 0.658333	doa_know_support: 20	doa_z_support: 25
+Base, INFO -------- metrics: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.454876  0.376279  0.411862     1661
+1.0         0.691758  0.756344  0.722611     3074
+macro_avg   0.573317  0.566311  0.567236     4735
+accuracy: 0.623020	macro_auc: 0.609196	macro_aupoc: 0.732798	doa: 0.507555	doa_know_support: 60	doa_z_support: 813
+Base, INFO -------- trait: 6 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  13985.708984   0.046986     2420
+a       3519.143311   0.002513    11386
+b        344.317627   0.030240    11386
+user   13985.708984   0.046986     2420
+item    3863.460938   0.002736    11386
+macro_ave: 0.024861	micro_ave: 0.010493
+Base, INFO -------- inc_trait: 6 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  11778.814453   0.061034     1569
+a       2436.692627   0.004961     3993
+b        243.042877   0.060867     3993
+user   11778.814453   0.061034     1569
+item    2679.735504   0.005412     3993
+macro_ave: 0.033223	micro_ave: 0.021103
+Base, INFO ============= Stream[7/50] =============
+Base, INFO {'dataset': 'a0910', 'cdm': 'mirt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger mirt (INFO)>
+model_name: mirt
+model_dir: mirt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0.0001}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:0
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 4129, 'item_num': 17747, 'know_n': 123}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: mirt/result.json
+cfg_path: mirt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- inc_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.447426  0.547953  0.492613     1856
+1.0         0.727154  0.640321  0.680981     3492
+macro_avg   0.587290  0.594137  0.586797     5348
+accuracy: 0.608265	macro_auc: 0.617336	macro_aupoc: 0.723411	doa: 0.495203	doa_know_support: 67	doa_z_support: 880
+Base, INFO -------- new_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- inc_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.447426  0.547953  0.492613     1856
+1.0         0.727154  0.640321  0.680981     3492
+macro_avg   0.587290  0.594137  0.586797     5348
+accuracy: 0.608265	macro_auc: 0.617336	macro_aupoc: 0.723411	doa: 0.495203	doa_know_support: 67	doa_z_support: 880
+Base, INFO -------- new_both: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- metrics: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.526316  0.531915  0.529101       94
+1.0         0.650794  0.645669  0.648221      127
+macro_avg   0.588555  0.588792  0.588661      221
+accuracy: 0.597285	macro_auc: 0.599012	macro_aupoc: 0.650035	doa: 0.500000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- inc_user: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.667910  0.758475  0.710317      236
+1.0         0.847594  0.780788  0.812821      406
+macro_avg   0.757752  0.769631  0.761569      642
+accuracy: 0.772586	macro_auc: 0.821909	macro_aupoc: 0.885372	doa: 0.522222	doa_know_support: 15	doa_z_support: 24
+Base, INFO -------- new_item: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.444068  0.386431  0.413249      339
+1.0         0.687688  0.736334  0.711180      622
+macro_avg   0.565878  0.561383  0.562215      961
+accuracy: 0.612903	macro_auc: 0.579452	macro_aupoc: 0.699088	doa: 0.399275	doa_know_support: 44	doa_z_support: 173
+Base, INFO -------- inc_item: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.698554  0.621782  0.657936     1010
+1.0         0.824287  0.868638  0.845882     2063
+macro_avg   0.761420  0.745210  0.751909     3073
+accuracy: 0.787504	macro_auc: 0.816389	macro_aupoc: 0.873424	doa: 0.593914	doa_know_support: 62	doa_z_support: 356
+Base, INFO -------- new_both: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.580645  0.529412  0.553846       34
+1.0         0.619048  0.666667  0.641975       39
+macro_avg   0.599846  0.598039  0.597911       73
+accuracy: 0.602740	macro_auc: 0.618401	macro_aupoc: 0.662943	doa: 0.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- metrics: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.426230  0.390977  0.407843     1064
+1.0         0.689952  0.720280  0.704790     2002
+macro_avg   0.558091  0.555629  0.556316     3066
+accuracy: 0.606001	macro_auc: 0.569867	macro_aupoc: 0.696012	doa: 0.527058	doa_know_support: 51	doa_z_support: 603
+Base, INFO -------- trait: 1 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  39258.746094   0.205523     1553
+a      26980.421875   0.054255     4043
+b        935.348633   0.231350     4043
+user   39258.746094   0.205523     1553
+item   27915.770508   0.055683     4043
+macro_ave: 0.130603	micro_ave: 0.097267
+Base, INFO -------- inc_trait: 1 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  45837.656250   0.236612     1575
+a      29899.294922   0.060021     4050
+b       1237.927979   0.305661     4050
+user   45837.656250   0.236612     1575
+item   31137.222900   0.062002     4050
+macro_ave: 0.149307	micro_ave: 0.110893
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.468750  0.405405  0.434783       37
+1.0         0.710526  0.760563  0.734694       71
+macro_avg   0.589638  0.582984  0.584738      108
+accuracy: 0.638889	macro_auc: 0.580891	macro_aupoc: 0.729018	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- inc_user: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.867257  0.867257  0.867257      113
+1.0         0.916201  0.916201  0.916201      179
+macro_avg   0.891729  0.891729  0.891729      292
+accuracy: 0.897260	macro_auc: 0.966035	macro_aupoc: 0.980160	doa: 0.777778	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- new_item: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.485294  0.336735  0.397590      196
+1.0         0.694118  0.808219  0.746835      365
+macro_avg   0.589706  0.572477  0.572213      561
+accuracy: 0.643494	macro_auc: 0.633156	macro_aupoc: 0.744675	doa: 0.634524	doa_know_support: 28	doa_z_support: 58
+Base, INFO -------- inc_item: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.844828  0.660180  0.741176      668
+1.0         0.855137  0.942998  0.896921     1421
+macro_avg   0.849982  0.801589  0.819049     2089
+accuracy: 0.852561	macro_auc: 0.922155	macro_aupoc: 0.961035	doa: 0.516057	doa_know_support: 55	doa_z_support: 184
+Base, INFO -------- new_both: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.000000  0.000000  0.000000        5
+1.0         0.583333  0.777778  0.666667        9
+macro_avg   0.291667  0.388889  0.333333       14
+accuracy: 0.500000	macro_auc: 0.555556	macro_aupoc: 0.749858	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.465598  0.371150  0.413043     1331
+1.0         0.693069  0.769231  0.729167     2457
+macro_avg   0.579334  0.570190  0.571105     3788
+accuracy: 0.629356	macro_auc: 0.595246	macro_aupoc: 0.709817	doa: 0.574664	doa_know_support: 57	doa_z_support: 739
+Base, INFO -------- trait: 2 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  44491.015625   0.182224     1985
+a      35134.648438   0.043624     6548
+b       1305.712402   0.199406     6548
+user   44491.015625   0.182224     1985
+item   36440.360840   0.044880     6548
+macro_ave: 0.113552	micro_ave: 0.076830
+Base, INFO -------- inc_trait: 2 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  35038.843750   0.180640     1577
+a      21680.039062   0.043350     4066
+b        894.379150   0.219965     4066
+user   35038.843750   0.180640     1577
+item   22574.418213   0.044774     4066
+macro_ave: 0.112707	micro_ave: 0.082743
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.421053  0.500000  0.457143       16
+1.0         0.764706  0.702703  0.732394       37
+macro_avg   0.592879  0.601351  0.594769       53
+accuracy: 0.641509	macro_auc: 0.628378	macro_aupoc: 0.812914	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.847458  0.862069  0.854701       58
+1.0         0.920792  0.911765  0.916256      102
+macro_avg   0.884125  0.886917  0.885479      160
+accuracy: 0.893750	macro_auc: 0.972279	macro_aupoc: 0.984831	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- new_item: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.376344  0.353535  0.364583       99
+1.0         0.741935  0.760331  0.751020      242
+macro_avg   0.559140  0.556933  0.557802      341
+accuracy: 0.642229	macro_auc: 0.591619	macro_aupoc: 0.759286	doa: 0.513333	doa_know_support: 15	doa_z_support: 21
+Base, INFO -------- inc_item: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.874016  0.701053  0.778037      475
+1.0         0.866416  0.950464  0.906496      969
+macro_avg   0.870216  0.825759  0.842267     1444
+accuracy: 0.868421	macro_auc: 0.943903	macro_aupoc: 0.972923	doa: 0.585714	doa_know_support: 38	doa_z_support: 99
+Base, INFO -------- new_both: 3 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              0.0     0.0  0.0        2
+1.0              0.6     0.6  0.6        5
+macro_avg        0.3     0.3  0.3        7
+accuracy: 0.428571	macro_auc: 0.200000	macro_aupoc: 0.696190	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.467700  0.366892  0.411208     1480
+1.0         0.689117  0.770686  0.727623     2695
+macro_avg   0.578409  0.568789  0.569415     4175
+accuracy: 0.627545	macro_auc: 0.606483	macro_aupoc: 0.720360	doa: 0.504385	doa_know_support: 61	doa_z_support: 847
+Base, INFO -------- trait: 3 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  33031.714844   0.122402     2194
+a      18849.453125   0.018397     8330
+b        957.264038   0.114918     8330
+user   33031.714844   0.122402     2194
+item   19806.717163   0.019175     8330
+macro_ave: 0.070789	micro_ave: 0.040696
+Base, INFO -------- inc_trait: 3 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  23289.992188   0.121378     1560
+a       9188.556641   0.018643     4007
+b        503.266174   0.125597     4007
+user   23289.992188   0.121378     1560
+item    9691.822815   0.019506     4007
+macro_ave: 0.070442	micro_ave: 0.048053
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.700000  0.411765  0.518519       17
+1.0         0.545455  0.800000  0.648649       15
+macro_avg   0.622727  0.605882  0.583584       32
+accuracy: 0.593750	macro_auc: 0.596078	macro_aupoc: 0.624106	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.926829  0.904762  0.915663       42
+1.0         0.921569  0.940000  0.930693       50
+macro_avg   0.924199  0.922381  0.923178       92
+accuracy: 0.923913	macro_auc: 0.986667	macro_aupoc: 0.989067	doa: 1.000000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- new_item: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.369863  0.337500  0.352941       80
+1.0         0.705556  0.734104  0.719547      173
+macro_avg   0.537709  0.535802  0.536244      253
+accuracy: 0.608696	macro_auc: 0.537717	macro_aupoc: 0.688207	doa: 0.500000	doa_know_support: 11	doa_z_support: 12
+Base, INFO -------- inc_item: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.833856  0.734807  0.781204      362
+1.0         0.877081  0.928184  0.901909      738
+macro_avg   0.855468  0.831495  0.841557     1100
+accuracy: 0.864545	macro_auc: 0.939620	macro_aupoc: 0.970564	doa: 0.615812	doa_know_support: 39	doa_z_support: 63
+Base, INFO -------- new_both: 4 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.474832  0.387406  0.426687     1461
+1.0         0.719260  0.785543  0.750942     2919
+macro_avg   0.597046  0.586474  0.588814     4380
+accuracy: 0.652740	macro_auc: 0.624784	macro_aupoc: 0.747445	doa: 0.481207	doa_know_support: 54	doa_z_support: 719
+Base, INFO -------- trait: 4 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  23114.212891   0.081492     2306
+a       7572.680176   0.006421     9588
+b        606.298706   0.063235     9588
+user   23114.212891   0.081492     2306
+item    8178.978882   0.006879     9588
+macro_ave: 0.044186	micro_ave: 0.021345
+Base, INFO -------- inc_trait: 4 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  17609.277344   0.092603     1546
+a       4309.697266   0.008775     3993
+b        336.605347   0.084299     3993
+user   17609.277344   0.092603     1546
+item    4646.302612   0.009384     3993
+macro_ave: 0.050994	micro_ave: 0.032611
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.222222  0.500000  0.307692        4
+1.0         0.666667  0.363636  0.470588       11
+macro_avg   0.444444  0.431818  0.389140       15
+accuracy: 0.400000	macro_auc: 0.568182	macro_aupoc: 0.838355	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.875000  0.823529  0.848485       17
+1.0         0.928571  0.951220  0.939759       41
+macro_avg   0.901786  0.887374  0.894122       58
+accuracy: 0.913793	macro_auc: 0.979914	macro_aupoc: 0.991784	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.516129  0.246154  0.333333       65
+1.0         0.671141  0.869565  0.757576      115
+macro_avg   0.593635  0.557860  0.545455      180
+accuracy: 0.644444	macro_auc: 0.579532	macro_aupoc: 0.700938	doa: 0.250000	doa_know_support: 6	doa_z_support: 10
+Base, INFO -------- inc_item: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.836735  0.669935  0.744102      306
+1.0         0.850592  0.934959  0.890782      615
+macro_avg   0.843663  0.802447  0.817442      921
+accuracy: 0.846906	macro_auc: 0.936352	macro_aupoc: 0.968509	doa: 0.510714	doa_know_support: 28	doa_z_support: 39
+Base, INFO -------- metrics: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.496855  0.348018  0.409326     1589
+1.0         0.701183  0.812772  0.752865     2991
+macro_avg   0.599019  0.580395  0.581096     4580
+accuracy: 0.651528	macro_auc: 0.621134	macro_aupoc: 0.740882	doa: 0.528920	doa_know_support: 62	doa_z_support: 916
+Base, INFO -------- trait: 5 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  17158.318359   0.058662     2378
+a       4376.239746   0.003370    10558
+b        427.748108   0.040514    10558
+user   17158.318359   0.058662     2378
+item    4803.987854   0.003669    10558
+macro_ave: 0.031166	micro_ave: 0.013779
+Base, INFO -------- inc_trait: 5 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  14056.625977   0.071605     1596
+a       2925.298096   0.005833     4077
+b        278.552399   0.068323     4077
+user   14056.625977   0.071605     1596
+item    3203.850494   0.006337     4077
+macro_ave: 0.038971	micro_ave: 0.024699
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 6 ----------
+Base, INFO 
+           precision  recall        f1  support
+0.0         0.571429  0.8000  0.666667        5
+1.0         0.833333  0.6250  0.714286        8
+macro_avg   0.702381  0.7125  0.690476       13
+accuracy: 0.692308	macro_auc: 0.625000	macro_aupoc: 0.785795	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.941176  0.800000  0.864865       20
+1.0         0.875000  0.965517  0.918033       29
+macro_avg   0.908088  0.882759  0.891449       49
+accuracy: 0.897959	macro_auc: 0.970690	macro_aupoc: 0.981152	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.305556  0.297297  0.301370       37
+1.0         0.704545  0.712644  0.708571       87
+macro_avg   0.505051  0.504970  0.504971      124
+accuracy: 0.588710	macro_auc: 0.539298	macro_aupoc: 0.719102	doa: 0.111111	doa_know_support: 6	doa_z_support: 10
+Base, INFO -------- inc_item: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.832512  0.764706  0.797170      221
+1.0         0.900000  0.932271  0.915851      502
+macro_avg   0.866256  0.848488  0.856511      723
+accuracy: 0.881051	macro_auc: 0.938517	macro_aupoc: 0.970422	doa: 0.658333	doa_know_support: 20	doa_z_support: 25
+Base, INFO -------- metrics: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.454876  0.376279  0.411862     1661
+1.0         0.691758  0.756344  0.722611     3074
+macro_avg   0.573317  0.566311  0.567236     4735
+accuracy: 0.623020	macro_auc: 0.609196	macro_aupoc: 0.732798	doa: 0.507555	doa_know_support: 60	doa_z_support: 813
+Base, INFO -------- trait: 6 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  13985.708984   0.046986     2420
+a       3519.143311   0.002513    11386
+b        344.317627   0.030240    11386
+user   13985.708984   0.046986     2420
+item    3863.460938   0.002736    11386
+macro_ave: 0.024861	micro_ave: 0.010493
+Base, INFO -------- inc_trait: 6 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  11778.814453   0.061034     1569
+a       2436.692627   0.004961     3993
+b        243.042877   0.060867     3993
+user   11778.814453   0.061034     1569
+item    2679.735504   0.005412     3993
+macro_ave: 0.033223	micro_ave: 0.021103
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 7 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 7 ----------
+Base, INFO 
+           precision  recall        f1  support
+0.0         0.857143  1.0000  0.923077        6
+1.0         1.000000  0.8750  0.933333        8
+macro_avg   0.928571  0.9375  0.928205       14
+accuracy: 0.928571	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.444444  0.387097  0.413793       31
+1.0         0.720588  0.765625  0.742424       64
+macro_avg   0.582516  0.576361  0.578109       95
+accuracy: 0.642105	macro_auc: 0.611895	macro_aupoc: 0.740923	doa: 0.000000	doa_know_support: 4	doa_z_support: 6
+Base, INFO -------- inc_item: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.798742  0.644670  0.713483      197
+1.0         0.841629  0.920792  0.879433      404
+macro_avg   0.820186  0.782731  0.796458      601
+accuracy: 0.830283	macro_auc: 0.911695	macro_aupoc: 0.955156	doa: 0.732143	doa_know_support: 14	doa_z_support: 24
+Base, INFO -------- metrics: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.476569  0.357569  0.408580     1678
+1.0         0.698039  0.790860  0.741556     3151
+macro_avg   0.587304  0.574214  0.575068     4829
+accuracy: 0.640298	macro_auc: 0.618681	macro_aupoc: 0.732969	doa: 0.483073	doa_know_support: 64	doa_z_support: 888
+Base, INFO -------- trait: 7 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  11703.556641   0.038742     2456
+a       3287.399170   0.002219    12044
+b        298.805664   0.024810    12044
+user   11703.556641   0.038742     2456
+item    3586.204834   0.002401    12044
+macro_ave: 0.020572	micro_ave: 0.008557
+Base, INFO -------- inc_trait: 7 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  10273.423828   0.053132     1572
+a       2282.412109   0.004549     4079
+b        227.687988   0.055820     4079
+user   10273.423828   0.053132     1572
+item    2510.100098   0.004963     4079
+macro_ave: 0.029047	micro_ave: 0.018363
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0            0.500  0.666667  0.571429        3
+1.0            0.750  0.600000  0.666667        5
+macro_avg      0.625  0.633333  0.619048        8
+accuracy: 0.625000	macro_auc: 0.600000	macro_aupoc: 0.686190	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 8 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              1.0     1.0  1.0        6
+1.0              1.0     1.0  1.0        5
+macro_avg        1.0     1.0  1.0       11
+accuracy: 1.000000	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.400000  0.400000  0.400000       20
+1.0         0.714286  0.714286  0.714286       42
+macro_avg   0.557143  0.557143  0.557143       62
+accuracy: 0.612903	macro_auc: 0.679762	macro_aupoc: 0.763607	doa: 0.166667	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- inc_item: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.801527  0.636364  0.709459      165
+1.0         0.840849  0.924198  0.880556      343
+macro_avg   0.821188  0.780281  0.795008      508
+accuracy: 0.830709	macro_auc: 0.884672	macro_aupoc: 0.937333	doa: 0.600000	doa_know_support: 15	doa_z_support: 21
+Base, INFO -------- metrics: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.502741  0.380332  0.433052     1688
+1.0         0.711925  0.802795  0.754634     3220
+macro_avg   0.607333  0.591563  0.593843     4908
+accuracy: 0.657498	macro_auc: 0.631638	macro_aupoc: 0.743139	doa: 0.555366	doa_know_support: 65	doa_z_support: 839
+Base, INFO -------- trait: 8 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  10123.093750   0.033334     2469
+a       3126.854980   0.002019    12589
+b        263.598633   0.020939    12589
+user   10123.093750   0.033334     2469
+item    3390.453613   0.002172    12589
+macro_ave: 0.017753	micro_ave: 0.007281
+Base, INFO -------- inc_trait: 8 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  9018.238281   0.046493     1577
+a      2098.563721   0.004253     4012
+b       212.929596   0.053073     4012
+user   9018.238281   0.046493     1577
+item   2311.493317   0.004646     4012
+macro_ave: 0.025570	micro_ave: 0.016454
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 9 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 9 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              1.0     1.0  1.0        2
+1.0              1.0     1.0  1.0        2
+macro_avg        1.0     1.0  1.0        4
+accuracy: 1.000000	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 9 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.642857  0.473684  0.545455       19
+1.0         0.736842  0.848485  0.788732       33
+macro_avg   0.689850  0.661085  0.667093       52
+accuracy: 0.711538	macro_auc: 0.706539	macro_aupoc: 0.774723	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_item: 9 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.780702  0.640288  0.703557      139
+1.0         0.845201  0.916107  0.879227      298
+macro_avg   0.812951  0.778198  0.791392      437
+accuracy: 0.828375	macro_auc: 0.897639	macro_aupoc: 0.948396	doa: 0.555556	doa_know_support: 12	doa_z_support: 16
+Base, INFO -------- metrics: 9 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.459398  0.356061  0.401182     1716
+1.0         0.697509  0.779920  0.736416     3267
+macro_avg   0.578454  0.567991  0.568799     4983
+accuracy: 0.633955	macro_auc: 0.607841	macro_aupoc: 0.735813	doa: 0.564445	doa_know_support: 65	doa_z_support: 829
+Base, INFO -------- trait: 9 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  8827.456055   0.028974     2477
+a      2995.894531   0.001865    13059
+b       241.542023   0.018496    13059
+user   8827.456055   0.028974     2477
+item   3237.436554   0.001999    13059
+macro_ave: 0.015486	micro_ave: 0.006300
+Base, INFO -------- inc_trait: 9 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  8005.453613   0.041011     1587
+a      1972.319458   0.003934     4076
+b       199.977524   0.049062     4076
+user   8005.453613   0.041011     1587
+item   2172.296982   0.004298     4076
+macro_ave: 0.022655	micro_ave: 0.014587
+Base, INFO ============= Stream[10/50] =============
+Base, INFO {'dataset': 'a0910', 'cdm': 'mirt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger mirt (INFO)>
+model_name: mirt
+model_dir: mirt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0.0001}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:0
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 4129, 'item_num': 17747, 'know_n': 123}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: mirt/result.json
+cfg_path: mirt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- inc_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.447426  0.547953  0.492613     1856
+1.0         0.727154  0.640321  0.680981     3492
+macro_avg   0.587290  0.594137  0.586797     5348
+accuracy: 0.608265	macro_auc: 0.617336	macro_aupoc: 0.723411	doa: 0.495203	doa_know_support: 67	doa_z_support: 880
+Base, INFO -------- new_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- inc_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.447426  0.547953  0.492613     1856
+1.0         0.727154  0.640321  0.680981     3492
+macro_avg   0.587290  0.594137  0.586797     5348
+accuracy: 0.608265	macro_auc: 0.617336	macro_aupoc: 0.723411	doa: 0.495203	doa_know_support: 67	doa_z_support: 880
+Base, INFO -------- new_both: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- metrics: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.526316  0.531915  0.529101       94
+1.0         0.650794  0.645669  0.648221      127
+macro_avg   0.588555  0.588792  0.588661      221
+accuracy: 0.597285	macro_auc: 0.599012	macro_aupoc: 0.650035	doa: 0.500000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- inc_user: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.667910  0.758475  0.710317      236
+1.0         0.847594  0.780788  0.812821      406
+macro_avg   0.757752  0.769631  0.761569      642
+accuracy: 0.772586	macro_auc: 0.821909	macro_aupoc: 0.885372	doa: 0.522222	doa_know_support: 15	doa_z_support: 24
+Base, INFO -------- new_item: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.444068  0.386431  0.413249      339
+1.0         0.687688  0.736334  0.711180      622
+macro_avg   0.565878  0.561383  0.562215      961
+accuracy: 0.612903	macro_auc: 0.579452	macro_aupoc: 0.699088	doa: 0.399275	doa_know_support: 44	doa_z_support: 173
+Base, INFO -------- inc_item: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.698554  0.621782  0.657936     1010
+1.0         0.824287  0.868638  0.845882     2063
+macro_avg   0.761420  0.745210  0.751909     3073
+accuracy: 0.787504	macro_auc: 0.816389	macro_aupoc: 0.873424	doa: 0.593914	doa_know_support: 62	doa_z_support: 356
+Base, INFO -------- new_both: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.580645  0.529412  0.553846       34
+1.0         0.619048  0.666667  0.641975       39
+macro_avg   0.599846  0.598039  0.597911       73
+accuracy: 0.602740	macro_auc: 0.618401	macro_aupoc: 0.662943	doa: 0.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- metrics: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.426230  0.390977  0.407843     1064
+1.0         0.689952  0.720280  0.704790     2002
+macro_avg   0.558091  0.555629  0.556316     3066
+accuracy: 0.606001	macro_auc: 0.569867	macro_aupoc: 0.696012	doa: 0.527058	doa_know_support: 51	doa_z_support: 603
+Base, INFO -------- trait: 1 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  39258.746094   0.205523     1553
+a      26980.421875   0.054255     4043
+b        935.348633   0.231350     4043
+user   39258.746094   0.205523     1553
+item   27915.770508   0.055683     4043
+macro_ave: 0.130603	micro_ave: 0.097267
+Base, INFO -------- inc_trait: 1 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  45837.656250   0.236612     1575
+a      29899.294922   0.060021     4050
+b       1237.927979   0.305661     4050
+user   45837.656250   0.236612     1575
+item   31137.222900   0.062002     4050
+macro_ave: 0.149307	micro_ave: 0.110893
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.468750  0.405405  0.434783       37
+1.0         0.710526  0.760563  0.734694       71
+macro_avg   0.589638  0.582984  0.584738      108
+accuracy: 0.638889	macro_auc: 0.580891	macro_aupoc: 0.729018	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- inc_user: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.867257  0.867257  0.867257      113
+1.0         0.916201  0.916201  0.916201      179
+macro_avg   0.891729  0.891729  0.891729      292
+accuracy: 0.897260	macro_auc: 0.966035	macro_aupoc: 0.980160	doa: 0.777778	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- new_item: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.485294  0.336735  0.397590      196
+1.0         0.694118  0.808219  0.746835      365
+macro_avg   0.589706  0.572477  0.572213      561
+accuracy: 0.643494	macro_auc: 0.633156	macro_aupoc: 0.744675	doa: 0.634524	doa_know_support: 28	doa_z_support: 58
+Base, INFO -------- inc_item: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.844828  0.660180  0.741176      668
+1.0         0.855137  0.942998  0.896921     1421
+macro_avg   0.849982  0.801589  0.819049     2089
+accuracy: 0.852561	macro_auc: 0.922155	macro_aupoc: 0.961035	doa: 0.516057	doa_know_support: 55	doa_z_support: 184
+Base, INFO -------- new_both: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.000000  0.000000  0.000000        5
+1.0         0.583333  0.777778  0.666667        9
+macro_avg   0.291667  0.388889  0.333333       14
+accuracy: 0.500000	macro_auc: 0.555556	macro_aupoc: 0.749858	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.465598  0.371150  0.413043     1331
+1.0         0.693069  0.769231  0.729167     2457
+macro_avg   0.579334  0.570190  0.571105     3788
+accuracy: 0.629356	macro_auc: 0.595246	macro_aupoc: 0.709817	doa: 0.574664	doa_know_support: 57	doa_z_support: 739
+Base, INFO -------- trait: 2 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  44491.015625   0.182224     1985
+a      35134.648438   0.043624     6548
+b       1305.712402   0.199406     6548
+user   44491.015625   0.182224     1985
+item   36440.360840   0.044880     6548
+macro_ave: 0.113552	micro_ave: 0.076830
+Base, INFO -------- inc_trait: 2 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  35038.843750   0.180640     1577
+a      21680.039062   0.043350     4066
+b        894.379150   0.219965     4066
+user   35038.843750   0.180640     1577
+item   22574.418213   0.044774     4066
+macro_ave: 0.112707	micro_ave: 0.082743
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.421053  0.500000  0.457143       16
+1.0         0.764706  0.702703  0.732394       37
+macro_avg   0.592879  0.601351  0.594769       53
+accuracy: 0.641509	macro_auc: 0.628378	macro_aupoc: 0.812914	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.847458  0.862069  0.854701       58
+1.0         0.920792  0.911765  0.916256      102
+macro_avg   0.884125  0.886917  0.885479      160
+accuracy: 0.893750	macro_auc: 0.972279	macro_aupoc: 0.984831	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- new_item: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.376344  0.353535  0.364583       99
+1.0         0.741935  0.760331  0.751020      242
+macro_avg   0.559140  0.556933  0.557802      341
+accuracy: 0.642229	macro_auc: 0.591619	macro_aupoc: 0.759286	doa: 0.513333	doa_know_support: 15	doa_z_support: 21
+Base, INFO -------- inc_item: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.874016  0.701053  0.778037      475
+1.0         0.866416  0.950464  0.906496      969
+macro_avg   0.870216  0.825759  0.842267     1444
+accuracy: 0.868421	macro_auc: 0.943903	macro_aupoc: 0.972923	doa: 0.585714	doa_know_support: 38	doa_z_support: 99
+Base, INFO -------- new_both: 3 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              0.0     0.0  0.0        2
+1.0              0.6     0.6  0.6        5
+macro_avg        0.3     0.3  0.3        7
+accuracy: 0.428571	macro_auc: 0.200000	macro_aupoc: 0.696190	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.467700  0.366892  0.411208     1480
+1.0         0.689117  0.770686  0.727623     2695
+macro_avg   0.578409  0.568789  0.569415     4175
+accuracy: 0.627545	macro_auc: 0.606483	macro_aupoc: 0.720360	doa: 0.504385	doa_know_support: 61	doa_z_support: 847
+Base, INFO -------- trait: 3 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  33031.714844   0.122402     2194
+a      18849.453125   0.018397     8330
+b        957.264038   0.114918     8330
+user   33031.714844   0.122402     2194
+item   19806.717163   0.019175     8330
+macro_ave: 0.070789	micro_ave: 0.040696
+Base, INFO -------- inc_trait: 3 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  23289.992188   0.121378     1560
+a       9188.556641   0.018643     4007
+b        503.266174   0.125597     4007
+user   23289.992188   0.121378     1560
+item    9691.822815   0.019506     4007
+macro_ave: 0.070442	micro_ave: 0.048053
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.700000  0.411765  0.518519       17
+1.0         0.545455  0.800000  0.648649       15
+macro_avg   0.622727  0.605882  0.583584       32
+accuracy: 0.593750	macro_auc: 0.596078	macro_aupoc: 0.624106	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.926829  0.904762  0.915663       42
+1.0         0.921569  0.940000  0.930693       50
+macro_avg   0.924199  0.922381  0.923178       92
+accuracy: 0.923913	macro_auc: 0.986667	macro_aupoc: 0.989067	doa: 1.000000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- new_item: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.369863  0.337500  0.352941       80
+1.0         0.705556  0.734104  0.719547      173
+macro_avg   0.537709  0.535802  0.536244      253
+accuracy: 0.608696	macro_auc: 0.537717	macro_aupoc: 0.688207	doa: 0.500000	doa_know_support: 11	doa_z_support: 12
+Base, INFO -------- inc_item: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.833856  0.734807  0.781204      362
+1.0         0.877081  0.928184  0.901909      738
+macro_avg   0.855468  0.831495  0.841557     1100
+accuracy: 0.864545	macro_auc: 0.939620	macro_aupoc: 0.970564	doa: 0.615812	doa_know_support: 39	doa_z_support: 63
+Base, INFO -------- new_both: 4 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.474832  0.387406  0.426687     1461
+1.0         0.719260  0.785543  0.750942     2919
+macro_avg   0.597046  0.586474  0.588814     4380
+accuracy: 0.652740	macro_auc: 0.624784	macro_aupoc: 0.747445	doa: 0.481207	doa_know_support: 54	doa_z_support: 719
+Base, INFO -------- trait: 4 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  23114.212891   0.081492     2306
+a       7572.680176   0.006421     9588
+b        606.298706   0.063235     9588
+user   23114.212891   0.081492     2306
+item    8178.978882   0.006879     9588
+macro_ave: 0.044186	micro_ave: 0.021345
+Base, INFO -------- inc_trait: 4 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  17609.277344   0.092603     1546
+a       4309.697266   0.008775     3993
+b        336.605347   0.084299     3993
+user   17609.277344   0.092603     1546
+item    4646.302612   0.009384     3993
+macro_ave: 0.050994	micro_ave: 0.032611
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.222222  0.500000  0.307692        4
+1.0         0.666667  0.363636  0.470588       11
+macro_avg   0.444444  0.431818  0.389140       15
+accuracy: 0.400000	macro_auc: 0.568182	macro_aupoc: 0.838355	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.875000  0.823529  0.848485       17
+1.0         0.928571  0.951220  0.939759       41
+macro_avg   0.901786  0.887374  0.894122       58
+accuracy: 0.913793	macro_auc: 0.979914	macro_aupoc: 0.991784	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.516129  0.246154  0.333333       65
+1.0         0.671141  0.869565  0.757576      115
+macro_avg   0.593635  0.557860  0.545455      180
+accuracy: 0.644444	macro_auc: 0.579532	macro_aupoc: 0.700938	doa: 0.250000	doa_know_support: 6	doa_z_support: 10
+Base, INFO -------- inc_item: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.836735  0.669935  0.744102      306
+1.0         0.850592  0.934959  0.890782      615
+macro_avg   0.843663  0.802447  0.817442      921
+accuracy: 0.846906	macro_auc: 0.936352	macro_aupoc: 0.968509	doa: 0.510714	doa_know_support: 28	doa_z_support: 39
+Base, INFO -------- metrics: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.496855  0.348018  0.409326     1589
+1.0         0.701183  0.812772  0.752865     2991
+macro_avg   0.599019  0.580395  0.581096     4580
+accuracy: 0.651528	macro_auc: 0.621134	macro_aupoc: 0.740882	doa: 0.528920	doa_know_support: 62	doa_z_support: 916
+Base, INFO -------- trait: 5 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  17158.318359   0.058662     2378
+a       4376.239746   0.003370    10558
+b        427.748108   0.040514    10558
+user   17158.318359   0.058662     2378
+item    4803.987854   0.003669    10558
+macro_ave: 0.031166	micro_ave: 0.013779
+Base, INFO -------- inc_trait: 5 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  14056.625977   0.071605     1596
+a       2925.298096   0.005833     4077
+b        278.552399   0.068323     4077
+user   14056.625977   0.071605     1596
+item    3203.850494   0.006337     4077
+macro_ave: 0.038971	micro_ave: 0.024699
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 6 ----------
+Base, INFO 
+           precision  recall        f1  support
+0.0         0.571429  0.8000  0.666667        5
+1.0         0.833333  0.6250  0.714286        8
+macro_avg   0.702381  0.7125  0.690476       13
+accuracy: 0.692308	macro_auc: 0.625000	macro_aupoc: 0.785795	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.941176  0.800000  0.864865       20
+1.0         0.875000  0.965517  0.918033       29
+macro_avg   0.908088  0.882759  0.891449       49
+accuracy: 0.897959	macro_auc: 0.970690	macro_aupoc: 0.981152	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.305556  0.297297  0.301370       37
+1.0         0.704545  0.712644  0.708571       87
+macro_avg   0.505051  0.504970  0.504971      124
+accuracy: 0.588710	macro_auc: 0.539298	macro_aupoc: 0.719102	doa: 0.111111	doa_know_support: 6	doa_z_support: 10
+Base, INFO -------- inc_item: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.832512  0.764706  0.797170      221
+1.0         0.900000  0.932271  0.915851      502
+macro_avg   0.866256  0.848488  0.856511      723
+accuracy: 0.881051	macro_auc: 0.938517	macro_aupoc: 0.970422	doa: 0.658333	doa_know_support: 20	doa_z_support: 25
+Base, INFO -------- metrics: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.454876  0.376279  0.411862     1661
+1.0         0.691758  0.756344  0.722611     3074
+macro_avg   0.573317  0.566311  0.567236     4735
+accuracy: 0.623020	macro_auc: 0.609196	macro_aupoc: 0.732798	doa: 0.507555	doa_know_support: 60	doa_z_support: 813
+Base, INFO -------- trait: 6 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  13985.708984   0.046986     2420
+a       3519.143311   0.002513    11386
+b        344.317627   0.030240    11386
+user   13985.708984   0.046986     2420
+item    3863.460938   0.002736    11386
+macro_ave: 0.024861	micro_ave: 0.010493
+Base, INFO -------- inc_trait: 6 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  11778.814453   0.061034     1569
+a       2436.692627   0.004961     3993
+b        243.042877   0.060867     3993
+user   11778.814453   0.061034     1569
+item    2679.735504   0.005412     3993
+macro_ave: 0.033223	micro_ave: 0.021103
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 7 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 7 ----------
+Base, INFO 
+           precision  recall        f1  support
+0.0         0.857143  1.0000  0.923077        6
+1.0         1.000000  0.8750  0.933333        8
+macro_avg   0.928571  0.9375  0.928205       14
+accuracy: 0.928571	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.444444  0.387097  0.413793       31
+1.0         0.720588  0.765625  0.742424       64
+macro_avg   0.582516  0.576361  0.578109       95
+accuracy: 0.642105	macro_auc: 0.611895	macro_aupoc: 0.740923	doa: 0.000000	doa_know_support: 4	doa_z_support: 6
+Base, INFO -------- inc_item: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.798742  0.644670  0.713483      197
+1.0         0.841629  0.920792  0.879433      404
+macro_avg   0.820186  0.782731  0.796458      601
+accuracy: 0.830283	macro_auc: 0.911695	macro_aupoc: 0.955156	doa: 0.732143	doa_know_support: 14	doa_z_support: 24
+Base, INFO -------- metrics: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.476569  0.357569  0.408580     1678
+1.0         0.698039  0.790860  0.741556     3151
+macro_avg   0.587304  0.574214  0.575068     4829
+accuracy: 0.640298	macro_auc: 0.618681	macro_aupoc: 0.732969	doa: 0.483073	doa_know_support: 64	doa_z_support: 888
+Base, INFO -------- trait: 7 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  11703.556641   0.038742     2456
+a       3287.399170   0.002219    12044
+b        298.805664   0.024810    12044
+user   11703.556641   0.038742     2456
+item    3586.204834   0.002401    12044
+macro_ave: 0.020572	micro_ave: 0.008557
+Base, INFO -------- inc_trait: 7 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  10273.423828   0.053132     1572
+a       2282.412109   0.004549     4079
+b        227.687988   0.055820     4079
+user   10273.423828   0.053132     1572
+item    2510.100098   0.004963     4079
+macro_ave: 0.029047	micro_ave: 0.018363
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0            0.500  0.666667  0.571429        3
+1.0            0.750  0.600000  0.666667        5
+macro_avg      0.625  0.633333  0.619048        8
+accuracy: 0.625000	macro_auc: 0.600000	macro_aupoc: 0.686190	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 8 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              1.0     1.0  1.0        6
+1.0              1.0     1.0  1.0        5
+macro_avg        1.0     1.0  1.0       11
+accuracy: 1.000000	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.400000  0.400000  0.400000       20
+1.0         0.714286  0.714286  0.714286       42
+macro_avg   0.557143  0.557143  0.557143       62
+accuracy: 0.612903	macro_auc: 0.679762	macro_aupoc: 0.763607	doa: 0.166667	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- inc_item: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.801527  0.636364  0.709459      165
+1.0         0.840849  0.924198  0.880556      343
+macro_avg   0.821188  0.780281  0.795008      508
+accuracy: 0.830709	macro_auc: 0.884672	macro_aupoc: 0.937333	doa: 0.600000	doa_know_support: 15	doa_z_support: 21
+Base, INFO {'dataset': 'a0910', 'cdm': 'mirt', 'inc_type': 'global', 'log_file': 'log', 'warmup_ratio': 0.1}
+Base, INFO logger: <Logger mirt (INFO)>
+model_name: mirt
+model_dir: mirt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0.0001}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:0
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_num': 4129, 'item_num': 17747, 'know_n': 123}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: mirt/result.json
+cfg_path: mirt/configuration.json
+time_digital: True
+Base, INFO ============= Stream[0/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- inc_user: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.447426  0.547953  0.492613     1856
+1.0         0.727154  0.640321  0.680981     3492
+macro_avg   0.587290  0.594137  0.586797     5348
+accuracy: 0.608265	macro_auc: 0.617336	macro_aupoc: 0.723411	doa: 0.495203	doa_know_support: 67	doa_z_support: 880
+Base, INFO -------- new_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- inc_item: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.447426  0.547953  0.492613     1856
+1.0         0.727154  0.640321  0.680981     3492
+macro_avg   0.587290  0.594137  0.586797     5348
+accuracy: 0.608265	macro_auc: 0.617336	macro_aupoc: 0.723411	doa: 0.495203	doa_know_support: 67	doa_z_support: 880
+Base, INFO -------- new_both: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO -------- metrics: 0 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.351441  0.459420  0.398241      690
+1.0         0.661217  0.554455  0.603148     1313
+macro_avg   0.506329  0.506938  0.500695     2003
+accuracy: 0.521717	macro_auc: 0.509365	macro_aupoc: 0.663832	doa: 0.540238	doa_know_support: 52	doa_z_support: 420
+Base, INFO ============= Stream[1/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.526316  0.531915  0.529101       94
+1.0         0.650794  0.645669  0.648221      127
+macro_avg   0.588555  0.588792  0.588661      221
+accuracy: 0.597285	macro_auc: 0.599012	macro_aupoc: 0.650035	doa: 0.500000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- inc_user: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.667910  0.758475  0.710317      236
+1.0         0.847594  0.780788  0.812821      406
+macro_avg   0.757752  0.769631  0.761569      642
+accuracy: 0.772586	macro_auc: 0.821909	macro_aupoc: 0.885372	doa: 0.522222	doa_know_support: 15	doa_z_support: 24
+Base, INFO -------- new_item: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.444068  0.386431  0.413249      339
+1.0         0.687688  0.736334  0.711180      622
+macro_avg   0.565878  0.561383  0.562215      961
+accuracy: 0.612903	macro_auc: 0.579452	macro_aupoc: 0.699088	doa: 0.399275	doa_know_support: 44	doa_z_support: 173
+Base, INFO -------- inc_item: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.698554  0.621782  0.657936     1010
+1.0         0.824287  0.868638  0.845882     2063
+macro_avg   0.761420  0.745210  0.751909     3073
+accuracy: 0.787504	macro_auc: 0.816389	macro_aupoc: 0.873424	doa: 0.593914	doa_know_support: 62	doa_z_support: 356
+Base, INFO -------- new_both: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.580645  0.529412  0.553846       34
+1.0         0.619048  0.666667  0.641975       39
+macro_avg   0.599846  0.598039  0.597911       73
+accuracy: 0.602740	macro_auc: 0.618401	macro_aupoc: 0.662943	doa: 0.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- metrics: 1 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.426230  0.390977  0.407843     1064
+1.0         0.689952  0.720280  0.704790     2002
+macro_avg   0.558091  0.555629  0.556316     3066
+accuracy: 0.606001	macro_auc: 0.569867	macro_aupoc: 0.696012	doa: 0.527058	doa_know_support: 51	doa_z_support: 603
+Base, INFO -------- trait: 1 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  39258.746094   0.205523     1553
+a      26980.421875   0.054255     4043
+b        935.348633   0.231350     4043
+user   39258.746094   0.205523     1553
+item   27915.770508   0.055683     4043
+macro_ave: 0.130603	micro_ave: 0.097267
+Base, INFO -------- inc_trait: 1 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  45837.656250   0.236612     1575
+a      29899.294922   0.060021     4050
+b       1237.927979   0.305661     4050
+user   45837.656250   0.236612     1575
+item   31137.222900   0.062002     4050
+macro_ave: 0.149307	micro_ave: 0.110893
+Base, INFO ============= Stream[2/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.468750  0.405405  0.434783       37
+1.0         0.710526  0.760563  0.734694       71
+macro_avg   0.589638  0.582984  0.584738      108
+accuracy: 0.638889	macro_auc: 0.580891	macro_aupoc: 0.729018	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- inc_user: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.867257  0.867257  0.867257      113
+1.0         0.916201  0.916201  0.916201      179
+macro_avg   0.891729  0.891729  0.891729      292
+accuracy: 0.897260	macro_auc: 0.966035	macro_aupoc: 0.980160	doa: 0.777778	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- new_item: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.485294  0.336735  0.397590      196
+1.0         0.694118  0.808219  0.746835      365
+macro_avg   0.589706  0.572477  0.572213      561
+accuracy: 0.643494	macro_auc: 0.633156	macro_aupoc: 0.744675	doa: 0.634524	doa_know_support: 28	doa_z_support: 58
+Base, INFO -------- inc_item: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.844828  0.660180  0.741176      668
+1.0         0.855137  0.942998  0.896921     1421
+macro_avg   0.849982  0.801589  0.819049     2089
+accuracy: 0.852561	macro_auc: 0.922155	macro_aupoc: 0.961035	doa: 0.516057	doa_know_support: 55	doa_z_support: 184
+Base, INFO -------- new_both: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.000000  0.000000  0.000000        5
+1.0         0.583333  0.777778  0.666667        9
+macro_avg   0.291667  0.388889  0.333333       14
+accuracy: 0.500000	macro_auc: 0.555556	macro_aupoc: 0.749858	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 2 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.465598  0.371150  0.413043     1331
+1.0         0.693069  0.769231  0.729167     2457
+macro_avg   0.579334  0.570190  0.571105     3788
+accuracy: 0.629356	macro_auc: 0.595246	macro_aupoc: 0.709817	doa: 0.574664	doa_know_support: 57	doa_z_support: 739
+Base, INFO -------- trait: 2 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  44491.015625   0.182224     1985
+a      35134.648438   0.043624     6548
+b       1305.712402   0.199406     6548
+user   44491.015625   0.182224     1985
+item   36440.360840   0.044880     6548
+macro_ave: 0.113552	micro_ave: 0.076830
+Base, INFO -------- inc_trait: 2 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  35038.843750   0.180640     1577
+a      21680.039062   0.043350     4066
+b        894.379150   0.219965     4066
+user   35038.843750   0.180640     1577
+item   22574.418213   0.044774     4066
+macro_ave: 0.112707	micro_ave: 0.082743
+Base, INFO ============= Stream[3/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.421053  0.500000  0.457143       16
+1.0         0.764706  0.702703  0.732394       37
+macro_avg   0.592879  0.601351  0.594769       53
+accuracy: 0.641509	macro_auc: 0.628378	macro_aupoc: 0.812914	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.847458  0.862069  0.854701       58
+1.0         0.920792  0.911765  0.916256      102
+macro_avg   0.884125  0.886917  0.885479      160
+accuracy: 0.893750	macro_auc: 0.972279	macro_aupoc: 0.984831	doa: 1.000000	doa_know_support: 1	doa_z_support: 1
+Base, INFO -------- new_item: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.376344  0.353535  0.364583       99
+1.0         0.741935  0.760331  0.751020      242
+macro_avg   0.559140  0.556933  0.557802      341
+accuracy: 0.642229	macro_auc: 0.591619	macro_aupoc: 0.759286	doa: 0.513333	doa_know_support: 15	doa_z_support: 21
+Base, INFO -------- inc_item: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.874016  0.701053  0.778037      475
+1.0         0.866416  0.950464  0.906496      969
+macro_avg   0.870216  0.825759  0.842267     1444
+accuracy: 0.868421	macro_auc: 0.943903	macro_aupoc: 0.972923	doa: 0.585714	doa_know_support: 38	doa_z_support: 99
+Base, INFO -------- new_both: 3 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              0.0     0.0  0.0        2
+1.0              0.6     0.6  0.6        5
+macro_avg        0.3     0.3  0.3        7
+accuracy: 0.428571	macro_auc: 0.200000	macro_aupoc: 0.696190	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 3 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.467700  0.366892  0.411208     1480
+1.0         0.689117  0.770686  0.727623     2695
+macro_avg   0.578409  0.568789  0.569415     4175
+accuracy: 0.627545	macro_auc: 0.606483	macro_aupoc: 0.720360	doa: 0.504385	doa_know_support: 61	doa_z_support: 847
+Base, INFO -------- trait: 3 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  33031.714844   0.122402     2194
+a      18849.453125   0.018397     8330
+b        957.264038   0.114918     8330
+user   33031.714844   0.122402     2194
+item   19806.717163   0.019175     8330
+macro_ave: 0.070789	micro_ave: 0.040696
+Base, INFO -------- inc_trait: 3 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  23289.992188   0.121378     1560
+a       9188.556641   0.018643     4007
+b        503.266174   0.125597     4007
+user   23289.992188   0.121378     1560
+item    9691.822815   0.019506     4007
+macro_ave: 0.070442	micro_ave: 0.048053
+Base, INFO ============= Stream[4/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.700000  0.411765  0.518519       17
+1.0         0.545455  0.800000  0.648649       15
+macro_avg   0.622727  0.605882  0.583584       32
+accuracy: 0.593750	macro_auc: 0.596078	macro_aupoc: 0.624106	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.926829  0.904762  0.915663       42
+1.0         0.921569  0.940000  0.930693       50
+macro_avg   0.924199  0.922381  0.923178       92
+accuracy: 0.923913	macro_auc: 0.986667	macro_aupoc: 0.989067	doa: 1.000000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- new_item: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.369863  0.337500  0.352941       80
+1.0         0.705556  0.734104  0.719547      173
+macro_avg   0.537709  0.535802  0.536244      253
+accuracy: 0.608696	macro_auc: 0.537717	macro_aupoc: 0.688207	doa: 0.500000	doa_know_support: 11	doa_z_support: 12
+Base, INFO -------- inc_item: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.833856  0.734807  0.781204      362
+1.0         0.877081  0.928184  0.901909      738
+macro_avg   0.855468  0.831495  0.841557     1100
+accuracy: 0.864545	macro_auc: 0.939620	macro_aupoc: 0.970564	doa: 0.615812	doa_know_support: 39	doa_z_support: 63
+Base, INFO -------- new_both: 4 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- metrics: 4 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.474832  0.387406  0.426687     1461
+1.0         0.719260  0.785543  0.750942     2919
+macro_avg   0.597046  0.586474  0.588814     4380
+accuracy: 0.652740	macro_auc: 0.624784	macro_aupoc: 0.747445	doa: 0.481207	doa_know_support: 54	doa_z_support: 719
+Base, INFO -------- trait: 4 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  23114.212891   0.081492     2306
+a       7572.680176   0.006421     9588
+b        606.298706   0.063235     9588
+user   23114.212891   0.081492     2306
+item    8178.978882   0.006879     9588
+macro_ave: 0.044186	micro_ave: 0.021345
+Base, INFO -------- inc_trait: 4 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  17609.277344   0.092603     1546
+a       4309.697266   0.008775     3993
+b        336.605347   0.084299     3993
+user   17609.277344   0.092603     1546
+item    4646.302612   0.009384     3993
+macro_ave: 0.050994	micro_ave: 0.032611
+Base, INFO ============= Stream[5/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.222222  0.500000  0.307692        4
+1.0         0.666667  0.363636  0.470588       11
+macro_avg   0.444444  0.431818  0.389140       15
+accuracy: 0.400000	macro_auc: 0.568182	macro_aupoc: 0.838355	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.875000  0.823529  0.848485       17
+1.0         0.928571  0.951220  0.939759       41
+macro_avg   0.901786  0.887374  0.894122       58
+accuracy: 0.913793	macro_auc: 0.979914	macro_aupoc: 0.991784	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.516129  0.246154  0.333333       65
+1.0         0.671141  0.869565  0.757576      115
+macro_avg   0.593635  0.557860  0.545455      180
+accuracy: 0.644444	macro_auc: 0.579532	macro_aupoc: 0.700938	doa: 0.250000	doa_know_support: 6	doa_z_support: 10
+Base, INFO -------- inc_item: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.836735  0.669935  0.744102      306
+1.0         0.850592  0.934959  0.890782      615
+macro_avg   0.843663  0.802447  0.817442      921
+accuracy: 0.846906	macro_auc: 0.936352	macro_aupoc: 0.968509	doa: 0.510714	doa_know_support: 28	doa_z_support: 39
+Base, INFO -------- metrics: 5 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.496855  0.348018  0.409326     1589
+1.0         0.701183  0.812772  0.752865     2991
+macro_avg   0.599019  0.580395  0.581096     4580
+accuracy: 0.651528	macro_auc: 0.621134	macro_aupoc: 0.740882	doa: 0.528920	doa_know_support: 62	doa_z_support: 916
+Base, INFO -------- trait: 5 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  17158.318359   0.058662     2378
+a       4376.239746   0.003370    10558
+b        427.748108   0.040514    10558
+user   17158.318359   0.058662     2378
+item    4803.987854   0.003669    10558
+macro_ave: 0.031166	micro_ave: 0.013779
+Base, INFO -------- inc_trait: 5 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  14056.625977   0.071605     1596
+a       2925.298096   0.005833     4077
+b        278.552399   0.068323     4077
+user   14056.625977   0.071605     1596
+item    3203.850494   0.006337     4077
+macro_ave: 0.038971	micro_ave: 0.024699
+Base, INFO ============= Stream[6/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 6 ----------
+Base, INFO 
+           precision  recall        f1  support
+0.0         0.571429  0.8000  0.666667        5
+1.0         0.833333  0.6250  0.714286        8
+macro_avg   0.702381  0.7125  0.690476       13
+accuracy: 0.692308	macro_auc: 0.625000	macro_aupoc: 0.785795	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.941176  0.800000  0.864865       20
+1.0         0.875000  0.965517  0.918033       29
+macro_avg   0.908088  0.882759  0.891449       49
+accuracy: 0.897959	macro_auc: 0.970690	macro_aupoc: 0.981152	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.305556  0.297297  0.301370       37
+1.0         0.704545  0.712644  0.708571       87
+macro_avg   0.505051  0.504970  0.504971      124
+accuracy: 0.588710	macro_auc: 0.539298	macro_aupoc: 0.719102	doa: 0.111111	doa_know_support: 6	doa_z_support: 10
+Base, INFO -------- inc_item: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.832512  0.764706  0.797170      221
+1.0         0.900000  0.932271  0.915851      502
+macro_avg   0.866256  0.848488  0.856511      723
+accuracy: 0.881051	macro_auc: 0.938517	macro_aupoc: 0.970422	doa: 0.658333	doa_know_support: 20	doa_z_support: 25
+Base, INFO -------- metrics: 6 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.454876  0.376279  0.411862     1661
+1.0         0.691758  0.756344  0.722611     3074
+macro_avg   0.573317  0.566311  0.567236     4735
+accuracy: 0.623020	macro_auc: 0.609196	macro_aupoc: 0.732798	doa: 0.507555	doa_know_support: 60	doa_z_support: 813
+Base, INFO -------- trait: 6 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  13985.708984   0.046986     2420
+a       3519.143311   0.002513    11386
+b        344.317627   0.030240    11386
+user   13985.708984   0.046986     2420
+item    3863.460938   0.002736    11386
+macro_ave: 0.024861	micro_ave: 0.010493
+Base, INFO -------- inc_trait: 6 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  11778.814453   0.061034     1569
+a       2436.692627   0.004961     3993
+b        243.042877   0.060867     3993
+user   11778.814453   0.061034     1569
+item    2679.735504   0.005412     3993
+macro_ave: 0.033223	micro_ave: 0.021103
+Base, INFO ============= Stream[7/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 7 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 7 ----------
+Base, INFO 
+           precision  recall        f1  support
+0.0         0.857143  1.0000  0.923077        6
+1.0         1.000000  0.8750  0.933333        8
+macro_avg   0.928571  0.9375  0.928205       14
+accuracy: 0.928571	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.444444  0.387097  0.413793       31
+1.0         0.720588  0.765625  0.742424       64
+macro_avg   0.582516  0.576361  0.578109       95
+accuracy: 0.642105	macro_auc: 0.611895	macro_aupoc: 0.740923	doa: 0.000000	doa_know_support: 4	doa_z_support: 6
+Base, INFO -------- inc_item: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.798742  0.644670  0.713483      197
+1.0         0.841629  0.920792  0.879433      404
+macro_avg   0.820186  0.782731  0.796458      601
+accuracy: 0.830283	macro_auc: 0.911695	macro_aupoc: 0.955156	doa: 0.732143	doa_know_support: 14	doa_z_support: 24
+Base, INFO -------- metrics: 7 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.476569  0.357569  0.408580     1678
+1.0         0.698039  0.790860  0.741556     3151
+macro_avg   0.587304  0.574214  0.575068     4829
+accuracy: 0.640298	macro_auc: 0.618681	macro_aupoc: 0.732969	doa: 0.483073	doa_know_support: 64	doa_z_support: 888
+Base, INFO -------- trait: 7 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  11703.556641   0.038742     2456
+a       3287.399170   0.002219    12044
+b        298.805664   0.024810    12044
+user   11703.556641   0.038742     2456
+item    3586.204834   0.002401    12044
+macro_ave: 0.020572	micro_ave: 0.008557
+Base, INFO -------- inc_trait: 7 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  10273.423828   0.053132     1572
+a       2282.412109   0.004549     4079
+b        227.687988   0.055820     4079
+user   10273.423828   0.053132     1572
+item    2510.100098   0.004963     4079
+macro_ave: 0.029047	micro_ave: 0.018363
+Base, INFO ============= Stream[8/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0            0.500  0.666667  0.571429        3
+1.0            0.750  0.600000  0.666667        5
+macro_avg      0.625  0.633333  0.619048        8
+accuracy: 0.625000	macro_auc: 0.600000	macro_aupoc: 0.686190	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 8 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              1.0     1.0  1.0        6
+1.0              1.0     1.0  1.0        5
+macro_avg        1.0     1.0  1.0       11
+accuracy: 1.000000	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.400000  0.400000  0.400000       20
+1.0         0.714286  0.714286  0.714286       42
+macro_avg   0.557143  0.557143  0.557143       62
+accuracy: 0.612903	macro_auc: 0.679762	macro_aupoc: 0.763607	doa: 0.166667	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- inc_item: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.801527  0.636364  0.709459      165
+1.0         0.840849  0.924198  0.880556      343
+macro_avg   0.821188  0.780281  0.795008      508
+accuracy: 0.830709	macro_auc: 0.884672	macro_aupoc: 0.937333	doa: 0.600000	doa_know_support: 15	doa_z_support: 21
+Base, INFO -------- metrics: 8 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.502741  0.380332  0.433052     1688
+1.0         0.711925  0.802795  0.754634     3220
+macro_avg   0.607333  0.591563  0.593843     4908
+accuracy: 0.657498	macro_auc: 0.631638	macro_aupoc: 0.743139	doa: 0.555366	doa_know_support: 65	doa_z_support: 839
+Base, INFO -------- trait: 8 ----------
+Base, INFO 
+              delta  delta_ave  support
+theta  10123.093750   0.033334     2469
+a       3126.854980   0.002019    12589
+b        263.598633   0.020939    12589
+user   10123.093750   0.033334     2469
+item    3390.453613   0.002172    12589
+macro_ave: 0.017753	micro_ave: 0.007281
+Base, INFO -------- inc_trait: 8 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  9018.238281   0.046493     1577
+a      2098.563721   0.004253     4012
+b       212.929596   0.053073     4012
+user   9018.238281   0.046493     1577
+item   2311.493317   0.004646     4012
+macro_ave: 0.025570	micro_ave: 0.016454
+Base, INFO ============= Stream[9/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 9 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 9 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              1.0     1.0  1.0        2
+1.0              1.0     1.0  1.0        2
+macro_avg        1.0     1.0  1.0        4
+accuracy: 1.000000	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 9 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.642857  0.473684  0.545455       19
+1.0         0.736842  0.848485  0.788732       33
+macro_avg   0.689850  0.661085  0.667093       52
+accuracy: 0.711538	macro_auc: 0.706539	macro_aupoc: 0.774723	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_item: 9 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.780702  0.640288  0.703557      139
+1.0         0.845201  0.916107  0.879227      298
+macro_avg   0.812951  0.778198  0.791392      437
+accuracy: 0.828375	macro_auc: 0.897639	macro_aupoc: 0.948396	doa: 0.555556	doa_know_support: 12	doa_z_support: 16
+Base, INFO -------- metrics: 9 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.459398  0.356061  0.401182     1716
+1.0         0.697509  0.779920  0.736416     3267
+macro_avg   0.578454  0.567991  0.568799     4983
+accuracy: 0.633955	macro_auc: 0.607841	macro_aupoc: 0.735813	doa: 0.564445	doa_know_support: 65	doa_z_support: 829
+Base, INFO -------- trait: 9 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  8827.456055   0.028974     2477
+a      2995.894531   0.001865    13059
+b       241.542023   0.018496    13059
+user   8827.456055   0.028974     2477
+item   3237.436554   0.001999    13059
+macro_ave: 0.015486	micro_ave: 0.006300
+Base, INFO -------- inc_trait: 9 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  8005.453613   0.041011     1587
+a      1972.319458   0.003934     4076
+b       199.977524   0.049062     4076
+user   8005.453613   0.041011     1587
+item   2172.296982   0.004298     4076
+macro_ave: 0.022655	micro_ave: 0.014587
+Base, INFO ============= Stream[10/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 10 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 10 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.714286  1.000000  0.833333        5
+1.0         1.000000  0.666667  0.800000        6
+macro_avg   0.857143  0.833333  0.816667       11
+accuracy: 0.818182	macro_auc: 0.966667	macro_aupoc: 0.976190	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 10 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.357143  0.416667  0.384615       12
+1.0         0.794118  0.750000  0.771429       36
+macro_avg   0.575630  0.583333  0.578022       48
+accuracy: 0.666667	macro_auc: 0.564815	macro_aupoc: 0.790614	doa: 1.000000	doa_know_support: 3	doa_z_support: 5
+Base, INFO -------- inc_item: 10 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.747253  0.693878  0.719577       98
+1.0         0.886792  0.910853  0.898662      258
+macro_avg   0.817023  0.802365  0.809119      356
+accuracy: 0.851124	macro_auc: 0.897129	macro_aupoc: 0.958385	doa: 0.428571	doa_know_support: 7	doa_z_support: 9
+Base, INFO -------- metrics: 10 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.491349  0.408986  0.446401     1736
+1.0         0.711311  0.774747  0.741675     3263
+macro_avg   0.601330  0.591867  0.594038     4999
+accuracy: 0.647730	macro_auc: 0.629112	macro_aupoc: 0.742365	doa: 0.510739	doa_know_support: 70	doa_z_support: 953
+Base, INFO -------- trait: 10 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  8034.317871   0.026328     2481
+a      2923.591309   0.001765    13464
+b       233.539673   0.017345    13464
+user   8034.317871   0.026328     2481
+item   3157.130981   0.001891    13464
+macro_ave: 0.014109	micro_ave: 0.005693
+Base, INFO -------- inc_trait: 10 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  7404.934082   0.038468     1565
+a      1905.715088   0.003815     4061
+b       196.670807   0.048429     4061
+user   7404.934082   0.038468     1565
+item   2102.385895   0.004175     4061
+macro_ave: 0.021322	micro_ave: 0.013714
+Base, INFO ============= Stream[11/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- inc_user: 11 ----------
+Base, INFO 
+           precision  recall   f1  support
+0.0              1.0     1.0  1.0        1
+1.0              1.0     1.0  1.0        1
+macro_avg        1.0     1.0  1.0        2
+accuracy: 1.000000	macro_auc: 1.000000	macro_aupoc: 1.000000	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 11 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0           0.3750  0.300000  0.333333       10
+1.0           0.7200  0.782609  0.750000       23
+macro_avg     0.5475  0.541304  0.541667       33
+accuracy: 0.636364	macro_auc: 0.565217	macro_aupoc: 0.710631	doa: 0.000000	doa_know_support: 2	doa_z_support: 2
+Base, INFO -------- inc_item: 11 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.712766  0.614679  0.660099      109
+1.0         0.833992  0.886555  0.859470      238
+macro_avg   0.773379  0.750617  0.759784      347
+accuracy: 0.801153	macro_auc: 0.852016	macro_aupoc: 0.921135	doa: 0.681818	doa_know_support: 11	doa_z_support: 13
+Base, INFO -------- metrics: 11 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.485294  0.376497  0.424028     1753
+1.0         0.701855  0.786129  0.741605     3273
+macro_avg   0.593575  0.581313  0.582817     5026
+accuracy: 0.643255	macro_auc: 0.624083	macro_aupoc: 0.738409	doa: 0.619538	doa_know_support: 64	doa_z_support: 892
+Base, INFO -------- trait: 11 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  7269.643066   0.023755     2488
+a      2698.827637   0.001590    13801
+b       218.806396   0.015854    13801
+user   7269.643066   0.023755     2488
+item   2917.634033   0.001705    13801
+macro_ave: 0.012730	micro_ave: 0.005073
+Base, INFO -------- inc_trait: 11 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6769.778320   0.034378     1601
+a      1738.830811   0.003514     4023
+b       184.934296   0.045969     4023
+user   6769.778320   0.034378     1601
+item   1923.765106   0.003856     4023
+macro_ave: 0.019117	micro_ave: 0.012545
+Base, INFO ============= Stream[12/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- new_user: 12 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_user: 12 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 12 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.333333  0.307692  0.320000       13
+1.0         0.571429  0.600000  0.585366       20
+macro_avg   0.452381  0.453846  0.452683       33
+accuracy: 0.484848	macro_auc: 0.461538	macro_aupoc: 0.633134	doa: 0.500000	doa_know_support: 1	doa_z_support: 2
+Base, INFO -------- inc_item: 12 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.778947  0.616667  0.688372      120
+1.0         0.795556  0.895000  0.842353      200
+macro_avg   0.787251  0.755833  0.765363      320
+accuracy: 0.790625	macro_auc: 0.848375	macro_aupoc: 0.892422	doa: 0.750000	doa_know_support: 12	doa_z_support: 13
+Base, INFO -------- metrics: 12 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.455172  0.386643  0.418118     1707
+1.0         0.710454  0.764811  0.736631     3359
+macro_avg   0.582813  0.575727  0.577375     5066
+accuracy: 0.637386	macro_auc: 0.617787	macro_aupoc: 0.746763	doa: 0.474190	doa_know_support: 69	doa_z_support: 811
+Base, INFO -------- trait: 12 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6973.059082   0.022768     2490
+a      2545.266602   0.001466    14119
+b       220.714981   0.015632    14119
+user   6973.059082   0.022768     2490
+item   2765.981583   0.001580    14119
+macro_ave: 0.012174	micro_ave: 0.004756
+Base, INFO -------- inc_trait: 12 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6472.634766   0.033096     1590
+a      1646.180176   0.003309     4044
+b       187.750183   0.046427     4044
+user   6472.634766   0.033096     1590
+item   1833.930359   0.003657     4044
+macro_ave: 0.018377	micro_ave: 0.011965
+Base, INFO ============= Stream[13/50] =============
+Base, INFO ===================== global valid ======================
+Base, INFO -------- inc_user: 13 ----------
+Base, INFO 
+doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- new_item: 13 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.666667  0.500000  0.571429        8
+1.0         0.809524  0.894737  0.850000       19
+macro_avg   0.738095  0.697368  0.710714       27
+accuracy: 0.777778	macro_auc: 0.710526	macro_aupoc: 0.800805	doa: nan	doa_know_support: 0	doa_z_support: 0
+Base, INFO -------- inc_item: 13 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.826667  0.620000  0.708571      100
+1.0         0.815534  0.928177  0.868217      181
+macro_avg   0.821100  0.774088  0.788394      281
+accuracy: 0.818505	macro_auc: 0.881105	macro_aupoc: 0.930999	doa: 0.166667	doa_know_support: 3	doa_z_support: 4
+Base, INFO -------- metrics: 13 ----------
+Base, INFO 
+           precision    recall        f1  support
+0.0         0.490052  0.383506  0.430281     1734
+1.0         0.714857  0.794781  0.752703     3372
+macro_avg   0.602454  0.589143  0.591492     5106
+accuracy: 0.655112	macro_auc: 0.628133	macro_aupoc: 0.747427	doa: 0.515837	doa_know_support: 58	doa_z_support: 913
+Base, INFO -------- trait: 13 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  6422.232910   0.020961     2491
+a      2339.813477   0.001320    14416
+b       223.291733   0.015489    14416
+user   6422.232910   0.020961     2491
+item   2563.105209   0.001434    14416
+macro_ave: 0.011197	micro_ave: 0.004311
+Base, INFO -------- inc_trait: 13 ----------
+Base, INFO 
+             delta  delta_ave  support
+theta  5995.382812   0.030772     1584
+a      1517.700928   0.003051     4044
+b       186.772980   0.046185     4044
+user   5995.382812   0.030772     1584
+item   1704.473907   0.003399     4044
+macro_ave: 0.017086	micro_ave: 0.011103
+Base, INFO ============= Stream[14/50] =============

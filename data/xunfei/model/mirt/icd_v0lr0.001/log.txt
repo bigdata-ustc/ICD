@@ -1,0 +1,191 @@
+ICD, INFO logs to /home/yutingh/icd/data/xunfei/model/mirt/icd_v0lr0.001/log.txt
+ICD, INFO {'dataset': 'xunfei', 'cdm': 'mirt', 'alpha': 0.2, 'beta': 0.9, 'tolerance': 0.2, 'ctx': 'cuda:2', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': False, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01, 'vector_numbers': None, 'vector_path_format': '/home/yutingh/icd/data/xunfei/model/mirt/icd_v0lr0.001/{}_{}.pt'}
+ICD, INFO logger: <Logger icd_mirt (INFO)>
+model_name: icd_mirt
+model_dir: icd_mirt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.001, 'weight_decay': 0.0001}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:2
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_n': 6821, 'item_n': 1197, 'know_n': 497, 'cdm': 'mirt'}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: icd_mirt/result.json
+cfg_path: icd_mirt/configuration.json
+time_digital: True
+ICD, INFO ============= Stream[0/0/50] =============
+ICD, INFO ============= Stream[1/0/50] =============
+ICD, INFO ============= Stream[2/0/50] =============
+ICD, INFO ============= Stream[3/0/50] =============
+ICD, INFO ============= Stream[4/0/50] =============
+ICD, INFO ============= Stream[5/0/50] =============
+ICD, INFO ============= Stream[6/0/50] =============
+ICD, INFO ============= Stream[7/0/50] =============
+ICD, INFO ============= Stream[8/0/50] =============
+ICD, INFO ============= Stream[9/0/50] =============
+ICD, INFO ============= Stream[10/0/50] =============
+ICD, INFO ============= Stream[11/0/50] =============
+ICD, INFO ============= Stream[12/0/50] =============
+ICD, INFO logs to /home/yutingh/icd/data/xunfei/model/mirt/icd_v0lr0.001/log.txt
+ICD, INFO {'dataset': 'xunfei', 'cdm': 'mirt', 'alpha': 0.2, 'beta': 0.9, 'tolerance': 0.2, 'ctx': 'cuda:2', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': False, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01, 'vector_numbers': None, 'vector_path_format': '/home/yutingh/icd/data/xunfei/model/mirt/icd_v0lr0.001/{}_{}.pt'}
+ICD, INFO logger: <Logger icd_mirt (INFO)>
+model_name: icd_mirt
+model_dir: icd_mirt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.001, 'weight_decay': 0.0001}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:2
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_n': 6821, 'item_n': 1197, 'know_n': 497, 'cdm': 'mirt'}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: icd_mirt/result.json
+cfg_path: icd_mirt/configuration.json
+time_digital: True
+ICD, INFO ============= Stream[46/0/50] =============
+ICD, INFO ============= Stream[47/0/50] =============
+ICD, INFO ++++++++++++ 0.6290013863112857 > 0.34641016151377546 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[48/1/50] =============
+ICD, INFO ++++++++++++ 10.92899363145617 > 0.34641016151377546 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 48 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.695652  0.305246  0.424309     1258
+1.0         0.788889  0.951077  0.862424     3434
+macro_avg   0.742271  0.628162  0.643367     4692
+accuracy: 0.777920	macro_auc: 0.774210	macro_aupoc: 0.891153	doa: 0.527874	doa_know_support: 3	doa_z_support: 170
+ICD, INFO -------- trait: 48 ----------
+ICD, INFO 
+             delta  delta_ave  support
+theta  6502.688477   0.457292     4740
+a        53.435345   0.015489     1150
+b       410.023376   0.356542     1150
+user   6502.688477   0.457292     4740
+item    463.458721   0.100752     1150
+macro_ave: 0.279022	micro_ave: 0.387679
+ICD, INFO -------- inc_trait: 48 ----------
+ICD, INFO 
+             delta  delta_ave  support
+theta  5313.916504   0.540527     3277
+a        51.857788   0.015729     1099
+b       488.669891   0.444650     1099
+user   5313.916504   0.540527     3277
+item    540.527679   0.122959     1099
+macro_ave: 0.331743	micro_ave: 0.435658
+ICD, INFO -------- tp: 0 ----------
+ICD, INFO 
+{'tps': [47, 48], 'tp_cnt': 2, 'total': 49}
+ICD, INFO logs to /home/yutingh/icd/data/xunfei/model/mirt/icd_v0lr0.001/log.txt
+ICD, INFO {'dataset': 'xunfei', 'cdm': 'mirt', 'alpha': 0.2, 'beta': 0.9, 'tolerance': 0.2, 'ctx': 'cuda:2', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': True, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01, 'vector_numbers': None, 'vector_path_format': '/home/yutingh/icd/data/xunfei/model/mirt/icd_v0lr0.001/{}_{}.pt'}
+ICD, INFO logger: <Logger icd_mirt (INFO)>
+model_name: icd_mirt
+model_dir: icd_mirt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.001, 'weight_decay': 0.0001}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:2
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_n': 6821, 'item_n': 1197, 'know_n': 497, 'cdm': 'mirt'}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: icd_mirt/result.json
+cfg_path: icd_mirt/configuration.json
+time_digital: True
+ICD, INFO ============= Stream[47/0/50] =============
+ICD, INFO -------- metrics: 47 ----------
+ICD, INFO 
+           precision  recall        f1  support
+0.0         0.000000     0.0  0.000000      837
+1.0         0.733948     1.0  0.846563     2309
+macro_avg   0.366974     0.5  0.423281     3146
+accuracy: 0.733948	macro_auc: 0.540862	macro_aupoc: 0.754984	doa: 0.548644	doa_know_support: 3	doa_z_support: 31
+ICD, INFO logs to /home/yutingh/icd/data/xunfei/model/mirt/icd_v0lr0.001/log.txt
+ICD, INFO {'dataset': 'xunfei', 'cdm': 'mirt', 'alpha': 0.2, 'beta': 0.9, 'tolerance': 0.2, 'ctx': 'cuda:2', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': False, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01, 'vector_numbers': None, 'vector_path_format': '/home/yutingh/icd/data/xunfei/model/mirt/icd_v0lr0.001/{}_{}.pt'}
+ICD, INFO logger: <Logger icd_mirt (INFO)>
+model_name: icd_mirt
+model_dir: icd_mirt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.001, 'weight_decay': 0.0001}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:2
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_n': 6821, 'item_n': 1197, 'know_n': 497, 'cdm': 'mirt'}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: icd_mirt/result.json
+cfg_path: icd_mirt/configuration.json
+time_digital: True
+ICD, INFO ============= Stream[46/0/50] =============
+ICD, INFO ============= Stream[47/0/50] =============
+ICD, INFO ++++++++++++ 0.6290013863112857 > 0.34641016151377546 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[48/1/50] =============
+ICD, INFO ++++++++++++ 10.92899363145617 > 0.34641016151377546 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 48 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.695652  0.305246  0.424309     1258
+1.0         0.788889  0.951077  0.862424     3434
+macro_avg   0.742271  0.628162  0.643367     4692
+accuracy: 0.777920	macro_auc: 0.774210	macro_aupoc: 0.891153	doa: 0.527874	doa_know_support: 3	doa_z_support: 170
+ICD, INFO -------- trait: 48 ----------
+ICD, INFO 
+             delta  delta_ave  support
+theta  6502.688477   0.457292     4740
+a        53.435345   0.015489     1150
+b       410.023376   0.356542     1150
+user   6502.688477   0.457292     4740
+item    463.458721   0.100752     1150
+macro_ave: 0.279022	micro_ave: 0.387679
+ICD, INFO -------- inc_trait: 48 ----------
+ICD, INFO 
+             delta  delta_ave  support
+theta  5313.916504   0.540527     3277
+a        51.857788   0.015729     1099
+b       488.669891   0.444650     1099
+user   5313.916504   0.540527     3277
+item    540.527679   0.122959     1099
+macro_ave: 0.331743	micro_ave: 0.435658
+ICD, INFO -------- tp: 0 ----------
+ICD, INFO 
+{'tps': [47, 48], 'tp_cnt': 2, 'total': 49}

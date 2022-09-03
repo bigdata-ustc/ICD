@@ -1,0 +1,126 @@
+ICD, INFO logs to /home/yutingh/icd/data/a0910/model/ncd/b1a0.4/log.txt
+ICD, INFO {'dataset': 'a0910', 'cdm': 'ncd', 'alpha': 0.4, 'beta': 1, 'tolerance': 0.3, 'ctx': 'cuda:1', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': False, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01, 'vector_numbers': None, 'vector_path_format': '/home/yutingh/icd/data/a0910/model/ncd/b1a0.4/{}_{}.pt'}
+ICD, INFO logger: <Logger icd_ncd (INFO)>
+model_name: icd_ncd
+model_dir: icd_ncd
+begin_epoch: 0
+end_epoch: 1
+batch_size: 64
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.002, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:1
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_n': 4129, 'item_n': 17747, 'know_n': 123, 'cdm': 'ncd'}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: icd_ncd/result.json
+cfg_path: icd_ncd/configuration.json
+time_digital: True
+ICD, INFO ============= Stream[0/0/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[1/1/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[2/2/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[3/3/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[4/4/50] =============
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[5/5/50] =============
+ICD, INFO ++++++++++++ 3.4123238742671322 > 3.327160951922825 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[6/6/50] =============
+ICD, INFO ++++++++++++ 12.06512266943882 > 3.327160951922825 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[7/7/50] =============
+ICD, INFO ++++++++++++ 8.656572980874486 > 3.327160951922825 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[8/8/50] =============
+ICD, INFO ++++++++++++ 2287768.9605226466 > 3.327160951922825 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[9/9/50] =============
+ICD, INFO ++++++++++++ 4.265370360750856 > 3.327160951922825 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[10/10/50] =============
+ICD, INFO ============= Stream[11/10/50] =============
+ICD, INFO ++++++++++++ 431.1527485031782 > 4.705316142407437 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[12/11/50] =============
+ICD, INFO ################# item 7098 inf exceed ##################
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[13/12/50] =============
+ICD, INFO ++++++++++++ 197340.93430249003 > 4.705316142407437 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[14/13/50] =============
+ICD, INFO ============= Stream[15/13/50] =============
+ICD, INFO ============= Stream[16/13/50] =============
+ICD, INFO ++++++++++++ 5.87401957996316 > 4.705316142407437 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[17/14/50] =============
+ICD, INFO ################# item 938 inf exceed ##################
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[18/15/50] =============
+ICD, INFO ============= Stream[19/15/50] =============
+ICD, INFO ============= Stream[20/15/50] =============
+ICD, INFO ============= Stream[21/15/50] =============
+ICD, INFO ============= Stream[22/15/50] =============
+ICD, INFO ============= Stream[23/15/50] =============
+ICD, INFO ################# item 7010 inf exceed ##################
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[24/16/50] =============
+ICD, INFO ################# item 7037 inf exceed ##################
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[25/17/50] =============
+ICD, INFO ################# item 1066 inf exceed ##################
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[26/18/50] =============
+ICD, INFO ============= Stream[27/18/50] =============
+ICD, INFO ============= Stream[28/18/50] =============
+ICD, INFO ============= Stream[29/18/50] =============
+ICD, INFO ============= Stream[30/18/50] =============
+ICD, INFO ============= Stream[31/18/50] =============
+ICD, INFO ============= Stream[32/18/50] =============
+ICD, INFO ============= Stream[33/18/50] =============
+ICD, INFO ============= Stream[34/18/50] =============
+ICD, INFO ============= Stream[35/18/50] =============
+ICD, INFO ++++++++++++ 5546658932824481.0 > 4.705316142407437 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[36/19/50] =============
+ICD, INFO ============= Stream[37/19/50] =============
+ICD, INFO ============= Stream[38/19/50] =============
+ICD, INFO ============= Stream[39/19/50] =============
+ICD, INFO ============= Stream[40/19/50] =============
+ICD, INFO ============= Stream[41/19/50] =============
+ICD, INFO ============= Stream[42/19/50] =============
+ICD, INFO ============= Stream[43/19/50] =============
+ICD, INFO ============= Stream[44/19/50] =============
+ICD, INFO ============= Stream[45/19/50] =============
+ICD, INFO ============= Stream[46/19/50] =============
+ICD, INFO ============= Stream[47/19/50] =============
+ICD, INFO ============= Stream[48/19/50] =============
+ICD, INFO -------- metrics: 48 ----------
+ICD, INFO 
+           precision    recall        f1  support
+0.0         0.547027  0.553308  0.550149     1829
+1.0         0.764757  0.760160  0.762452     3494
+macro_avg   0.655892  0.656734  0.656301     5323
+accuracy: 0.689085	macro_auc: 0.689094	macro_aupoc: 0.771602	doa: 0.647612	doa_know_support: 61	doa_z_support: 894
+ICD, INFO -------- trait: 48 ----------
+ICD, INFO 
+       delta  delta_ave  support
+theta    0.0        0.0     2493
+a        0.0        0.0    17608
+b        0.0        0.0    17608
+user     0.0        0.0     2493
+item     0.0        0.0    17608
+macro_ave: 0.000000	micro_ave: 0.000000
+ICD, INFO -------- tp: 0 ----------
+ICD, INFO 
+{'tps': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 16, 17, 23, 24, 25, 35], 'tp_cnt': 19, 'total': 49}

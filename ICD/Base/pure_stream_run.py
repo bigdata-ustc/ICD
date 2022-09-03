@@ -13,7 +13,7 @@ from etl import extract, transform, etl, item2knowledge
 from sym import fit_f, eval_f, get_loss, get_net, stableness_eval
 from baize import config_logging
 from ICD.utils import output_metrics
-
+from ICD.constant import path_prefix
 
 def run(user_n, item_n, know_n, dataset, cdm, inc_type=None, stream_num=50, wfs=None, logger=logging,
         log_file="log", warmup_ratio=0.1, weight_decay=0, vector_numbers=None, inner_metrics=False,
@@ -21,7 +21,7 @@ def run(user_n, item_n, know_n, dataset, cdm, inc_type=None, stream_num=50, wfs=
 
     torch.manual_seed(0)
 
-    dataset_dir = "/home/yutingh/icd/data/%s/" % dataset
+    dataset_dir = "%s/data/%s/"%(path_prefix,dataset)
     data_dir = dataset_dir
 
     cfg = Configuration(

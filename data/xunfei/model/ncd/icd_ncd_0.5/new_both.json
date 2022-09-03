@@ -1,0 +1,25 @@
+{"id": 0, "metrics": {"accuracy": 0.7245187756390028, "0.0": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "support": 873}, "1.0": {"precision": 0.7245187756390028, "recall": 1.0, "f1": 0.840256175663312, "support": 2296}, "macro_avg": {"precision": 0.3622593878195014, "recall": 0.5, "f1": 0.420128087831656, "support": 3169}, "macro_auc": 0.6876815997541419, "macro_aupoc": 0.8358778854119837, "doa": 0.5054013959399759, "doa_know_support": 218, "doa_z_support": 2440}}
+{"id": 1, "metrics": {"accuracy": 0.75, "0.0": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "support": 5}, "1.0": {"precision": 0.75, "recall": 1.0, "f1": 0.8571428571428571, "support": 15}, "macro_avg": {"precision": 0.375, "recall": 0.5, "f1": 0.42857142857142855, "support": 20}, "macro_auc": 0.4666666666666667, "macro_aupoc": 0.7383012194776901, "doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 2, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 3, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 4, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 5, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 6, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 7, "metrics": {"accuracy": 0.65, "0.0": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "support": 6}, "1.0": {"precision": 0.6842105263157895, "recall": 0.9285714285714286, "f1": 0.7878787878787878, "support": 14}, "macro_avg": {"precision": 0.34210526315789475, "recall": 0.4642857142857143, "f1": 0.3939393939393939, "support": 20}, "macro_auc": 0.7261904761904763, "macro_aupoc": 0.8504072141677184, "doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 8, "metrics": {"accuracy": 0.6666666666666666, "0.0": {"precision": 0.75, "recall": 0.375, "f1": 0.5, "support": 8}, "1.0": {"precision": 0.6428571428571429, "recall": 0.9, "f1": 0.75, "support": 10}, "macro_avg": {"precision": 0.6964285714285714, "recall": 0.6375, "f1": 0.625, "support": 18}, "macro_auc": 0.8125, "macro_aupoc": 0.8363339438339438, "doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 9, "metrics": {"accuracy": 0.625, "0.0": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "support": 1}, "1.0": {"precision": 0.8333333333333334, "recall": 0.7142857142857143, "f1": 0.7692307692307692, "support": 7}, "macro_avg": {"precision": 0.4166666666666667, "recall": 0.35714285714285715, "f1": 0.3846153846153846, "support": 8}, "macro_auc": 0.14285714285714285, "macro_aupoc": 0.8260204081632654, "doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 10, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 11, "metrics": {"accuracy": 0.7777777777777778, "0.0": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "support": 1}, "1.0": {"precision": 0.875, "recall": 0.875, "f1": 0.875, "support": 8}, "macro_avg": {"precision": 0.4375, "recall": 0.4375, "f1": 0.4375, "support": 9}, "macro_auc": 0.625, "macro_aupoc": 0.9526289682539683, "doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 12, "metrics": {"accuracy": 0.75, "0.0": {"precision": 0.6666666666666666, "recall": 1.0, "f1": 0.8, "support": 2}, "1.0": {"precision": 1.0, "recall": 0.5, "f1": 0.6666666666666666, "support": 2}, "macro_avg": {"precision": 0.8333333333333333, "recall": 0.75, "f1": 0.7333333333333334, "support": 4}, "macro_auc": 0.75, "macro_aupoc": 0.8333333333333333, "doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 13, "metrics": {"accuracy": 0.75, "0.0": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "support": 1}, "1.0": {"precision": 0.75, "recall": 1.0, "f1": 0.8571428571428571, "support": 3}, "macro_avg": {"precision": 0.375, "recall": 0.5, "f1": 0.42857142857142855, "support": 4}, "macro_auc": 0.6666666666666666, "macro_aupoc": 0.9166666666666665, "doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 14, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 15, "metrics": {"accuracy": 0.3333333333333333, "0.0": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "support": 1}, "1.0": {"precision": 0.5, "recall": 0.5, "f1": 0.5, "support": 2}, "macro_avg": {"precision": 0.25, "recall": 0.25, "f1": 0.25, "support": 3}, "macro_auc": 0.0, "macro_aupoc": 0.5833333333333333, "doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 16, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 17, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 18, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 19, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 20, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 21, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 22, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 23, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}
+{"id": 24, "metrics": {"doa": NaN, "doa_know_support": 0, "doa_z_support": 0}}

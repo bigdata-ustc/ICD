@@ -1,0 +1,1 @@
+{"id": 48, "metrics": {"theta": {"delta": 0.0, "delta_ave": 0.0, "support": 2493}, "a": {"delta": 0.0, "delta_ave": 0.0, "support": 17608}, "b": {"delta": 0.0, "delta_ave": 0.0, "support": 17608}, "user": {"delta": 0.0, "delta_ave": 0.0, "support": 2493}, "item": {"delta": 0.0, "delta_ave": 0.0, "support": 17608}, "macro_ave": 0.0, "micro_ave": 0.0}}

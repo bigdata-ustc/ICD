@@ -1,0 +1,2 @@
+{"id": 48, "metrics": {"theta": {"delta": 0.0, "delta_ave": 0.0, "support": 3277}, "a": {"delta": 0.0, "delta_ave": 0.0, "support": 1099}, "b": {"delta": 0.0, "delta_ave": 0.0, "support": 1099}, "user": {"delta": 0.0, "delta_ave": 0.0, "support": 3277}, "item": {"delta": 0.0, "delta_ave": 0.0, "support": 1099}, "macro_ave": 0.0, "micro_ave": 0.0}}
+port": 3277}, "item": {"delta": 99.61039733886719, "delta_ave": 0.04689571220766414, "support": 1099}, "macro_ave": 0.13405956307595426, "micro_ave": 0.1774423023792303}}

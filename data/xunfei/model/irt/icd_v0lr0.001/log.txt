@@ -1,0 +1,60 @@
+ICD, INFO logs to /home/yutingh/icd/data/xunfei/model/irt/icd_v0lr0.001/log.txt
+ICD, INFO {'dataset': 'xunfei', 'cdm': 'irt', 'alpha': 0.2, 'beta': 0.9, 'tolerance': 0.2, 'ctx': 'cuda:2', 'epoch': 1, 'inc_epoch': None, 'inner_metrics': False, 'log_file': 'log', 'warmup_ratio': 0.1, 'epsilon': 0.01, 'vector_numbers': None, 'vector_path_format': '/home/yutingh/icd/data/xunfei/model/irt/icd_v0lr0.001/{}_{}.pt'}
+ICD, INFO logger: <Logger icd_irt (INFO)>
+model_name: icd_irt
+model_dir: icd_irt
+begin_epoch: 0
+end_epoch: 1
+batch_size: 32
+save_epoch: 1
+optimizer: Adam
+optimizer_params: {'lr': 0.001, 'weight_decay': 0}
+lr_params: {}
+train_select: None
+save_select: None
+ctx: cuda:2
+train_ctx: None
+eval_ctx: None
+toolbox_params: {}
+hyper_params: {'user_n': 6821, 'item_n': 1197, 'know_n': 497, 'cdm': 'irt'}
+init_params: {}
+loss_params: {}
+caption: 
+validation_result_file: icd_irt/result.json
+cfg_path: icd_irt/configuration.json
+time_digital: True
+ICD, INFO ============= Stream[46/0/50] =============
+ICD, INFO ============= Stream[47/0/50] =============
+ICD, INFO ++++++++++++ 2.71929042073507 > 0.2 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO ============= Stream[48/1/50] =============
+ICD, INFO ++++++++++++ 2.231574708179931 > 0.2 +++++++++++++
+ICD, INFO **** Turning Point ****
+ICD, INFO -------- metrics: 48 ----------
+ICD, INFO 
+           precision  recall        f1  support
+0.0         0.000000     0.0  0.000000     1258
+1.0         0.731884     1.0  0.845188     3434
+macro_avg   0.365942     0.5  0.422594     4692
+accuracy: 0.731884	macro_auc: 0.727090	macro_aupoc: 0.867725	doa: 0.572929	doa_know_support: 261	doa_z_support: 5618
+ICD, INFO -------- trait: 48 ----------
+ICD, INFO 
+             delta  delta_ave  support
+theta  2386.999512   0.503586     4740
+a        93.562027   0.081358     1150
+b       426.060303   0.370487     1150
+user   2386.999512   0.503586     4740
+item    519.622330   0.081609     1150
+macro_ave: 0.292598	micro_ave: 0.421197
+ICD, INFO -------- inc_trait: 48 ----------
+ICD, INFO 
+             delta  delta_ave  support
+theta  1918.764893   0.585525     3277
+a        88.672249   0.080684     1099
+b       382.328064   0.347887     1099
+user   1918.764893   0.585525     3277
+item    471.000313   0.080927     1099
+macro_ave: 0.333226	micro_ave: 0.458799
+ICD, INFO -------- tp: 0 ----------
+ICD, INFO 
+{'tps': [47, 48], 'tp_cnt': 2, 'total': 49}
